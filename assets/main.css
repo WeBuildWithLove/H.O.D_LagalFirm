@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'General Sans', sans-serif;
+
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* @apply bg-shades-white; */
+}
+p {
+font-family: 'General Sans', sans-serif;
+  @apply !mb-0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'General Sans', sans-serif;
+  @apply !mb-0;
+}
+select {
+  @apply bg-transparent;
+}
+@layer base {
+  body {
+font-family: 'General Sans', sans-serif;
+  }
+}
+.container {
+  /* max-width: 1359px; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 86%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 98%;
+  }
+}
+
+@layer utilities {
+  .tick {
+    display: inline-block;
+    width: 1.55rem;
+    height: 0.5rem;
+    border: 2px solid currentColor;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    margin-right: 0.25rem;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+input[type='checkbox'] {
+  accent-color: var(--primary-600, #f58a07);
+  background-color: transparent !important;
+  @apply !bg-[#FFFFFF]/[8%];
+}
+.btn-brand {
+  @apply bg-brand text-white  px-10 py-3 rounded-full text-sm;
+}
+.btn-light-border {
+  /* @apply border-white text-white border-2 px-10 py-3 rounded-md text-sm; */
+}
+::-webkit-scrollbar {
+  width: 4px;
+  /* width of the entire scrollbar */
+  /* height of the entire scrollbar */
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--neutral-300);
+  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  /* border: 3px solid var(--primary-color); */
+  /* creates padding around scroll thumb */
+  @apply bg-[#000];
+}
+@media (max-width: 990px) {
+  .auth-container {
+    /* background: url('@/assets/svg/hero-g-g.svg') center center no-repeat; */
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.ant-select-selector {
+  @apply !px-2 gap-[10px] font-medium text-[20px];
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.Vue-Toastification__toast {
+  /* @apply font-Satoshi400; */
+}
+
+.Vue-Toastification__toast--error svg {
+  @apply !text-[#E06F6F];
+}
+
+.Vue-Toastification__toast--error {
+  @apply !bg-white !text-black;
+}
+
+.Vue-Toastification__toast--success {
+  @apply !bg-white !text-black;
+}
+
+.Vue-Toastification__toast--success svg {
+  @apply !text-[#D3DA51];
+}
+input[type='checkbox'] {
+  accent-color: #2f929c;
+}
+.vue-apexcharts {
+  max-height: 30%;
+}
