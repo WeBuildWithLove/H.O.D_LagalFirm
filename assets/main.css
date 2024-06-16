@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +16,7 @@
 body {
   min-height: 100vh;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'General Sans', sans-serif;
+  font-family: "Lato", sans-serif;
 
   transition:
     color 0.5s,
@@ -28,7 +28,7 @@ body {
   /* @apply bg-shades-white; */
 }
 p {
-font-family: 'General Sans', sans-serif;
+  font-family: "Lato", sans-serif;
   @apply !mb-0;
 }
 h1,
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-font-family: 'General Sans', sans-serif;
+  font-family: "Lato", sans-serif;
   @apply !mb-0;
 }
 select {
@@ -45,7 +45,7 @@ select {
 }
 @layer base {
   body {
-font-family: 'General Sans', sans-serif;
+    font-family: "Lato", sans-serif;
   }
 }
 .container {
@@ -55,6 +55,7 @@ font-family: 'General Sans', sans-serif;
   margin-right: auto;
   margin-left: auto;
 }
+
 
 @media (min-width: 576px) {
   .container {
@@ -97,7 +98,7 @@ font-family: 'General Sans', sans-serif;
   display: none;
 }
 
-input[type='checkbox'] {
+input[type="checkbox"] {
   accent-color: var(--primary-600, #f58a07);
   background-color: transparent !important;
   @apply !bg-[#FFFFFF]/[8%];
@@ -162,7 +163,7 @@ input[type='checkbox'] {
 .Vue-Toastification__toast--success svg {
   @apply !text-[#D3DA51];
 }
-input[type='checkbox'] {
+input[type="checkbox"] {
   accent-color: #2f929c;
 }
 .vue-apexcharts {

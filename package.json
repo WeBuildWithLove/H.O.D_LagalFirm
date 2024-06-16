@@ -2,31 +2,31 @@
   	"name": "HOD_LagalFirm",
   	"private": true,
   	"type": "module",
-	"engines": {
-		"node": "18.x"
-	},
-	"scripts": {
-		"start": "node .output/server/index.mjs",
-		"build": "nuxt build",
-		"dev": "nuxt dev --host",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
-	},
-	"dependencies": {
-		"@pinia/nuxt": "^0.5.1",
-		"ant-design-vue": "^4.0.0-rc.6",
-		"nuxt": "^3.11.1",
-		"pinia": "^2.1.7",
-		"vue": "^3.4.21",
-		"vue-router": "^4.3.0",
-		"vue-toastification": "^2.0.0-rc.5"
-	},
-	"devDependencies": {
-		"@ant-design-vue/nuxt": "^1.4.1",
-		"autoprefixer": "^10.4.19",
-		"postcss": "^8.4.38",
-		"prettier": "3.2.5",
-		"tailwindcss": "^3.4.3"
-	}
+  	"engines": {
+  	  	"node": "18.x"
+  	},
+  	"scripts": {
+  	  	"start": "node .output/server/index.mjs",
+  	  	"build": "nuxt build",
+  	  	"dev": "nuxt dev --host",
+  	  	"generate": "nuxt generate",
+  	  	"preview": "nuxt preview",
+  	  	"postinstall": "nuxt prepare"
+  	},
+  	"dependencies": {
+  	  	"@pinia/nuxt": "^0.5.1",
+  	  	"ant-design-vue": "^4.0.0-rc.6",
+  	  	"nuxt": "^3.11.1",
+  	  	"pinia": "^2.1.7",
+  	  	"vue": "^3.4.21",
+  	  	"vue-router": "^4.3.0",
+  	  	"vue-toastification": "^2.0.0-rc.5"
+  	},
+  	"devDependencies": {
+  	  	"@ant-design-vue/nuxt": "^1.4.1",
+  	  	"autoprefixer": "^10.4.19",
+  	  	"postcss": "^8.4.38",
+  	  	"prettier": "3.2.5",
+  	  	"tailwindcss": "^3.4.4"
+  	}
 }

@@ -1,7 +1,14 @@
 <template>
-  <main>home</main>
+  <NavBar />
+  <Home />
+  <About />
+  <Services/>
 </template>
 <script setup lang="ts">
+import NavBar from "~/components/Layout/NavBar/Index.vue";
+import Home from "../pages/home.vue";
+import About from "../pages/about.vue";
+import Services from "../pages/services.vue"
 useHead({
   title: "HOD_LagalFirm - Home",
   meta: [{ name: "description", content: `` }],
