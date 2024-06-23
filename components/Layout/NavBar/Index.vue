@@ -84,7 +84,7 @@
                 height="29px"
                 width="29px"
               />
-              <p class="text-[16px]">HOME</p>
+              <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
             </NuxtLink>
             <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
               <!-- <img
@@ -95,68 +95,14 @@
               /> -->
               <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
 
-              <img
-                src="@/assets/svg/WhiteBulletPoint.svg"
-                alt="Bulletpoint"
-                height="16px"
-                width="16px"
-                class="flex md:hidden"
-              />
-              <p>ABOUT</p>
-            </NuxtLink>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
-            <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
-
               <!-- <img
-                src="@/assets/svg/BulletPoint.svg"
-                height="16px"
-                width="16px"
-                class="hidden md:flex"
-              /> -->
-              <img
                 src="@/assets/svg/WhiteBulletPoint.svg"
                 alt="Bulletpoint"
                 height="16px"
                 width="16px"
                 class="flex md:hidden"
-              />
-              <p>SERVICES</p>
-            </NuxtLink>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
-            <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
-
-              <!-- <img
-                src="@/assets/svg/BulletPoint.svg"
-                height="16px"
-                width="16px"
-                class="hidden md:flex"
               /> -->
-              <img
-                src="@/assets/svg/WhiteBulletPoint.svg"
-                alt="Bulletpoint"
-                height="16px"
-                width="16px"
-                class="flex md:hidden"
-              />
-              <p>OUR IDEOLOGYS</p>
-            </NuxtLink>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
-            <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
-
-              <!-- <img
-                src="@/assets/svg/BulletPoint.svg"
-                height="16px"
-                width="16px"
-                class="hidden md:flex"
-              /> -->
-              <img
-                src="@/assets/svg/WhiteBulletPoint.svg"
-                alt="Bulletpoint"
-                height="16px"
-                width="16px"
-                class="flex md:hidden"
-              />
-              <p>OUR FIRM</p>
+              <p class="text-[16px] text-white lg:text-[#222222] font-medium">ABOUT</p>
             </NuxtLink>
             <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
             <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
@@ -174,7 +120,61 @@
                 width="16px"
                 class="flex md:hidden"
               /> -->
-              <p>CONTACT</p>
+              <p class="text-[16px] text-white lg:text-[#222222] font-medium">SERVICES</p>
+            </NuxtLink>
+            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
+
+              <!-- <img
+                src="@/assets/svg/BulletPoint.svg"
+                height="16px"
+                width="16px"
+                class="hidden md:flex"
+              /> -->
+              <!-- <img
+                src="@/assets/svg/WhiteBulletPoint.svg"
+                alt="Bulletpoint"
+                height="16px"
+                width="16px"
+                class="flex md:hidden"
+              /> -->
+              <p class="text-[16px] text-white lg:text-[#222222] font-medium">OUR IDEOLOGYS</p>
+            </NuxtLink>
+            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
+
+              <!-- <img
+                src="@/assets/svg/BulletPoint.svg"
+                height="16px"
+                width="16px"
+                class="hidden md:flex"
+              /> -->
+              <!-- <img
+                src="@/assets/svg/WhiteBulletPoint.svg"
+                alt="Bulletpoint"
+                height="16px"
+                width="16px"
+                class="flex md:hidden"
+              /> -->
+              <p class="text-[16px] text-white lg:text-[#222222] font-medium">OUR FIRM</p>
+            </NuxtLink>
+            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            <UIIconBulletPoint class="text-white lg:text-[#001025]"/>
+
+              <!-- <img
+                src="@/assets/svg/BulletPoint.svg"
+                height="16px"
+                width="16px"
+                class="hidden md:flex"
+              /> -->
+              <!-- <img
+                src="@/assets/svg/WhiteBulletPoint.svg"
+                alt="Bulletpoint"
+                height="16px"
+                width="16px"
+                class="flex md:hidden"
+              /> -->
+              <p class="text-[16px] text-white lg:text-[#222222] font-medium">CONTACT</p>
             </NuxtLink>
           </div>
           <UIButton class="text-light lg:flex hidden">FREE CONSULTATION</UIButton>
@@ -185,8 +185,8 @@
 </template>
 <script setup>
 import { ref } from "vue";
-import Divider from "../../UI/Divider/index.vue";
-import Button from "../../UI/Button/index.vue";
+// import Divider from "../../UI/Divider/index.vue";
+// import Button from "../../UI/Button/index.vue";
 
 const isMenuOpen = ref(false);
 

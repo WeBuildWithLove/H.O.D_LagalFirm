@@ -1,14 +1,14 @@
 <template>
-  <NavBar />
-  <Home />
-  <About />
-  <Services/>
+  <LayoutNavBar />
+  <UIPageSectionsHome />
+  <UIPageSectionsAbout />
+  <UIPageSectionsServices/>
 </template>
 <script setup lang="ts">
-import NavBar from "~/components/Layout/NavBar/Index.vue";
-import Home from "../pages/home.vue";
-import About from "../pages/about.vue";
-import Services from "../pages/services.vue"
+// import NavBar from "~/components/Layout/NavBar/Index.vue";
+// import Home from "../pages/home.vue";
+// import About from "../pages/about.vue";
+// import Services from "../pages/services.vue"
 useHead({
   title: "HOD_LagalFirm - Home",
   meta: [{ name: "description", content: `` }],
