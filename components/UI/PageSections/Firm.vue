@@ -85,6 +85,9 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center w-full items-center">
+      <UIButton class="text-white text-[22px] !px-[72px]">Meet Attorney</UIButton>
+    </div>
   </div>
 </template>
 <script setup>
