@@ -4,6 +4,7 @@
   <UIPageSectionsAbout />
   <UIPageSectionsServices />
   <UIPageSectionsIdeology />
+  <UIPageSectionsFirm />
 </template>
 <script setup lang="ts">
 // import NavBar from "~/components/Layout/NavBar/Index.vue";
