@@ -2,7 +2,8 @@
   <LayoutNavBar />
   <UIPageSectionsHome />
   <UIPageSectionsAbout />
-  <UIPageSectionsServices/>
+  <UIPageSectionsServices />
+  <UIPageSectionsIdeology />
 </template>
 <script setup lang="ts">
 // import NavBar from "~/components/Layout/NavBar/Index.vue";
