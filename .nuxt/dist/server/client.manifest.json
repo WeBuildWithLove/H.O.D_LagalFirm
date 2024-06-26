@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/aondofatyav/Documents/Freelancing/H.O.D_LagalFirm/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/kufre-abasibassey/Documents/BuildWithLove/ett/H.O.D_LagalFirm/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/Users/aondofatyav/Documents/Freelancing/H.O.D_LagalFirm/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/kufre-abasibassey/Documents/BuildWithLove/ett/H.O.D_LagalFirm/node_modules/nuxt/dist/app/entry.js"
   }
 }
