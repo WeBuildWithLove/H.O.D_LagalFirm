@@ -20,7 +20,7 @@
         />
       </NuxtLink>
 
-      <button class="lg:hidden p-2" @click="toggleMenu">
+      <button v-if="route.name !== 'attorneys'" class="lg:hidden p-2" @click="toggleMenu">
         <img
           v-if="!isMenuOpen"
           src="@/assets/svg/menu.svg"
@@ -29,12 +29,16 @@
         />
         <img v-else src="@/assets/svg/menu.svg" alt="Close Menu" class="h-8 w-8" />
       </button>
+      <NuxtLink v-else to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+        <img src="@/assets/svg/NavbarPointer.svg" height="29px" width="29px" />
+        <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
+      </NuxtLink>
     </div>
 
     <div class="bg-card">
       <UIDivider direction="vertical" width="2px" />
     </div>
-    <div class="w-full py-3">
+    <div class="w-full lg:py-3">
       <div class="hidden lg:flex justify-between px-2">
         <div class="flex gap-3.5 px-4">
           <a href="tel: +234 803 292 8072" class="flex space-x-1">
@@ -73,7 +77,11 @@
               <img src="@/assets/svg/NavbarPointer.svg" height="29px" width="29px" />
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
             </NuxtLink>
-            <a href="#about" class="flex space-x-4 items-center my-2 lg:my-0">
+            <a
+              href="#about"
+              @click="toggleMenu"
+              class="flex space-x-4 items-center my-2 lg:my-0"
+            >
               <!-- <img
                 src="@/assets/svg/BulletPoint.svg"
                 height="16px"
@@ -91,7 +99,11 @@
               /> -->
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">ABOUT</p>
             </a>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            <a
+              @click="toggleMenu"
+              href="#services"
+              class="flex space-x-4 items-center my-2 lg:my-0"
+            >
               <UIIconBulletPoint class="text-white lg:text-[#001025]" />
 
               <!-- <img
@@ -108,8 +120,12 @@
                 class="flex md:hidden"
               /> -->
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">SERVICES</p>
-            </NuxtLink>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            </a>
+            <a
+              @click="toggleMenu"
+              href="#ideology"
+              class="flex space-x-4 items-center my-2 lg:my-0"
+            >
               <UIIconBulletPoint class="text-white lg:text-[#001025]" />
 
               <!-- <img
@@ -128,8 +144,12 @@
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">
                 OUR IDEOLOGYS
               </p>
-            </NuxtLink>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            </a>
+            <a
+              @click="toggleMenu"
+              href="#firm"
+              class="flex space-x-4 items-center my-2 lg:my-0"
+            >
               <UIIconBulletPoint class="text-white lg:text-[#001025]" />
 
               <!-- <img
@@ -146,8 +166,12 @@
                 class="flex md:hidden"
               /> -->
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">OUR FIRM</p>
-            </NuxtLink>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            </a>
+            <a
+              @click="toggleMenu"
+              href="#attorneyFormSection"
+              class="flex space-x-4 items-center my-2 lg:my-0"
+            >
               <UIIconBulletPoint class="text-white lg:text-[#001025]" />
 
               <!-- <img
@@ -164,9 +188,13 @@
                 class="flex md:hidden"
               /> -->
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">CONTACT</p>
-            </NuxtLink>
+            </a>
           </div>
-          <UIButton class="text-light lg:flex hidden">FREE CONSULTATION</UIButton>
+          <a
+            href="#attorneyFormSection"
+            class="text-light lg:flex hidden py-2 px-4 rounded-lg border border-[#E7E7E7]focus:outline-none focus:ring"
+            >FREE CONSULTATION</a
+          >
         </div>
       </div>
     </div>
@@ -176,6 +204,7 @@
 import { ref } from "vue";
 // import Divider from "../../UI/Divider/index.vue";
 // import Button from "../../UI/Button/index.vue";
+const route = useRoute();
 
 const isMenuOpen = ref(false);
 

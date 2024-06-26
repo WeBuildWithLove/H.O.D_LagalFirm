@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white text-brand space-y-20 lg:py-20 py-10 lg:px-20 px-4">
+  <div id="ideology" class="bg-white text-brand space-y-20 lg:py-20 py-10 lg:px-20 px-4">
     <div class="flex flex-col items-center justify-center gap-8">
       <div class="flex gap-4 items-center">
         <UIIconLeftPointer class="lg:w-[100px] w-[30%]" />

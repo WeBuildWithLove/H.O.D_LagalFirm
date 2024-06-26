@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="attorneyFormSection" class="">
     <div
       :style="{
         backgroundImage: `url(${image})`,
