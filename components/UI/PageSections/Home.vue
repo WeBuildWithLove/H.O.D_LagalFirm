@@ -24,7 +24,11 @@
           range of legal service to its clients
         </p>
         <div class="flex items-center justify-center">
-          <Button class="bg-card border-card">GET A FREE CONSULTATION TODAY</Button>
+          <a
+            href="#attorneyFormSection"
+            class="bg-card border-card py-2 px-4 rounded-lg border text-brand focus:outline-none focus:ring"
+            >GET A FREE CONSULTATION TODAY</a
+          >
         </div>
       </div>
     </div>
