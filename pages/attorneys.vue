@@ -1,11 +1,7 @@
 <template>
   <LayoutNavBar />
-  <UIPageSectionsHome />
-  <UIPageSectionsAbout />
-  <UIPageSectionsServices />
-  <UIPageSectionsIdeology />
-  <UIPageSectionsFirm />
-  <UIPageSectionsOperation />
+  <UIAttorneysHome />
+  <UIAttorneysDetails />
   <UIPageSectionsAttorneyFormSection />
 </template>
 <script setup lang="ts">

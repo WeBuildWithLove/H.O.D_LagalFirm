@@ -3,20 +3,22 @@
     class="w-full sticky top-0 z-30 flex flex-col lg:flex-row shadow-md bg-brand lg:bg-white text-light"
   >
     <div class="flex justify-between items-center w-full lg:p-0 p-2 lg:w-auto">
-      <img
-        src="@/assets/img/Logo.svg"
-        alt="Logo"
-        height="101.76px"
-        width="95px"
-        class="hidden lg:flex"
-      />
-      <img
-        src="@/assets/img/MobileLogo.svg"
-        alt="Logo"
-        height="38px"
-        width="123px"
-        class="flex lg:hidden"
-      />
+      <NuxtLink to="/" class="">
+        <img
+          src="@/assets/img/Logo.svg"
+          alt="Logo"
+          height="101.76px"
+          width="95px"
+          class="hidden lg:flex"
+        />
+        <img
+          src="@/assets/img/MobileLogo.svg"
+          alt="Logo"
+          height="38px"
+          width="123px"
+          class="flex lg:hidden"
+        />
+      </NuxtLink>
 
       <button class="lg:hidden p-2" @click="toggleMenu">
         <img
@@ -71,7 +73,7 @@
               <img src="@/assets/svg/NavbarPointer.svg" height="29px" width="29px" />
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
             </NuxtLink>
-            <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+            <a href="#about" class="flex space-x-4 items-center my-2 lg:my-0">
               <!-- <img
                 src="@/assets/svg/BulletPoint.svg"
                 height="16px"
@@ -88,7 +90,7 @@
                 class="flex md:hidden"
               /> -->
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">ABOUT</p>
-            </NuxtLink>
+            </a>
             <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
               <UIIconBulletPoint class="text-white lg:text-[#001025]" />
 

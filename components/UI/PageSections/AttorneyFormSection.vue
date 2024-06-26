@@ -1,40 +1,12 @@
 <template>
-  <div class="">
-    <div class="flex w-full object-cover h-[156px] lg:h-[551px] rounded-full">
-      <img
-        src="@/assets/img/businessman-male-lawyer-judge-consult-having-team-meeting-with-client.png"
-        class="w-[100%] object-cover h-[156px] lg:h-[551px]"
-        alt=""
-      />
-    </div>
-    <div class="flex flex-col items-center justify-center py-20 gap-4">
-      <div class="flex gap-4 items-center">
-        <p
-          class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"
-        >
-          Our Operating Standards
-        </p>
-      </div>
-      <div><UIIconStandardsIcon /></div>
-
-      <div
-        class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"
-      >
-        We will provide our service to you and your business with reasonable care in
-        accordance with the highest professional standards expected of us and in a timely
-        manner. The nature and content of any service carried out will necessarily reflect
-        the specific scope and limitations of our engagement, the amount and accuracy of
-        information provided to us and the timeline within which the service/advice is
-        required
-      </div>
-    </div>
-    <!-- <div
+  <div>
+    <div
       :style="{
         backgroundImage: `url(${image})`,
       }"
       class="flex w-full object-cover justify-center items-start h-auto py-20 lg:py-40"
     >
-      <div class="bg-[#1F2732] container min-h-[649px] w-full p-4">
+      <div class="bg-[#1F2732] container min-h-[349px] w-full p-4">
         <div class="flex flex-col justify-between py-10 lg:px-40 gap-4">
           <div class="flex lg:flex-row flex-col gap-4 w-full">
             <UIInputAuthInput
@@ -89,14 +61,20 @@
             <UIButton class="text-[#1F2732] bg-white text-[22px] !px-[45px]">
               Get An Appoinment
             </UIButton>
+
+            <!-- <button
+              class="p-[15px_48px_15px_48px] bg-[#011C2A] lg:w-auto w-full font-medium text-white text-[16px] leading-[16px] rounded-[5px]"
+            >
+              Get An Appoinment
+            </button> -->
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 <script setup>
-// import image from "@/assets/img/Photo2.png";
+import image from "@/assets/img/Photo2.png";
 </script>
 <style scoped>
 .background {

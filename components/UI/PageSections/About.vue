@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:py-20 py-10 lg:px-20 px-4 container lg:!w-[80%] w-full">
+  <div id="about" class="lg:py-20 py-10 lg:px-20 px-4 container lg:!w-[80%] w-full">
     <div
       class="flex flex-col items-center justify-center space-y-3 md:space-y-76 font-medium text-2xl py-4"
     >
