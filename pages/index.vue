@@ -7,6 +7,7 @@
   <UIPageSectionsFirm />
   <UIPageSectionsOperation />
   <UIPageSectionsAttorneyFormSection />
+  <LayoutFooter />
 </template>
 <script setup lang="ts">
 useHead({
