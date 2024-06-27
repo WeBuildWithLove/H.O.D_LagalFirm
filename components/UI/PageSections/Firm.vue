@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#1F2732] text-white space-y-20 lg:py-20 py-10 lg:px-20 px-4">
+  <div id="firm" class="bg-[#1F2732] text-white space-y-20 lg:py-20 py-10 lg:px-20 px-4">
     <div class="flex flex-col items-center justify-center gap-4">
       <span
         class="lg:text-[30px] pt-serif-bold text-[14px] lg:leading-[38.82px] text-center !font-normal"
@@ -86,7 +86,11 @@
       </div>
     </div>
     <div class="flex justify-center w-full items-center">
-      <UIButton class="text-white text-[22px] !px-[72px]">Meet Attorney</UIButton>
+      <UIButton
+        @click="$router.push('/attorneys')"
+        class="text-white text-[22px] !px-[72px]"
+        >Meet Attorney</UIButton
+      >
     </div>
   </div>
 </template>
@@ -99,6 +103,10 @@ import GAMALIEL_WORLY from "@/assets/img/GAMALIEL_WORLY.png";
 import HAROLD_UKU from "@/assets/img/HAROLD_UKU.png";
 import SARAH_HAROLD_UKU from "@/assets/img/SARAH_HAROLD_UKU.png";
 import UZEZI_AMAWHE from "@/assets/img/UZEZI_AMAWHE.png";
+import IKOPEMUGH_NENGIM from "@/assets/img/IKOPEMUGH_NENGIM.png";
+import FRANCIS_NWABUNWANNE from "@/assets/img/FRANCIS_NWABUNWANNE.png";
+import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.png";
+
 const services = ref([
   {
     icons: HAROLD_UKU,
@@ -121,17 +129,17 @@ const services = ref([
     name: "SARAH HAROLD UKU",
   },
   {
-    icons: null,
+    icons: FRANCIS_NWABUNWANNE,
     title: "Of Counsel ",
     name: "FRANCIS NWABUNWANNE",
   },
   {
-    icons: null,
+    icons: IKOPEMUGH_NENGIM,
     title: "Of Counsel ",
     name: "IKOPEMUGH NENGIM",
   },
   {
-    icons: null,
+    icons: DAVID_OKOROGBA,
     title: "Of Counsel ",
     name: "DAVID OKOROGBA",
   },
