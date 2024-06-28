@@ -29,7 +29,7 @@
         />
         <img v-else src="@/assets/svg/menu.svg" alt="Close Menu" class="h-8 w-8" />
       </button>
-      <NuxtLink v-else to="/" class="flex space-x-4 items-center my-2 lg:my-0">
+      <NuxtLink v-else to="/" class="lg:hidden flex space-x-4 items-center my-2 lg:my-0">
         <img src="@/assets/svg/NavbarPointer.svg" height="29px" width="29px" />
         <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
       </NuxtLink>
