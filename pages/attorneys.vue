@@ -3,10 +3,11 @@
   <UIAttorneysHome />
   <UIAttorneysDetails />
   <UIPageSectionsAttorneyFormSection />
+  <LayoutFooter />
 </template>
 <script setup lang="ts">
 useHead({
-  title: "HOD_LagalFirm - Home",
+  title: "HOD_LagalFirm - Attorney",
   meta: [{ name: "description", content: `` }],
   bodyAttrs: {
     class: "test",
