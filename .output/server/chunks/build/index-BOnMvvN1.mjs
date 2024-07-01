@@ -1,8 +1,9 @@
 import { b as buildAssetsURL } from '../routes/renderer.mjs';
-import { _ as __nuxt_component_0$2, a as __nuxt_component_7, b as _imports_0$2, D as Divider, c as _imports_1$1, U as UZEZI_AMAWHE, G as GAMALIEL_WORLY, S as SARAH_HAROLD_UKU, F as FRANCIS_NWABUNWANNE, I as IKOPEMUGH_NENGIM, d as DAVID_OKOROGBA, e as __nuxt_component_0$1$1 } from './AttorneyFormSection-A1mL90XW.mjs';
-import { defineComponent, useSSRContext, mergeProps, ref, createVNode, resolveDynamicComponent, withCtx, createTextVNode } from 'vue';
+import { _ as __nuxt_component_0$1$1, a as __nuxt_component_7, b as __nuxt_component_8, c as _imports_0$1$1, D as Divider, d as _imports_1$1, U as UZEZI_AMAWHE, G as GAMALIEL_WORLY, S as SARAH_HAROLD_UKU, F as FRANCIS_NWABUNWANNE, I as IKOPEMUGH_NENGIM, e as DAVID_OKOROGBA, f as __nuxt_component_1$1$1 } from './index-B-xXGpYQ.mjs';
+import { defineComponent, useSSRContext, mergeProps, ref, createVNode, resolveDynamicComponent, withCtx, openBlock, createBlock, Fragment, renderList, toDisplayString, createTextVNode, h } from 'vue';
 import { ssrRenderComponent, ssrRenderAttrs, ssrRenderAttr, ssrRenderList, ssrInterpolate, ssrRenderVNode } from 'vue/server-renderer';
 import { _ as _export_sfc } from './server.mjs';
+import { Marquee } from 'vue-fast-marquee';
 import { u as useHead, a as useSeoMeta } from './index-DIUDACRG.mjs';
 import 'vue-bundle-renderer/runtime';
 import '../runtime.mjs';
@@ -29,7 +30,7 @@ import 'lodash-es/isPlainObject.js';
 import 'vue-router';
 
 const _sfc_main$e = {};
-function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
+function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "50",
     height: "50",
@@ -44,9 +45,9 @@ _sfc_main$e.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/ArrowScope.vue");
   return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
 };
-const ArrowScope = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["ssrRender", _sfc_ssrRender$8]]);
+const ArrowScope = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["ssrRender", _sfc_ssrRender$7]]);
 const _sfc_main$d = {};
-function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
+function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "50",
     height: "50",
@@ -61,9 +62,9 @@ _sfc_main$d.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/HumbleiconsBulb.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
-const HumbleiconsBulb = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["ssrRender", _sfc_ssrRender$7]]);
+const HumbleiconsBulb = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["ssrRender", _sfc_ssrRender$6]]);
 const _sfc_main$c = {};
-function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
+function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "64",
     height: "55",
@@ -78,13 +79,13 @@ _sfc_main$c.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/ValuesIcon.vue");
   return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
 };
-const ValuesIcon = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["ssrRender", _sfc_ssrRender$6]]);
+const ValuesIcon = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["ssrRender", _sfc_ssrRender$5]]);
 const _sfc_main$b = {
   __name: "Home",
   __ssrInlineRender: true,
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<section${ssrRenderAttrs(mergeProps({ class: "bg-brand relative flex flex-col overflow-hidden md:flex-row min-h-[550px] lg:py-20 py-10 lg:px-20 px-4 justify-center" }, _attrs))}><div class="absolute hidden md:block -bottom-2 left-0"><img${ssrRenderAttr("src", _imports_0$2)} alt="Status of Liberty" class=""></div><div class="text-white items-center justify-center z-10 flex flex-col md:pace-y-4 space-y-7"><p class="text-sm md:text-4xl">Since 2011</p><div class="space-y-4 md:space-y-7"><div class="bg-white">`);
+      _push(`<section${ssrRenderAttrs(mergeProps({ class: "bg-brand relative flex flex-col overflow-hidden md:flex-row min-h-[550px] lg:py-20 py-10 lg:px-20 px-4 justify-center" }, _attrs))}><div class="absolute hidden md:block -bottom-2 left-0"><img${ssrRenderAttr("src", _imports_0$1$1)} alt="Status of Liberty" class=""></div><div class="text-white items-center justify-center z-10 flex flex-col md:pace-y-4 space-y-7"><p class="text-sm md:text-4xl">Since 2011</p><div class="space-y-4 md:space-y-7"><div class="bg-white">`);
       _push(ssrRenderComponent(Divider, {
         direction: "horizontal",
         width: "2px"
@@ -94,7 +95,7 @@ const _sfc_main$b = {
         direction: "horizontal",
         width: "2px"
       }, null, _parent));
-      _push(`</div><p class="text-center"> H.O.D LEGAL is a full service law firm that was established to offer a broad range of legal service to its clients </p><div class="flex items-center justify-center"><a href="#attorneyFormSection" class="bg-card border-card py-2 px-4 rounded-lg border border-[#E7E7E7]focus:outline-none focus:ring">GET A FREE CONSULTATION TODAY</a></div></div></div><div class="lg:absolute -bottom-2 lg:h-auto h-[311px] right-0"><img${ssrRenderAttr("src", _imports_1$1)}></div></section>`);
+      _push(`</div><p class="text-center"> H.O.D LEGAL is a full service law firm that was established to offer a broad range of legal service to its clients </p><div class="flex items-center justify-center"><a href="#attorneyFormSection" class="bg-card border-card py-2 px-4 rounded-lg border text-brand focus:outline-none focus:ring">GET A FREE CONSULTATION TODAY</a></div></div></div><div class="lg:absolute -bottom-2 lg:h-auto h-[311px] right-0"><img${ssrRenderAttr("src", _imports_1$1)}></div></section>`);
     };
   }
 };
@@ -106,7 +107,7 @@ _sfc_main$b.setup = (props, ctx) => {
 };
 const __nuxt_component_1$1 = _sfc_main$b;
 const _sfc_main$a = {};
-function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
+function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "108",
     height: "13",
@@ -121,9 +122,9 @@ _sfc_main$a.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/LeftPointer.vue");
   return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
 };
-const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["ssrRender", _sfc_ssrRender$5]]);
+const __nuxt_component_0$2 = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["ssrRender", _sfc_ssrRender$4]]);
 const _sfc_main$9 = {};
-function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "108",
     height: "13",
@@ -138,14 +139,14 @@ _sfc_main$9.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/RightPointer.vue");
   return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
 };
-const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["ssrRender", _sfc_ssrRender$4]]);
+const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["ssrRender", _sfc_ssrRender$3]]);
 const _imports_0$1 = "" + buildAssetsURL("StatueOfJustice.CWbudAA4.png");
 const _imports_1 = "" + buildAssetsURL("ScaleOfJustice.DEHwv3f0.png");
 const _imports_2 = "" + buildAssetsURL("Partnership.C6aNyrRu.png");
 const _imports_3 = "" + buildAssetsURL("Gavel.BTs1tHMo.png");
 const _sfc_main$8 = {};
-function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
-  const _component_UIIconLeftPointer = __nuxt_component_0$1;
+function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
+  const _component_UIIconLeftPointer = __nuxt_component_0$2;
   const _component_UIIconRightPointer = __nuxt_component_1;
   _push(`<div${ssrRenderAttrs(mergeProps({
     id: "about",
@@ -162,9 +163,9 @@ _sfc_main$8.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/PageSections/About.vue");
   return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
 };
-const __nuxt_component_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["ssrRender", _sfc_ssrRender$3]]);
+const __nuxt_component_2$1 = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["ssrRender", _sfc_ssrRender$2]]);
 const _sfc_main$7 = {};
-function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
+function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "95",
     height: "44",
@@ -179,7 +180,7 @@ _sfc_main$7.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/ServiceIcon.vue");
   return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
 };
-const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["ssrRender", _sfc_ssrRender$2]]);
+const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["ssrRender", _sfc_ssrRender$1]]);
 const _sfc_main$6 = {
   __name: "Services",
   __ssrInlineRender: true,
@@ -205,7 +206,7 @@ const _sfc_main$6 = {
       { name: "Data Protection and Privacy." }
     ]);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_UIIconLeftPointer = __nuxt_component_0$1;
+      const _component_UIIconLeftPointer = __nuxt_component_0$2;
       const _component_UIIconRightPointer = __nuxt_component_1;
       const _component_UIIconServiceIcon = __nuxt_component_2;
       _push(`<div${ssrRenderAttrs(mergeProps({
@@ -254,7 +255,7 @@ const _sfc_main$5 = {
       }
     ]);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_UIIconLeftPointer = __nuxt_component_0$1;
+      const _component_UIIconLeftPointer = __nuxt_component_0$2;
       const _component_UIIconRightPointer = __nuxt_component_1;
       _push(`<div${ssrRenderAttrs(mergeProps({
         id: "ideology",
@@ -280,8 +281,45 @@ _sfc_main$5.setup = (props, ctx) => {
   return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
 };
 const __nuxt_component_4 = _sfc_main$5;
-const HAROLD_UKU = "" + buildAssetsURL("HAROLD_UKU.BCbHJ7LB.png");
 const _sfc_main$4 = {
+  name: "NuxtMarquee",
+  emits: ["finish", "cycleComplete"],
+  props: [
+    "style",
+    "class",
+    "autoFill",
+    "play",
+    "pauseOnHover",
+    "pauseOnClick",
+    "direction",
+    "speed",
+    "delay",
+    "loop",
+    "gradient",
+    "gradientColor",
+    "gradientWidth"
+  ],
+  setup(props, { slots, emit }) {
+    return () => h(
+      Marquee,
+      {
+        ...props,
+        onCycleComplete: () => emit("cycleComplete"),
+        onFinish: () => emit("finish")
+      },
+      slots
+    );
+  }
+};
+const _sfc_setup$4 = _sfc_main$4.setup;
+_sfc_main$4.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/nuxt-marquee/dist/runtime/components/NuxtMarquee.vue");
+  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
+};
+const __nuxt_component_0$1 = _sfc_main$4;
+const HAROLD_UKU = "" + buildAssetsURL("HAROLD_UKU.BCbHJ7LB.png");
+const _sfc_main$3 = {
   __name: "Firm",
   __ssrInlineRender: true,
   setup(__props) {
@@ -323,15 +361,58 @@ const _sfc_main$4 = {
       }
     ]);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_UIButton = __nuxt_component_0$1$1;
+      const _component_NuxtMarquee = __nuxt_component_0$1;
+      const _component_UIButton = __nuxt_component_1$1$1;
       _push(`<div${ssrRenderAttrs(mergeProps({
         id: "firm",
         class: "bg-[#1F2732] text-white space-y-20 lg:py-20 py-10 lg:px-20 px-4"
-      }, _attrs))}><div class="flex flex-col items-center justify-center gap-4"><span class="lg:text-[30px] pt-serif-bold text-[14px] lg:leading-[38.82px] text-center !font-normal"> Our Firm </span><div class="flex gap-4 items-center"><p class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"> Meet our Attorneys </p></div><div class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"> The Personnel of H.O.D LEGAL are drawn from a pool of drawn from a pool of seasonal human capital to meet the demanding responsibilities that accompany our varied services. Our workforce comprises adept professionals who bring their expertise to bear in different facts of legal practice. </div></div><div class="overflow-hidden hide-scrollbar flex flex-row w-full gap-10 mt-4 overflow-x-auto"><!--[-->`);
-      ssrRenderList(services.value, (i) => {
-        _push(`<div class="rounded-[0px] flex flex-col gap-[27px] relative overflow-hidden min-h-[450px] min-w-[300px] lg:min-w-[50%] xl:min-w-[376.66px] md:min-w-[60%]"><div class="h-full"><div class="col-span-2 h-full md:col-span-1 flex flex-col gap-[1px] justify-between"><div class="flex flex-col gap-[15px]"><div class="flex flex-col gap-[10px]"><div class="flex justify-between"><div class="flex w-[376px] object-cover h-[451px] rounded-full"><img${ssrRenderAttr("src", i.icons)} class="w-[376px] object-cover h-[451px]" alt=""></div></div><h4 class="!font-normal text-[24px] leading-[31.06px] pt-serif-bold text-text-black-100">${ssrInterpolate(i.name)}</h4></div></div><div class="flex flex-col justify-between gap-2 h-full"><div class="flex flex-col gap-[5px]"><p class="leading-[23px] text-[#A70314] text-[14px] lg:text-[16px] font-normal">${ssrInterpolate(i.title)}</p></div></div></div></div></div>`);
-      });
-      _push(`<!--]--></div><div class="flex justify-center w-full items-center">`);
+      }, _attrs))}><div class="flex flex-col items-center justify-center gap-4"><span class="lg:text-[30px] pt-serif-bold text-[14px] lg:leading-[38.82px] text-center !font-normal"> Our Firm </span><div class="flex gap-4 items-center"><p class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"> Meet our Attorneys </p></div><div class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"> The Personnel of H.O.D LEGAL are drawn from a pool of drawn from a pool of seasonal human capital to meet the demanding responsibilities that accompany our varied services. Our workforce comprises adept professionals who bring their expertise to bear in different facts of legal practice. </div></div><div class="overflow-hidden hide-scrollbar flex flex-row w-full gap-10 mt-4 overflow-x-auto">`);
+      _push(ssrRenderComponent(_component_NuxtMarquee, { speed: 100 }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<!--[-->`);
+            ssrRenderList(services.value, (i) => {
+              _push2(`<div class="rounded-[0px] flex flex-col gap-[27px] ml-3 relative overflow-hidden min-h-[450px] min-w-[300px] lg:min-w-[50%] xl:min-w-[376.66px] md:min-w-[60%]"${_scopeId}><div class="h-full"${_scopeId}><div class="col-span-2 h-full md:col-span-1 flex flex-col gap-[1px] justify-between"${_scopeId}><div class="flex flex-col gap-[15px]"${_scopeId}><div class="flex flex-col gap-[10px]"${_scopeId}><div class="flex justify-between"${_scopeId}><div class="flex w-[376px] object-cover h-[451px] rounded-full"${_scopeId}><img${ssrRenderAttr("src", i.icons)} class="w-[376px] object-cover h-[451px]" alt=""${_scopeId}></div></div><h4 class="!font-normal text-[24px] leading-[31.06px] pt-serif-bold text-text-black-100"${_scopeId}>${ssrInterpolate(i.name)}</h4></div></div><div class="flex flex-col justify-between gap-2 h-full"${_scopeId}><div class="flex flex-col gap-[5px]"${_scopeId}><p class="leading-[23px] text-[#A70314] text-[14px] lg:text-[16px] font-normal"${_scopeId}>${ssrInterpolate(i.title)}</p></div></div></div></div></div>`);
+            });
+            _push2(`<!--]-->`);
+          } else {
+            return [
+              (openBlock(true), createBlock(Fragment, null, renderList(services.value, (i) => {
+                return openBlock(), createBlock("div", {
+                  key: i,
+                  class: "rounded-[0px] flex flex-col gap-[27px] ml-3 relative overflow-hidden min-h-[450px] min-w-[300px] lg:min-w-[50%] xl:min-w-[376.66px] md:min-w-[60%]"
+                }, [
+                  createVNode("div", { class: "h-full" }, [
+                    createVNode("div", { class: "col-span-2 h-full md:col-span-1 flex flex-col gap-[1px] justify-between" }, [
+                      createVNode("div", { class: "flex flex-col gap-[15px]" }, [
+                        createVNode("div", { class: "flex flex-col gap-[10px]" }, [
+                          createVNode("div", { class: "flex justify-between" }, [
+                            createVNode("div", { class: "flex w-[376px] object-cover h-[451px] rounded-full" }, [
+                              createVNode("img", {
+                                src: i.icons,
+                                class: "w-[376px] object-cover h-[451px]",
+                                alt: ""
+                              }, null, 8, ["src"])
+                            ])
+                          ]),
+                          createVNode("h4", { class: "!font-normal text-[24px] leading-[31.06px] pt-serif-bold text-text-black-100" }, toDisplayString(i.name), 1)
+                        ])
+                      ]),
+                      createVNode("div", { class: "flex flex-col justify-between gap-2 h-full" }, [
+                        createVNode("div", { class: "flex flex-col gap-[5px]" }, [
+                          createVNode("p", { class: "leading-[23px] text-[#A70314] text-[14px] lg:text-[16px] font-normal" }, toDisplayString(i.title), 1)
+                        ])
+                      ])
+                    ])
+                  ])
+                ]);
+              }), 128))
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div><div class="flex justify-center w-full items-center">`);
       _push(ssrRenderComponent(_component_UIButton, {
         onClick: ($event) => _ctx.$router.push("/attorneys"),
         class: "text-white text-[22px] !px-[72px]"
@@ -351,15 +432,15 @@ const _sfc_main$4 = {
     };
   }
 };
-const _sfc_setup$4 = _sfc_main$4.setup;
-_sfc_main$4.setup = (props, ctx) => {
+const _sfc_setup$3 = _sfc_main$3.setup;
+_sfc_main$3.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/PageSections/Firm.vue");
-  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
+  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const __nuxt_component_5 = _sfc_main$4;
-const _sfc_main$3 = {};
-function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
+const __nuxt_component_5 = _sfc_main$3;
+const _sfc_main$2 = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "95",
     height: "44",
@@ -368,15 +449,15 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     xmlns: "http://www.w3.org/2000/svg"
   }, _attrs))}><line y1="26.5" x2="95" y2="26.5" stroke="#A70314"></line><line y1="16.5" x2="95" y2="16.5" stroke="#A70314"></line><line x1="52.5" y1="44" x2="52.5" y2="2.18557e-08" stroke="#A70314"></line><line x1="42.5" y1="44" x2="42.5" y2="2.18557e-08" stroke="#A70314"></line><rect x="44.5" y="18.5" width="6" height="6" fill="#A70314" stroke="#A70314"></rect></svg>`);
 }
-const _sfc_setup$3 = _sfc_main$3.setup;
-_sfc_main$3.setup = (props, ctx) => {
+const _sfc_setup$2 = _sfc_main$2.setup;
+_sfc_main$2.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/StandardsIcon.vue");
-  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
+  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
-const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$1]]);
+const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender]]);
 const _imports_0 = "" + buildAssetsURL("businessman-male-lawyer-judge-consult-having-team-meeting-with-client.ByjJVjjB.png");
-const _sfc_main$2 = {
+const _sfc_main$1 = {
   __name: "Operation",
   __ssrInlineRender: true,
   setup(__props) {
@@ -391,24 +472,13 @@ const _sfc_main$2 = {
     };
   }
 };
-const _sfc_setup$2 = _sfc_main$2.setup;
-_sfc_main$2.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/PageSections/Operation.vue");
-  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
-};
-const __nuxt_component_6 = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-05ce40b2"]]);
-const _sfc_main$1 = {};
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${ssrRenderAttrs(_attrs)}>Footer</div>`);
-}
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Layout/Footer/index.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/PageSections/Operation.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
-const __nuxt_component_8 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender]]);
+const __nuxt_component_6 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-05ce40b2"]]);
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "index",
   __ssrInlineRender: true,
@@ -428,7 +498,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       ogDescription: ``
     });
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_LayoutNavBar = __nuxt_component_0$2;
+      const _component_LayoutNavBar = __nuxt_component_0$1$1;
       const _component_UIPageSectionsHome = __nuxt_component_1$1;
       const _component_UIPageSectionsAbout = __nuxt_component_2$1;
       const _component_UIPageSectionsServices = __nuxt_component_3;
@@ -459,4 +529,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=index-7igTOEwj.mjs.map
+//# sourceMappingURL=index-BOnMvvN1.mjs.map
