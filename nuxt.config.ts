@@ -12,9 +12,10 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vue-toastification']
   },
-  modules: ['@ant-design-vue/nuxt', '@pinia/nuxt'],
+  modules: ['@ant-design-vue/nuxt', '@pinia/nuxt', 'nuxt-marquee'],
   pinia: {
-     autoImports: ['defineStore', 'acceptHMRUpdate'] },
+    autoImports: ['defineStore', 'acceptHMRUpdate']
+  },
   imports: {
     dirs: ['./stores']
   },
@@ -28,4 +29,4 @@ export default defineNuxtConfig({
       ]
     }
   }
-})
+});
