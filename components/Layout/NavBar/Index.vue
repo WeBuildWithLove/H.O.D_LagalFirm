@@ -81,10 +81,6 @@
               v-if="route.name === 'index'"
               href="#about"
               @click="toggleMenu"
-              :class="{
-                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
-                  currentHash === '#about',
-              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
               <!-- <img
@@ -120,10 +116,6 @@
               v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#services"
-              :class="{
-                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
-                  currentHash === '#services',
-              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
               <UIIconBulletPoint
@@ -159,10 +151,6 @@
               v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#ideology"
-              :class="{
-                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
-                  currentHash === '#ideology',
-              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
               <UIIconBulletPoint
@@ -198,10 +186,6 @@
               v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#firm"
-              :class="{
-                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
-                  currentHash === '#firm',
-              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
               <UIIconBulletPoint
@@ -237,10 +221,6 @@
               v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#attorneyFormSection"
-              :class="{
-                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
-                  currentHash === '#attorneyFormSection',
-              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
               <UIIconBulletPoint
