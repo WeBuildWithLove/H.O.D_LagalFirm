@@ -27,7 +27,7 @@
         </p>
       </div>
     </div>
-    <div class="lg:absolute -bottom-2 lg:h-auto h-[311px] right-0">
+    <div class="lg:absolute -bottom-2 hidden lg:h-auto h-[311px] right-0">
       <img src="@/assets/svg/AboutProfile.svg" />
     </div>
   </section>

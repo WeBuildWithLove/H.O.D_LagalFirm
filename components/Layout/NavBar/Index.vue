@@ -78,8 +78,13 @@
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
             </NuxtLink>
             <a
+              v-if="route.name === 'index'"
               href="#about"
               @click="toggleMenu"
+              :class="{
+                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
+                  currentHash === '#about',
+              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
               <!-- <img
@@ -88,7 +93,12 @@
                 width="16px"
                 class="hidden md:flex"
               /> -->
-              <UIIconBulletPoint class="text-white lg:text-[#001025]" />
+              <UIIconBulletPoint
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#about',
+                }"
+                class="text-white lg:text-[#001025]"
+              />
 
               <!-- <img
                 src="@/assets/svg/WhiteBulletPoint.svg"
@@ -97,14 +107,31 @@
                 width="16px"
                 class="flex md:hidden"
               /> -->
-              <p class="text-[16px] text-white lg:text-[#222222] font-medium">ABOUT</p>
+              <p
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#about',
+                }"
+                class="text-[16px] text-white lg:text-[#222222] font-medium"
+              >
+                ABOUT
+              </p>
             </a>
             <a
+              v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#services"
+              :class="{
+                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
+                  currentHash === '#services',
+              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
-              <UIIconBulletPoint class="text-white lg:text-[#001025]" />
+              <UIIconBulletPoint
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#services',
+                }"
+                class="text-white lg:text-[#001025]"
+              />
 
               <!-- <img
                 src="@/assets/svg/BulletPoint.svg"
@@ -119,14 +146,31 @@
                 width="16px"
                 class="flex md:hidden"
               /> -->
-              <p class="text-[16px] text-white lg:text-[#222222] font-medium">SERVICES</p>
+              <p
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#services',
+                }"
+                class="text-[16px] text-white lg:text-[#222222] font-medium"
+              >
+                SERVICES
+              </p>
             </a>
             <a
+              v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#ideology"
+              :class="{
+                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
+                  currentHash === '#ideology',
+              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
-              <UIIconBulletPoint class="text-white lg:text-[#001025]" />
+              <UIIconBulletPoint
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#ideology',
+                }"
+                class="text-white lg:text-[#001025]"
+              />
 
               <!-- <img
                 src="@/assets/svg/BulletPoint.svg"
@@ -141,16 +185,31 @@
                 width="16px"
                 class="flex md:hidden"
               /> -->
-              <p class="text-[16px] text-white lg:text-[#222222] font-medium">
+              <p
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#ideology',
+                }"
+                class="text-[16px] text-white lg:text-[#222222] font-medium"
+              >
                 OUR IDEOLOGYS
               </p>
             </a>
             <a
+              v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#firm"
+              :class="{
+                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
+                  currentHash === '#firm',
+              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
-              <UIIconBulletPoint class="text-white lg:text-[#001025]" />
+              <UIIconBulletPoint
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#firm',
+                }"
+                class="text-white lg:text-[#001025]"
+              />
 
               <!-- <img
                 src="@/assets/svg/BulletPoint.svg"
@@ -165,14 +224,31 @@
                 width="16px"
                 class="flex md:hidden"
               /> -->
-              <p class="text-[16px] text-white lg:text-[#222222] font-medium">OUR FIRM</p>
+              <p
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#firm',
+                }"
+                class="text-[16px] text-white lg:text-[#222222] font-medium"
+              >
+                OUR FIRM
+              </p>
             </a>
             <a
+              v-if="route.name === 'index'"
               @click="toggleMenu"
               href="#attorneyFormSection"
+              :class="{
+                '!border-[#A70314] !text-[#A70314] border-b-[2px] ':
+                  currentHash === '#attorneyFormSection',
+              }"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
-              <UIIconBulletPoint class="text-white lg:text-[#001025]" />
+              <UIIconBulletPoint
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#attorneyFormSection',
+                }"
+                class="text-white lg:text-[#001025]"
+              />
 
               <!-- <img
                 src="@/assets/svg/BulletPoint.svg"
@@ -183,16 +259,23 @@
               <!-- <img
                 src="@/assets/svg/WhiteBulletPoint.svg"
                 alt="Bulletpoint"
-                height="16px"
+                 height="16px"
                 width="16px"
                 class="flex md:hidden"
               /> -->
-              <p class="text-[16px] text-white lg:text-[#222222] font-medium">CONTACT</p>
+              <p
+                :class="{
+                  ' !text-[#A70314] ': currentHash === '#attorneyFormSection',
+                }"
+                class="text-[16px] text-white lg:text-[#222222] font-medium"
+              >
+                CONTACT
+              </p>
             </a>
           </div>
           <a
             href="#attorneyFormSection"
-            class="text-light lg:flex hidden py-2 px-4 rounded-lg border border-[#E7E7E7]focus:outline-none focus:ring"
+            class="text-light lg:flex hidden hover:bg-brand hover:text-white py-2 px-4 rounded-lg border border-[#E7E7E7]focus:outline-none focus:ring"
             >FREE CONSULTATION</a
           >
         </div>
@@ -206,8 +289,41 @@ import { ref } from "vue";
 // import Button from "../../UI/Button/index.vue";
 const route = useRoute();
 
-const isMenuOpen = ref(false);
+const router = useRouter();
 
+const isMenuOpen = ref(false);
+const currentHash = ref("");
+
+const handleClick = (event) => {
+  event.preventDefault();
+  toggleMenu();
+  if (typeof window !== "undefined") {
+    window.location.hash = `#${props.targetHash}`;
+  }
+};
+
+const updateHash = () => {
+  if (typeof window !== "undefined") {
+    currentHash.value = window.location.hash;
+  }
+};
+
+onMounted(() => {
+  if (typeof window !== "undefined") {
+    currentHash.value = window.location.hash;
+    window.addEventListener("hashchange", updateHash);
+  }
+});
+
+onBeforeUnmount(() => {
+  if (typeof window !== "undefined") {
+    window.removeEventListener("hashchange", updateHash);
+  }
+});
+
+watch(currentHash, (newHash) => {
+  console.log(`Hash changed to: ${newHash}`);
+});
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
