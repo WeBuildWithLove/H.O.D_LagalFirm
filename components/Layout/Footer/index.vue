@@ -35,17 +35,17 @@
         <div
           class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 text-[#D7D7D7]"
         >
-          <div>
-            <p>Home</p>
-            <p>About</p>
-            <p>Services</p>
-            <p>Our Vision</p>
-            <p>Our Firm</p>
-            <p>Contact</p>
+          <div class="flex flex-col">
+            <NuxtLink to="/">Home</NuxtLink>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#ideology">Our Vision</a>
+            <a href="#firm">Our Firm</a>
+            <a href="#attorneyFormSection">Contact</a>
           </div>
-          <div>
-            <p>Get an appointment</p>
-            <p>Our Operating standard</p>
+          <div class="flex flex-col">
+            <a href="#attorneyFormSection">Get an appointment</a>
+            <a href="#operation">Our Operating standard</a>
           </div>
         </div>
       </div>
