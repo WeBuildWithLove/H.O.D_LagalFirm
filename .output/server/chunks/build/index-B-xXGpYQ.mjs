@@ -1,5 +1,5 @@
 import { b as buildAssetsURL } from '../routes/renderer.mjs';
-import { _ as __nuxt_component_0$3 } from './nuxt-link-D35ckuRb.mjs';
+import { _ as __nuxt_component_0$2 } from './nuxt-link-D35ckuRb.mjs';
 import { inject, ref, h, getCurrentInstance, nextTick, reactive, defineComponent, createVNode, useSSRContext, onUpdated, onUnmounted, watch, computed, shallowRef, provide, Transition, watchEffect, Fragment, mergeProps, withCtx, unref, isVNode, Comment, Text, triggerRef, cloneVNode, withDirectives, createTextVNode, render, defineAsyncComponent } from 'vue';
 import { ssrRenderAttrs, ssrRenderComponent, ssrRenderAttr, ssrRenderClass, ssrRenderStyle, ssrRenderSlot, ssrIncludeBooleanAttr } from 'vue/server-renderer';
 import { _ as _export_sfc, u as useRoute } from './server.mjs';
@@ -488,7 +488,7 @@ EyeInvisibleOutlined.displayName = 'EyeInvisibleOutlined';
 EyeInvisibleOutlined.inheritAttrs = false;
 const EyeInvisibleOutlined$1 = EyeInvisibleOutlined;
 
-const _sfc_main$5 = {
+const _sfc_main$6 = {
   props: {
     direction: {
       type: String,
@@ -517,21 +517,21 @@ const _sfc_main$5 = {
     }
   }
 };
-function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${ssrRenderAttrs(mergeProps({
     class: $options.dividerClass,
     style: $options.dividerStyle
   }, _attrs))}></div>`);
 }
-const _sfc_setup$5 = _sfc_main$5.setup;
-_sfc_main$5.setup = (props, ctx) => {
+const _sfc_setup$6 = _sfc_main$6.setup;
+_sfc_main$6.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Divider/index.vue");
-  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
+  return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
 };
-const Divider = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["ssrRender", _sfc_ssrRender$2]]);
-const _sfc_main$4 = {};
-function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
+const Divider = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["ssrRender", _sfc_ssrRender$3]]);
+const _sfc_main$5 = {};
+function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   _push(`<svg${ssrRenderAttrs(mergeProps({
     width: "12",
     height: "12",
@@ -540,28 +540,28 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     xmlns: "http://www.w3.org/2000/svg"
   }, _attrs))}><path d="M0.226497 6L6 11.7735L11.7735 6L6 0.226497L0.226497 6ZM7 5H6V7H7V5Z" fill="currentColor"></path></svg>`);
 }
-const _sfc_setup$4 = _sfc_main$4.setup;
-_sfc_main$4.setup = (props, ctx) => {
+const _sfc_setup$5 = _sfc_main$5.setup;
+_sfc_main$5.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Icon/BulletPoint.vue");
-  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
+  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
 };
-const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["ssrRender", _sfc_ssrRender$1]]);
-const _imports_0$1 = "" + buildAssetsURL("Logo.CTr6msrk.svg");
-const _imports_1$1 = "" + buildAssetsURL("MobileLogo.BzTKrmSN.svg");
-const _imports_2 = "data:image/svg+xml,%3csvg%20width='43'%20height='26'%20viewBox='0%200%2043%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20y1='1'%20x2='42'%20y2='1'%20stroke='white'%20stroke-width='2'/%3e%3cline%20y1='13'%20x2='42'%20y2='13'%20stroke='white'%20stroke-width='2'/%3e%3cline%20y1='25'%20x2='42'%20y2='25'%20stroke='white'%20stroke-width='2'/%3e%3c/svg%3e";
-const _imports_3 = "data:image/svg+xml,%3csvg%20width='35'%20height='12'%20viewBox='0%200%2035%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M0.226497%206L6%2011.7735L11.7735%206L6%200.226497L0.226497%206ZM35%205H6V7H35V5Z'%20fill='%23A70314'/%3e%3c/svg%3e";
-const _imports_4 = "data:image/svg+xml,%3csvg%20width='18'%20height='19'%20viewBox='0%200%2018%2019'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.9678%2013.4791V15.8877C16.9687%2016.1113%2016.9229%2016.3327%2016.8333%2016.5375C16.7438%2016.7424%2016.6124%2016.9263%2016.4476%2017.0775C16.2828%2017.2286%2016.0883%2017.3437%2015.8765%2017.4154C15.6647%2017.487%2015.4402%2017.5136%2015.2175%2017.4935C12.7469%2017.225%2010.3737%2016.3808%208.28865%2015.0286C6.34875%2013.7959%204.70406%2012.1512%203.47136%2010.2113C2.11448%208.11679%201.27006%205.73206%201.00652%203.25036C0.986453%203.02834%201.01284%202.80457%201.084%202.5933C1.15515%202.38203%201.26952%202.1879%201.41981%202.02325C1.57011%201.85861%201.75304%201.72706%201.95696%201.63699C2.16088%201.54691%202.38132%201.50029%202.60425%201.50008H5.0129C5.40254%201.49624%205.78028%201.63422%206.07572%201.8883C6.37116%202.14237%206.56413%202.49521%206.61866%202.88103C6.72032%203.65185%206.90886%204.4087%207.18068%205.13713C7.2887%205.4245%207.31208%205.73682%207.24804%206.03707C7.18401%206.33732%207.03525%206.61292%206.81938%206.83121L5.79972%207.85087C6.94267%209.86092%208.60696%2011.5252%2010.617%2012.6682L11.6367%2011.6485C11.855%2011.4326%2012.1306%2011.2839%2012.4308%2011.2198C12.7311%2011.1558%2013.0434%2011.1792%2013.3308%2011.2872C14.0592%2011.559%2014.816%2011.7476%2015.5869%2011.8492C15.9769%2011.9042%2016.333%2012.1007%2016.5877%2012.4012C16.8423%2012.7017%2016.9776%2013.0853%2016.9678%2013.4791Z'%20stroke='%23A70314'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e";
+const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["ssrRender", _sfc_ssrRender$2]]);
+const _imports_0$2 = "" + buildAssetsURL("Logo.CTr6msrk.svg");
+const _imports_1$2 = "" + buildAssetsURL("MobileLogo.BzTKrmSN.svg");
+const _imports_2$1 = "data:image/svg+xml,%3csvg%20width='43'%20height='26'%20viewBox='0%200%2043%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20y1='1'%20x2='42'%20y2='1'%20stroke='white'%20stroke-width='2'/%3e%3cline%20y1='13'%20x2='42'%20y2='13'%20stroke='white'%20stroke-width='2'/%3e%3cline%20y1='25'%20x2='42'%20y2='25'%20stroke='white'%20stroke-width='2'/%3e%3c/svg%3e";
+const _imports_3$1 = "data:image/svg+xml,%3csvg%20width='35'%20height='12'%20viewBox='0%200%2035%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M0.226497%206L6%2011.7735L11.7735%206L6%200.226497L0.226497%206ZM35%205H6V7H35V5Z'%20fill='%23A70314'/%3e%3c/svg%3e";
+const _imports_4$1 = "data:image/svg+xml,%3csvg%20width='18'%20height='19'%20viewBox='0%200%2018%2019'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.9678%2013.4791V15.8877C16.9687%2016.1113%2016.9229%2016.3327%2016.8333%2016.5375C16.7438%2016.7424%2016.6124%2016.9263%2016.4476%2017.0775C16.2828%2017.2286%2016.0883%2017.3437%2015.8765%2017.4154C15.6647%2017.487%2015.4402%2017.5136%2015.2175%2017.4935C12.7469%2017.225%2010.3737%2016.3808%208.28865%2015.0286C6.34875%2013.7959%204.70406%2012.1512%203.47136%2010.2113C2.11448%208.11679%201.27006%205.73206%201.00652%203.25036C0.986453%203.02834%201.01284%202.80457%201.084%202.5933C1.15515%202.38203%201.26952%202.1879%201.41981%202.02325C1.57011%201.85861%201.75304%201.72706%201.95696%201.63699C2.16088%201.54691%202.38132%201.50029%202.60425%201.50008H5.0129C5.40254%201.49624%205.78028%201.63422%206.07572%201.8883C6.37116%202.14237%206.56413%202.49521%206.61866%202.88103C6.72032%203.65185%206.90886%204.4087%207.18068%205.13713C7.2887%205.4245%207.31208%205.73682%207.24804%206.03707C7.18401%206.33732%207.03525%206.61292%206.81938%206.83121L5.79972%207.85087C6.94267%209.86092%208.60696%2011.5252%2010.617%2012.6682L11.6367%2011.6485C11.855%2011.4326%2012.1306%2011.2839%2012.4308%2011.2198C12.7311%2011.1558%2013.0434%2011.1792%2013.3308%2011.2872C14.0592%2011.559%2014.816%2011.7476%2015.5869%2011.8492C15.9769%2011.9042%2016.333%2012.1007%2016.5877%2012.4012C16.8423%2012.7017%2016.9776%2013.0853%2016.9678%2013.4791Z'%20stroke='%23A70314'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e";
 const _imports_5 = "data:image/svg+xml,%3csvg%20width='19'%20height='19'%20viewBox='0%200%2019%2019'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.3019%2017.8333C13.9042%2017.8333%2017.635%2014.1024%2017.635%209.50014C17.635%204.89787%2013.9042%201.16699%209.3019%201.16699C4.69963%201.16699%200.96875%204.89787%200.96875%209.50014C0.96875%2014.1024%204.69963%2017.8333%209.3019%2017.8333Z'%20stroke='%23A70314'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M9.30078%204.5V9.49989L12.634%2011.1665'%20stroke='%23A70314'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e";
 const _imports_6 = "data:image/svg+xml,%3csvg%20width='17'%20height='17'%20viewBox='0%200%2017%2017'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M15.3021%203.1665H1.96875V13.8332H15.3021V3.1665ZM13.9687%205.83317L8.63542%209.1665L3.30208%205.83317V4.49984L8.63542%207.83317L13.9687%204.49984V5.83317Z'%20fill='%23A70314'/%3e%3c/svg%3e";
-const _sfc_main$3 = {
+const _sfc_main$4 = {
   __name: "Index",
   __ssrInlineRender: true,
   setup(__props) {
     const route = useRoute();
     const isMenuOpen = ref(false);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_NuxtLink = __nuxt_component_0$3;
+      const _component_NuxtLink = __nuxt_component_0$2;
       const _component_UIDivider = Divider;
       const _component_UIIconBulletPoint = __nuxt_component_2;
       _push(`<header${ssrRenderAttrs(mergeProps({ class: "w-full sticky top-0 z-30 flex flex-col lg:flex-row shadow-md bg-brand lg:bg-white text-light" }, _attrs))}><div class="flex justify-between items-center w-full lg:p-0 p-2 lg:w-auto">`);
@@ -571,18 +571,18 @@ const _sfc_main$3 = {
       }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<img${ssrRenderAttr("src", _imports_0$1)} alt="Logo" height="101.76px" width="95px" class="hidden lg:flex"${_scopeId}><img${ssrRenderAttr("src", _imports_1$1)} alt="Logo" height="38px" width="123px" class="flex lg:hidden"${_scopeId}>`);
+            _push2(`<img${ssrRenderAttr("src", _imports_0$2)} alt="Logo" height="101.76px" width="95px" class="hidden lg:flex"${_scopeId}><img${ssrRenderAttr("src", _imports_1$2)} alt="Logo" height="38px" width="123px" class="flex lg:hidden"${_scopeId}>`);
           } else {
             return [
               createVNode("img", {
-                src: _imports_0$1,
+                src: _imports_0$2,
                 alt: "Logo",
                 height: "101.76px",
                 width: "95px",
                 class: "hidden lg:flex"
               }),
               createVNode("img", {
-                src: _imports_1$1,
+                src: _imports_1$2,
                 alt: "Logo",
                 height: "38px",
                 width: "123px",
@@ -596,23 +596,23 @@ const _sfc_main$3 = {
       if (unref(route).name !== "attorneys") {
         _push(`<button class="lg:hidden p-2">`);
         if (!isMenuOpen.value) {
-          _push(`<img${ssrRenderAttr("src", _imports_2)} alt="Open Menu" class="h-8 w-8">`);
+          _push(`<img${ssrRenderAttr("src", _imports_2$1)} alt="Open Menu" class="h-8 w-8">`);
         } else {
-          _push(`<img${ssrRenderAttr("src", _imports_2)} alt="Close Menu" class="h-8 w-8">`);
+          _push(`<img${ssrRenderAttr("src", _imports_2$1)} alt="Close Menu" class="h-8 w-8">`);
         }
         _push(`</button>`);
       } else {
         _push(ssrRenderComponent(_component_NuxtLink, {
           to: "/",
-          class: "flex space-x-4 items-center my-2 lg:my-0"
+          class: "lg:hidden flex space-x-4 items-center my-2 lg:my-0"
         }, {
           default: withCtx((_, _push2, _parent2, _scopeId) => {
             if (_push2) {
-              _push2(`<img${ssrRenderAttr("src", _imports_3)} height="29px" width="29px"${_scopeId}><p class="text-[16px] text-white lg:text-[#222222] font-medium"${_scopeId}>HOME</p>`);
+              _push2(`<img${ssrRenderAttr("src", _imports_3$1)} height="29px" width="29px"${_scopeId}><p class="text-[16px] text-white lg:text-[#222222] font-medium"${_scopeId}>HOME</p>`);
             } else {
               return [
                 createVNode("img", {
-                  src: _imports_3,
+                  src: _imports_3$1,
                   height: "29px",
                   width: "29px"
                 }),
@@ -628,7 +628,7 @@ const _sfc_main$3 = {
         direction: "vertical",
         width: "2px"
       }, null, _parent));
-      _push(`</div><div class="w-full lg:py-3"><div class="hidden lg:flex justify-between px-2"><div class="flex gap-3.5 px-4"><a href="tel: +234 803 292 8072" class="flex space-x-1"><img${ssrRenderAttr("src", _imports_4)} alt="Call-Icon" height="16px" width="16px"><p>+234 803 292 8072</p></a><div class="flex space-x-1"><img${ssrRenderAttr("src", _imports_5)} alt="Time-Icon" height="16px" width="16px"><p>MONDAY - FRIDAY - 7:30AM - 6:30PM</p></div><a href="mailto:contact@hodlegal.org " class="flex space-x-1"><img${ssrRenderAttr("src", _imports_6)} alt="Email-Icon" height="16px" width="16px"><p>contact@hodlegal.org</p></a></div><div>BARRISTERS | SOLICITORS | CORPATE CONSULTANTS</div></div><div class="my-3 bg-card lg:flex hidden">`);
+      _push(`</div><div class="w-full lg:py-3"><div class="hidden lg:flex justify-between px-2"><div class="flex gap-3.5 px-4"><a href="tel: +234 803 292 8072" class="flex space-x-1"><img${ssrRenderAttr("src", _imports_4$1)} alt="Call-Icon" height="16px" width="16px"><p>+234 803 292 8072</p></a><div class="flex space-x-1"><img${ssrRenderAttr("src", _imports_5)} alt="Time-Icon" height="16px" width="16px"><p>MONDAY - FRIDAY - 7:30AM - 6:30PM</p></div><a href="mailto:contact@hodlegal.org " class="flex space-x-1"><img${ssrRenderAttr("src", _imports_6)} alt="Email-Icon" height="16px" width="16px"><p>contact@hodlegal.org</p></a></div><div>BARRISTERS | SOLICITORS | CORPATE CONSULTANTS</div></div><div class="my-3 bg-card lg:flex hidden">`);
       _push(ssrRenderComponent(_component_UIDivider, {
         direction: "horizontal",
         width: "2px"
@@ -640,11 +640,11 @@ const _sfc_main$3 = {
       }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<img${ssrRenderAttr("src", _imports_3)} height="29px" width="29px"${_scopeId}><p class="text-[16px] text-white lg:text-[#222222] font-medium"${_scopeId}>HOME</p>`);
+            _push2(`<img${ssrRenderAttr("src", _imports_3$1)} height="29px" width="29px"${_scopeId}><p class="text-[16px] text-white lg:text-[#222222] font-medium"${_scopeId}>HOME</p>`);
           } else {
             return [
               createVNode("img", {
-                src: _imports_3,
+                src: _imports_3$1,
                 height: "29px",
                 width: "29px"
               }),
@@ -668,16 +668,16 @@ const _sfc_main$3 = {
     };
   }
 };
-const _sfc_setup$3 = _sfc_main$3.setup;
-_sfc_main$3.setup = (props, ctx) => {
+const _sfc_setup$4 = _sfc_main$4.setup;
+_sfc_main$4.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Layout/NavBar/Index.vue");
-  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
+  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
-const __nuxt_component_0$2 = _sfc_main$3;
-const _imports_0 = "" + buildAssetsURL("JusticeStatus.M8Ovtrko.svg");
-const _imports_1 = "" + buildAssetsURL("AboutProfile.C7UIML1i.svg");
-const _sfc_main$2 = {
+const __nuxt_component_0$1 = _sfc_main$4;
+const _imports_0$1 = "" + buildAssetsURL("JusticeStatus.M8Ovtrko.svg");
+const _imports_1$1 = "" + buildAssetsURL("AboutProfile.C7UIML1i.svg");
+const _sfc_main$3 = {
   props: {
     width: {
       type: String,
@@ -703,7 +703,7 @@ const _sfc_main$2 = {
     }
   }
 };
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<button${ssrRenderAttrs(mergeProps({
     class: [$options.buttonClass, "py-2 px-4 rounded-lg border border-[#E7E7E7]focus:outline-none focus:ring"],
     style: $options.buttonStyle
@@ -711,20 +711,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
   _push(`</button>`);
 }
-const _sfc_setup$2 = _sfc_main$2.setup;
-_sfc_main$2.setup = (props, ctx) => {
+const _sfc_setup$3 = _sfc_main$3.setup;
+_sfc_main$3.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Button/index.vue");
-  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
+  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const __nuxt_component_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender]]);
+const __nuxt_component_1$1 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$1]]);
 const GAMALIEL_WORLY = "" + buildAssetsURL("GAMALIEL_WORLY.B5JdF4rU.png");
 const SARAH_HAROLD_UKU = "" + buildAssetsURL("SARAH_HAROLD_UKU.2MjDXyZ0.png");
 const UZEZI_AMAWHE = "" + buildAssetsURL("UZEZI_AMAWHE.BnSEdfTt.png");
 const IKOPEMUGH_NENGIM = "" + buildAssetsURL("IKOPEMUGH_NENGIM.CG_brGc7.png");
 const FRANCIS_NWABUNWANNE = "" + buildAssetsURL("FRANCIS_NWABUNWANNE._mtFBO5v.png");
 const DAVID_OKOROGBA = "" + buildAssetsURL("DAVID_OKOROGBA.DAku8Ext.png");
-const _sfc_main$1 = {
+const _sfc_main$2 = {
   __name: "AuthInput",
   __ssrInlineRender: true,
   props: {
@@ -748,13 +748,13 @@ const _sfc_main$1 = {
     };
   }
 };
-const _sfc_setup$1 = _sfc_main$1.setup;
-_sfc_main$1.setup = (props, ctx) => {
+const _sfc_setup$2 = _sfc_main$2.setup;
+_sfc_main$2.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/Input/AuthInput.vue");
-  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
+  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
-const __nuxt_component_0 = _sfc_main$1;
+const __nuxt_component_0 = _sfc_main$2;
 const isArray = Array.isArray;
 const isString = (val) => typeof val === "string";
 const isObject = (val) => val !== null && typeof val === "object";
@@ -6923,14 +6923,14 @@ Input.install = function(app) {
   return app;
 };
 const image = "" + buildAssetsURL("Photo2.xdkD7xhW.png");
-const _sfc_main = {
+const _sfc_main$1 = {
   __name: "AttorneyFormSection",
   __ssrInlineRender: true,
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_UIInputAuthInput = __nuxt_component_0;
       const _component_a_textarea = __nuxt_component_1;
-      const _component_UIButton = __nuxt_component_0$1;
+      const _component_UIButton = __nuxt_component_1$1;
       _push(`<div${ssrRenderAttrs(mergeProps({
         id: "attorneyFormSection",
         class: ""
@@ -6991,13 +6991,29 @@ const _sfc_main = {
     };
   }
 };
+const _sfc_setup$1 = _sfc_main$1.setup;
+_sfc_main$1.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/PageSections/AttorneyFormSection.vue");
+  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
+};
+const __nuxt_component_7 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-ff0ad268"]]);
+const _imports_0 = "data:image/svg+xml,%3csvg%20width='456'%20height='44'%20viewBox='0%200%20456%2044'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20x1='455.527'%20y1='17.5'%20x2='-0.000762979'%20y2='17.5'%20stroke='%23A70314'/%3e%3cline%20x1='455.527'%20y1='27.5'%20x2='-0.000762979'%20y2='27.5'%20stroke='%23A70314'/%3e%3cline%20x1='408.004'%20y1='2.41459e-08'%20x2='408.004'%20y2='44'%20stroke='%23A70314'/%3e%3cline%20x1='417.064'%20y1='2.6411e-08'%20x2='417.064'%20y2='44'%20stroke='%23A70314'/%3e%3crect%20x='415.158'%20y='25.5'%20width='5.34266'%20height='6'%20transform='rotate(-180%20415.158%2025.5)'%20fill='%23A70314'%20stroke='%23A70314'/%3e%3c/svg%3e";
+const _imports_1 = "" + buildAssetsURL("Logo.Bznkur3a.svg");
+const _imports_2 = "data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.7424%202.14564C15.8231%202.14875%2016.8586%202.56352%2017.6227%203.29938C18.3869%204.03523%2018.8176%205.03236%2018.8209%206.07301V13.9269C18.8176%2014.9675%2018.3869%2015.9647%2017.6227%2016.7005C16.8586%2017.4364%2015.8231%2017.8512%2014.7424%2017.8543H6.58647C5.5058%2017.8512%204.47032%2017.4364%203.70616%2016.7005C2.94201%2015.9647%202.51128%2014.9675%202.50806%2013.9269V6.07301C2.51128%205.03236%202.94201%204.03523%203.70616%203.29938C4.47032%202.56352%205.5058%202.14875%206.58647%202.14564H14.7424ZM14.7424%200.574951H6.58647C3.44617%200.574951%200.876953%203.04901%200.876953%206.07301V13.9269C0.876953%2016.9509%203.44617%2019.425%206.58647%2019.425H14.7424C17.8827%2019.425%2020.452%2016.9509%2020.452%2013.9269V6.07301C20.452%203.04901%2017.8827%200.574951%2014.7424%200.574951Z'%20fill='white'/%3e%3cpath%20d='M15.9667%206.07183C15.7247%206.07183%2015.4881%206.00273%2015.2869%205.87328C15.0858%205.74382%2014.9289%205.55982%2014.8363%205.34455C14.7437%205.12928%2014.7195%204.89239%2014.7667%204.66386C14.8139%204.43533%2014.9304%204.22541%2015.1015%204.06064C15.2726%203.89588%2015.4906%203.78367%2015.728%203.73821C15.9653%203.69276%2016.2113%203.71609%2016.4348%203.80526C16.6584%203.89443%2016.8495%204.04543%2016.9839%204.23917C17.1183%204.43291%2017.1901%204.66069%2017.1901%204.8937C17.1904%205.04851%2017.159%205.20186%2017.0977%205.34494C17.0363%205.48803%2016.9462%205.61804%2016.8325%205.7275C16.7188%205.83697%2016.5838%205.92374%2016.4352%205.98283C16.2867%206.04191%2016.1274%206.07216%2015.9667%206.07183ZM10.6652%206.85696C11.3105%206.85696%2011.9413%207.04123%2012.4779%207.38645C13.0144%207.73168%2013.4326%208.22236%2013.6795%208.79645C13.9265%209.37054%2013.9911%2010.0023%2013.8652%2010.6117C13.7393%2011.2212%2013.4286%2011.781%2012.9723%2012.2204C12.516%2012.6598%2011.9346%2012.959%2011.3017%2013.0802C10.6689%2013.2014%2010.0128%2013.1392%209.41668%2012.9014C8.8205%2012.6636%208.31095%2012.2609%207.95245%2011.7443C7.59394%2011.2276%207.40259%2010.6202%207.40259%209.99877C7.40352%209.16578%207.74755%208.36717%208.35922%207.77816C8.97088%207.18915%209.80021%206.85785%2010.6652%206.85696ZM10.6652%205.28627C9.69734%205.28627%208.75119%205.56265%207.94641%206.08047C7.14164%206.59829%206.5144%207.33428%206.144%208.19537C5.7736%209.05647%205.67669%2010.004%205.86552%2010.9181C6.05434%2011.8323%206.52043%2012.672%207.20483%2013.331C7.88924%2013.9901%208.76122%2014.4389%209.71051%2014.6207C10.6598%2014.8026%2011.6438%2014.7092%2012.538%2014.3526C13.4322%2013.9959%2014.1965%2013.3919%2014.7342%2012.6169C15.272%2011.8419%2015.559%2010.9308%2015.559%209.99877C15.559%208.74894%2015.0434%207.55029%2014.1256%206.66653C13.2079%205.78276%2011.9631%205.28627%2010.6652%205.28627Z'%20fill='white'/%3e%3c/svg%3e";
+const _imports_3 = "data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M20.0262%2010.0566C20.0262%204.8518%2015.6436%200.631592%2010.2387%200.631592C4.8337%200.631592%200.451172%204.8518%200.451172%2010.0566C0.451172%2014.7607%204.02973%2018.6598%208.70938%2019.3676V12.7818H6.22361V10.0566H8.70938V7.98015C8.70938%205.61843%2010.1709%204.31281%2012.4063%204.31281C13.4773%204.31281%2014.5976%204.4971%2014.5976%204.4971V6.81675H13.3628C12.1477%206.81675%2011.7675%207.54298%2011.7675%208.2894V10.0566H14.4818L14.0484%2012.7818H11.768V19.3684C16.4476%2018.6611%2020.0262%2014.7619%2020.0262%2010.0566Z'%20fill='white'/%3e%3c/svg%3e";
+const _imports_4 = "data:image/svg+xml,%3csvg%20width='21'%20height='18'%20viewBox='0%200%2021%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M21.0006%202.59869C20.2138%202.94053%2019.3814%203.16574%2018.5297%203.26721C19.4248%202.74305%2020.098%201.91032%2020.4229%200.925201C19.5766%201.42008%2018.6522%201.76731%2017.6894%201.95201C17.284%201.5271%2016.7964%201.18907%2016.2562%200.958472C15.7161%200.727872%2015.1347%200.609518%2014.5474%200.610603C12.1695%200.610603%2010.2452%202.50693%2010.2452%204.84457C10.2435%205.16973%2010.2808%205.49392%2010.3562%205.81021C8.65113%205.73028%206.98151%205.29531%205.45416%204.53314C3.92681%203.77097%202.57536%202.69838%201.48629%201.38399C1.10422%202.02809%200.902159%202.763%200.901228%203.5119C0.901228%204.98002%201.66719%206.27774%202.82377%207.03802C2.13853%207.02176%201.46733%206.84039%200.867146%206.50932V6.56175C0.867146%208.61538%202.35275%2010.3238%204.31899%2010.7127C3.94924%2010.8113%203.56822%2010.8612%203.18556%2010.8613C2.91404%2010.8617%202.64313%2010.8354%202.37678%2010.7826C2.9234%2012.4648%204.5143%2013.6883%206.39883%2013.7232C4.86752%2014.9034%202.98746%2015.5412%201.05416%2015.5365C0.710991%2015.536%200.368143%2015.5156%200.0273438%2015.4754C1.9941%2016.7312%204.28029%2017.3955%206.61381%2017.3892C14.5382%2017.3892%2018.8674%2010.9355%2018.8674%205.33831C18.8674%205.1548%2018.8626%204.97128%2018.8539%204.79214C19.6941%204.19443%2020.4211%203.45165%2021.0006%202.59869Z'%20fill='white'/%3e%3c/svg%3e";
+const _sfc_main = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "bg-brand text-white lg:py-12 space-y-6 lg:space-y-32" }, _attrs))}><div class="flex flex-col items-center justify-center space-y-4 lg:space-y-0 lg:flex-row"><div><img${ssrRenderAttr("src", _imports_0)} alt="pointer" class="hidden lg:block"></div><div class="w-[194px] md:w-[421px] h-[59px] md:h-32"><img${ssrRenderAttr("src", _imports_1)} alt="logo"></div><div><img${ssrRenderAttr("src", _imports_0)} alt="pointer" class="hidden lg:block"></div></div><div class="flex flex-col lg:flex-row justify-between px-4 md:px-12 lg:px-40 space-y-8 lg:space-y-0 lg:space-x-8"><div class="space-y-8"><div><hr class="border-white"><p class="font-pt-serif text-xl lg:text-2xl font-bold py-2"> Quick Link </p><hr class="border-white"></div><div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 text-[#D7D7D7]"><div><p>Home</p><p>About</p><p>Services</p><p>Our Vision</p><p>Our Firm</p><p>Contact</p></div><div><p>Get an appointment</p><p>Our Operating standard</p></div></div></div><div class="space-y-8"><div><hr class="border-white"><p class="font-pt-serif text-xl lg:text-2xl font-bold py-2"> Practice Area </p><hr class="border-white"></div><div class="text-[#D7D7D7]"><p>Disputes Resolution</p><p>Real Estate And property Law</p><p>Corporate abd Estate law</p><p>Banking, Finance &amp; Insurance Law</p><p>Taxation Law</p><p>Capital Market And Securities</p></div></div><div class="space-y-8"><div><hr class="border-white"><p class="font-pt-serif text-xl lg:text-2xl font-bold py-2"> Contact us </p><hr class="border-white"></div><div class="space-y-5 text-[#D7D7D7]"><div><p>Phone:(+234) 803 292 8072</p><p>(+234) 810 286 0630</p><p>(+234) 803 071 7860</p></div><div><p>Email:@Hodlegal.org</p><p>Website:WWW.Hodlegal.Org</p></div></div></div><div class="w-full lg:w-[327px] space-y-8"><div><hr class="border-white"><p class="font-pt-serif text-xl lg:text-2xl font-bold py-2"> Find Us </p><hr class="border-white"></div><div class="space-y-6 text-[#D7D7D7]"><p> Lagos: Plot 1, Block 99, olori Muyibat Oyefusi street, off omorinre Johnson street, Lekki Phase 1, lagos state, Nigeria. </p><p> PORT HARCOURT: 11b, Birabi street G.RA., PORT HARCOURT. Rivers state, Nigeria. </p></div></div></div><div class="px-4 md:px-12 lg:px-24"><hr class="border-[#3A4553]"><div class="font-lato flex flex-col md:flex-row justify-between py-4 space-y-4 lg:space-y-0"><div class="text-xs lg:text-xl"> Copyright \xA9 <span class="text-[#A70314]">H.O.D Legal </span> | Built by: Build With Love. </div><div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 hidden md:flex"><p class="text-[#A70314] text-xl">Follow:</p><div class="flex space-x-6"><img${ssrRenderAttr("src", _imports_2)} alt="instagram-icon" width="19px" height="19px"><img${ssrRenderAttr("src", _imports_3)} alt="Facebook-icon" width="19px" height="19px"><img${ssrRenderAttr("src", _imports_4)} alt="Twitter-icon" width="19px" height="19px"></div></div></div><hr class="border-[#3A4553]"><div class="flex justify-center space-x-4 lg:space-x-8 block md:hidden py-4"><p class="text-[#A70314] text-xl">Follow:</p><div class="flex space-x-6"><img${ssrRenderAttr("src", _imports_2)} alt="instagram-icon" width="19px" height="19px"><img${ssrRenderAttr("src", _imports_3)} alt="Facebook-icon" width="19px" height="19px"><img${ssrRenderAttr("src", _imports_4)} alt="Twitter-icon" width="19px" height="19px"></div></div></div></footer>`);
+}
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/PageSections/AttorneyFormSection.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Layout/Footer/index.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const __nuxt_component_7 = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ff0ad268"]]);
+const __nuxt_component_8 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
-export { Divider as D, FRANCIS_NWABUNWANNE as F, GAMALIEL_WORLY as G, IKOPEMUGH_NENGIM as I, SARAH_HAROLD_UKU as S, UZEZI_AMAWHE as U, __nuxt_component_0$2 as _, __nuxt_component_7 as a, _imports_0 as b, _imports_1 as c, DAVID_OKOROGBA as d, __nuxt_component_0$1 as e };
-//# sourceMappingURL=AttorneyFormSection-A1mL90XW.mjs.map
+export { Divider as D, FRANCIS_NWABUNWANNE as F, GAMALIEL_WORLY as G, IKOPEMUGH_NENGIM as I, SARAH_HAROLD_UKU as S, UZEZI_AMAWHE as U, __nuxt_component_0$1 as _, __nuxt_component_7 as a, __nuxt_component_8 as b, _imports_0$1 as c, _imports_1$1 as d, DAVID_OKOROGBA as e, __nuxt_component_1$1 as f };
+//# sourceMappingURL=index-B-xXGpYQ.mjs.map

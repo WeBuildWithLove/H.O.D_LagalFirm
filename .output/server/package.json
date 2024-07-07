@@ -33,6 +33,7 @@
     "vue": "3.4.21",
     "vue-bundle-renderer": "2.0.0",
     "vue-devtools-stub": "0.1.0",
+    "vue-fast-marquee": "1.0.6",
     "vue-router": "4.3.0",
     "vue-types": "3.0.2"
   }

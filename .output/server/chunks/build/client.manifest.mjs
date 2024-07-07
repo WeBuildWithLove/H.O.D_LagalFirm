@@ -3,34 +3,23 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "AttorneyFormSection.BQNEdW9i.css",
+    "file": "index.BQNEdW9i.css",
     "src": "_!~{008}~.js"
   },
-  "_B0jMJnNo.js": {
+  "_CVquGAo5.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B0jMJnNo.js",
-    "name": "vue.f36acd1f",
+    "file": "CVquGAo5.js",
+    "name": "index",
     "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ]
-  },
-  "_BBonF4nA.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "BBonF4nA.js",
-    "name": "AttorneyFormSection",
-    "imports": [
-      "_B0jMJnNo.js",
+      "_Cdm0Ovg-.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_BlLPVcCE.js"
+      "_CbOJMl7Y.js"
     ],
     "css": [
-      "AttorneyFormSection.BQNEdW9i.css"
+      "index.BQNEdW9i.css"
     ],
     "assets": [
       "Logo.CTr6msrk.svg",
@@ -43,11 +32,12 @@ const client_manifest = {
       "IKOPEMUGH_NENGIM.CG_brGc7.png",
       "FRANCIS_NWABUNWANNE._mtFBO5v.png",
       "DAVID_OKOROGBA.DAku8Ext.png",
-      "Photo2.xdkD7xhW.png"
+      "Photo2.xdkD7xhW.png",
+      "Logo.Bznkur3a.svg"
     ]
   },
-  "AttorneyFormSection.BQNEdW9i.css": {
-    "file": "AttorneyFormSection.BQNEdW9i.css",
+  "index.BQNEdW9i.css": {
+    "file": "index.BQNEdW9i.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -118,13 +108,30 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_BlLPVcCE.js": {
+  "Logo.Bznkur3a.svg": {
+    "file": "Logo.Bznkur3a.svg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml"
+  },
+  "_CbOJMl7Y.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BlLPVcCE.js",
+    "file": "CbOJMl7Y.js",
     "name": "nuxt-link",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_Cdm0Ovg-.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "Cdm0Ovg-.js",
+    "name": "vue.f36acd1f",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -255,6 +262,13 @@ const client_manifest = {
     "file": "AboutProfile.C7UIML1i.svg",
     "src": "assets/svg/AboutProfile.svg"
   },
+  "assets/svg/Footer/Logo.svg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/svg+xml",
+    "file": "Logo.Bznkur3a.svg",
+    "src": "assets/svg/Footer/Logo.svg"
+  },
   "assets/svg/JusticeStatus.svg": {
     "resourceType": "image",
     "prefetch": true,
@@ -267,13 +281,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "liAwj7a8.js",
+    "file": "CGerUncR.js",
     "name": "error-404",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BlLPVcCE.js",
-      "_B0jMJnNo.js",
+      "_CbOJMl7Y.js",
+      "_Cdm0Ovg-.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -289,12 +303,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "sguwPsE1.js",
+    "file": "C2yjc5fV.js",
     "name": "error-500",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_B0jMJnNo.js",
+      "_Cdm0Ovg-.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -310,7 +324,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DGVym1an.js",
+    "file": "ugFxSnXG.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -325,15 +339,15 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BPJMsdKg.js",
+    "file": "CBbwzR13.js",
     "name": "attorneys",
     "src": "pages/attorneys.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BBonF4nA.js",
+      "_CVquGAo5.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_B0jMJnNo.js",
-      "_BlLPVcCE.js"
+      "_Cdm0Ovg-.js",
+      "_CbOJMl7Y.js"
     ],
     "css": [
       "attorneys.DnCDr3pt.css"
@@ -366,18 +380,18 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "X8fYeLIb.js",
+    "file": "BWv7lUHW.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BBonF4nA.js",
+      "_CVquGAo5.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_B0jMJnNo.js",
-      "_BlLPVcCE.js"
+      "_Cdm0Ovg-.js",
+      "_CbOJMl7Y.js"
     ],
     "css": [
-      "index.D54F0rlg.css"
+      "index.CBMqZv-_.css"
     ],
     "assets": [
       "StatueOfJustice.CWbudAA4.png",
@@ -388,8 +402,8 @@ const client_manifest = {
       "businessman-male-lawyer-judge-consult-having-team-meeting-with-client.ByjJVjjB.png"
     ]
   },
-  "index.D54F0rlg.css": {
-    "file": "index.D54F0rlg.css",
+  "index.CBMqZv-_.css": {
+    "file": "index.CBMqZv-_.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true

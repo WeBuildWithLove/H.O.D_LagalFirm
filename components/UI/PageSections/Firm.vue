@@ -49,41 +49,47 @@
     <div
       class="overflow-hidden hide-scrollbar flex flex-row w-full gap-10 mt-4 overflow-x-auto"
     >
-      <div
-        v-for="i in services"
-        :key="i"
-        class="rounded-[0px] flex flex-col gap-[27px] relative overflow-hidden min-h-[450px] min-w-[300px] lg:min-w-[50%] xl:min-w-[376.66px] md:min-w-[60%]"
-      >
-        <div class="h-full">
-          <div
-            class="col-span-2 h-full md:col-span-1 flex flex-col gap-[1px] justify-between"
-          >
-            <div class="flex flex-col gap-[15px]">
-              <div class="flex flex-col gap-[10px]">
-                <div class="flex justify-between">
-                  <div class="flex w-[376px] object-cover h-[451px] rounded-full">
-                    <img :src="i.icons" class="w-[376px] object-cover h-[451px]" alt="" />
+      <NuxtMarquee :speed="100">
+        <div
+          v-for="i in services"
+          :key="i"
+          class="rounded-[0px] flex flex-col gap-[27px] ml-3 relative overflow-hidden min-h-[450px] min-w-[300px] lg:min-w-[50%] xl:min-w-[376.66px] md:min-w-[60%]"
+        >
+          <div class="h-full">
+            <div
+              class="col-span-2 h-full md:col-span-1 flex flex-col gap-[1px] justify-between"
+            >
+              <div class="flex flex-col gap-[15px]">
+                <div class="flex flex-col gap-[10px]">
+                  <div class="flex justify-between">
+                    <div class="flex w-[376px] object-cover h-[451px] rounded-full">
+                      <img
+                        :src="i.icons"
+                        class="w-[376px] object-cover h-[451px]"
+                        alt=""
+                      />
+                    </div>
                   </div>
+                  <h4
+                    class="!font-normal text-[24px] leading-[31.06px] pt-serif-bold text-text-black-100"
+                  >
+                    {{ i.name }}
+                  </h4>
                 </div>
-                <h4
-                  class="!font-normal text-[24px] leading-[31.06px] pt-serif-bold text-text-black-100"
-                >
-                  {{ i.name }}
-                </h4>
               </div>
-            </div>
-            <div class="flex flex-col justify-between gap-2 h-full">
-              <div class="flex flex-col gap-[5px]">
-                <p
-                  class="leading-[23px] text-[#A70314] text-[14px] lg:text-[16px] font-normal"
-                >
-                  {{ i.title }}
-                </p>
+              <div class="flex flex-col justify-between gap-2 h-full">
+                <div class="flex flex-col gap-[5px]">
+                  <p
+                    class="leading-[23px] text-[#A70314] text-[14px] lg:text-[16px] font-normal"
+                  >
+                    {{ i.title }}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </NuxtMarquee>
     </div>
     <div class="flex justify-center w-full items-center">
       <UIButton

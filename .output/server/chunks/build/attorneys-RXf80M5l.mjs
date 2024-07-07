@@ -1,5 +1,5 @@
 import { b as buildAssetsURL } from '../routes/renderer.mjs';
-import { _ as __nuxt_component_0$2, a as __nuxt_component_7, b as _imports_0, D as Divider, c as _imports_1, U as UZEZI_AMAWHE, G as GAMALIEL_WORLY, S as SARAH_HAROLD_UKU, I as IKOPEMUGH_NENGIM, F as FRANCIS_NWABUNWANNE, d as DAVID_OKOROGBA } from './AttorneyFormSection-A1mL90XW.mjs';
+import { _ as __nuxt_component_0$1, a as __nuxt_component_7, b as __nuxt_component_8, c as _imports_0$1, D as Divider, d as _imports_1$1, U as UZEZI_AMAWHE, G as GAMALIEL_WORLY, S as SARAH_HAROLD_UKU, I as IKOPEMUGH_NENGIM, F as FRANCIS_NWABUNWANNE, e as DAVID_OKOROGBA } from './index-B-xXGpYQ.mjs';
 import { defineComponent, useSSRContext, mergeProps, ref, unref } from 'vue';
 import { ssrRenderComponent, ssrRenderAttrs, ssrRenderAttr, ssrRenderList, ssrRenderClass, ssrRenderStyle, ssrInterpolate } from 'vue/server-renderer';
 import { _ as _export_sfc } from './server.mjs';
@@ -33,7 +33,7 @@ const _sfc_main$2 = {
   __ssrInlineRender: true,
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<section${ssrRenderAttrs(mergeProps({ class: "bg-brand relative flex flex-col overflow-hidden md:flex-row min-h-[550px] lg:py-20 py-10 lg:px-20 px-4 justify-center" }, _attrs))}><div class="absolute hidden md:block -bottom-2 left-0"><img${ssrRenderAttr("src", _imports_0)} alt="Status of Liberty" class=""></div><div class="text-white items-center justify-center lg:w-[60%] z-10 flex flex-col md:pace-y-4 space-y-7"><p class="text-sm md:text-4xl">Since 2011</p><div class="space-y-4 md:space-y-7"><div class="bg-white">`);
+      _push(`<section${ssrRenderAttrs(mergeProps({ class: "bg-brand relative flex flex-col overflow-hidden md:flex-row min-h-[550px] lg:py-20 py-10 lg:px-20 px-4 justify-center" }, _attrs))}><div class="absolute hidden md:block -bottom-2 left-0"><img${ssrRenderAttr("src", _imports_0$1)} alt="Status of Liberty" class=""></div><div class="text-white items-center justify-center lg:w-[60%] z-10 flex flex-col md:pace-y-4 space-y-7"><p class="text-sm md:text-4xl">Since 2011</p><div class="space-y-4 md:space-y-7"><div class="bg-white">`);
       _push(ssrRenderComponent(Divider, {
         direction: "horizontal",
         width: "2px"
@@ -43,7 +43,7 @@ const _sfc_main$2 = {
         direction: "horizontal",
         width: "2px"
       }, null, _parent));
-      _push(`</div><p class="text-center"> The Personnel of H.O.D LEGAL are drawn from a pool of drawn from a pool of seasonal human capital to meet the demanding responsibilities that accompany our varied services. Our workforce comprises adept professionals who bring their expertise to bear in different facts of legal practice. </p></div></div><div class="lg:absolute -bottom-2 lg:h-auto h-[311px] right-0"><img${ssrRenderAttr("src", _imports_1)}></div></section>`);
+      _push(`</div><p class="text-center"> The Personnel of H.O.D LEGAL are drawn from a pool of drawn from a pool of seasonal human capital to meet the demanding responsibilities that accompany our varied services. Our workforce comprises adept professionals who bring their expertise to bear in different facts of legal practice. </p></div></div><div class="lg:absolute -bottom-2 lg:h-auto h-[311px] right-0"><img${ssrRenderAttr("src", _imports_1$1)}></div></section>`);
     };
   }
 };
@@ -324,7 +324,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     useHead({
-      title: "HOD_LagalFirm - Home",
+      title: "HOD_LagalFirm - Attorney",
       meta: [{ name: "description", content: `` }],
       bodyAttrs: {
         class: "test"
@@ -338,15 +338,17 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       ogDescription: ``
     });
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_LayoutNavBar = __nuxt_component_0$2;
+      const _component_LayoutNavBar = __nuxt_component_0$1;
       const _component_UIAttorneysHome = __nuxt_component_1;
       const _component_UIAttorneysDetails = __nuxt_component_2;
       const _component_UIPageSectionsAttorneyFormSection = __nuxt_component_7;
+      const _component_LayoutFooter = __nuxt_component_8;
       _push(`<!--[-->`);
       _push(ssrRenderComponent(_component_LayoutNavBar, null, null, _parent));
       _push(ssrRenderComponent(_component_UIAttorneysHome, null, null, _parent));
       _push(ssrRenderComponent(_component_UIAttorneysDetails, null, null, _parent));
       _push(ssrRenderComponent(_component_UIPageSectionsAttorneyFormSection, null, null, _parent));
+      _push(ssrRenderComponent(_component_LayoutFooter, null, null, _parent));
       _push(`<!--]-->`);
     };
   }
@@ -359,4 +361,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=attorneys-DorymiQ8.mjs.map
+//# sourceMappingURL=attorneys-RXf80M5l.mjs.map

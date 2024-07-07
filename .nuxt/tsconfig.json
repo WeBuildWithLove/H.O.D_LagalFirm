@@ -118,6 +118,7 @@
     "../**/*",
     "../node_modules/@ant-design-vue/nuxt/runtime",
     "../node_modules/@pinia/nuxt/runtime",
+    "../node_modules/nuxt-marquee/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     ".."
   ],
@@ -126,6 +127,7 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/@ant-design-vue/nuxt/runtime/server",
     "../node_modules/@pinia/nuxt/runtime/server",
+    "../node_modules/nuxt-marquee/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../dist",
     "../.output"
