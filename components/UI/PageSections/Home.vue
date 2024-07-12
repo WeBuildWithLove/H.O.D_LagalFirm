@@ -26,7 +26,7 @@
         <div class="flex items-center justify-center">
           <a
             href="#attorneyFormSection"
-            class="bg-card border-card py-2 px-4 rounded-lg border text-brand focus:outline-none focus:ring"
+            class="bg-card border-card py-2 px-4 rounded-lg border !text-white focus:outline-none focus:ring"
             >GET A FREE CONSULTATION TODAY</a
           >
         </div>
