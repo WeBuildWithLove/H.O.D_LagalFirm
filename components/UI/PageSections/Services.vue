@@ -106,8 +106,8 @@ const services = ref([
   { name: "Capital Market and securities." },
   { name: "Intellectual Property law ( Patents; Designs; Trademarks’ Copyrights)" },
   { name: "Energy & Natural Resources (Oil & Gas; Electricity)" },
-  { name: "Banking, Finance & Insurance.<" },
-  { name: "Employment And Labour Law ." },
+  { name: "Banking, Finance & Insurance." },
+  { name: "Employment And Labour Law." },
   { name: "Business Recovery and Insolvency." },
   { name: "Data Protection and Privacy." },
 ]);
