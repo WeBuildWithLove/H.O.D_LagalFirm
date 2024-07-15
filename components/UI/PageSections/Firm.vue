@@ -31,7 +31,7 @@
         <div
           v-for="i in services"
           :key="i"
-          class="rounded-[0px] flex flex-col gap-[27px] ml-3 relative overflow-hidden min-h-[450px] min-w-[300px] lg:min-w-[50%] xl:min-w-[376.66px] md:min-w-[60%]"
+          class="rounded-[0px] flex flex-col lg:gap-[27px] ml-3 relative overflow-hidden min-h-[450px] min-w-[90px] md:min-w-[30%] xl:min-w-[376.66px]"
         >
           <div class="h-full">
             <div

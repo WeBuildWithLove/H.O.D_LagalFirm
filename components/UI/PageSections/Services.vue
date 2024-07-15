@@ -4,7 +4,7 @@
       <div class="flex gap-4 items-center">
         <UIIconLeftPointer class="lg:w-[100px] w-[30%]" />
         <p
-          class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"
+          class="font-bold text-lg md:text-[40px] text-center lg:leading-[93.17px] leading-normal pt-serif-bold"
         >
           SERVICES AND PRACTICE AREAS
         </p>

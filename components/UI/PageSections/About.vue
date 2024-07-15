@@ -3,14 +3,18 @@
     <div
       class="flex flex-col items-center justify-center space-y-3 md:space-y-76 font-medium text-2xl py-4"
     >
-      <div class="flex gap-4 items-center">
+      <div class="flex gap-4 justify-center items-center">
         <UIIconLeftPointer class="lg:w-[100px] w-[30%]" />
         <!-- <img
           src="@/assets/svg/LeftPointer.svg"
           alt="red pointer"
           width="100px"
         /> -->
-        <p class="font-bold text-lg md:text-7xl">About us</p>
+        <p
+          class="font-bold text-lg text-center lg:leading-[93.17px] leading-[23.29px] lg:text-[72px]"
+        >
+          About us
+        </p>
         <UIIconRightPointer class="lg:w-[100px] w-[30%]" />
 
         <!-- <img src="@/assets/svg/RightPointer.svg" alt="red pointer" /> -->
@@ -43,12 +47,12 @@
         <img
           src="@/assets/img/ScaleOfJustice.png"
           alt="scale of Justice"
-          class="lg:h-[235px] object-cover w-full"
+          class="lg:h-[235px] lg:block hidden object-cover w-full"
         />
         <img
           src="@/assets/img/Partnership.png"
           alt="hands shaking"
-          class="lg:h-[235px] object-cover w-full"
+          class="lg:h-[235px] lg:block hidden object-cover w-full"
         />
       </div>
       <img
