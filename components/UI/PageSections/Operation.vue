@@ -20,13 +20,20 @@
       <div
         class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"
       >
-        We will provide our service to you and your business with reasonable care in
-        accordance with the highest professional standards expected of us and in a timely
-        manner. The nature and content of any service carried out will necessarily reflect
-        the specific scope and limitations of our engagement, the amount and accuracy of
-        information provided to us and the timeline within which the service/advice is
-        required
+      We will provide our services to you and your business with reasonable care in accordance with the high professional standards expected of us and in a timely manner. The nature and content of any service carried out will necessarily reflect the specific scope and limitations of our engagement, the amount and accuracy of information provided to us and the timeline within which the service/advice is required.
       </div>
+
+      <!-- MISSING TEXT -->
+
+      <!-- If general advice is provided, the applicability of this will depend on the particular circumstances in which it is to be used by you (of which we might not be aware) and should be weighed accordingly. In relation to any particular transaction, specific advice should always be sought and all material information provided to us. In order to enable us fulfil our responsibilities to you and your company, you agree on request, to provide us with complete, accurate and timely information to carry out any obligations ascribed to or undertaken or within you and your business’ control.
+
+Where we receive confidential information, we would take such steps as we, in good faith think, fit to preserve confidential information from unauthorized disclosure or other use.
+To ensure we give satisfactory services to clients, we insist that our staff meet certain standard with regards to clients’ care. Our standards include:
+i.	Extend to all clients a high standard of courtesy and respect at all times.
+ii.	Clients receive copies of all relevant and pertinent correspondences as requested.
+iii.	Correspondences received from any party are generally to be dealt with as soon as 	possible and not later than 3 working days from the date of its receipt.
+iv.	Report to our Clients regularly as to progress of their matters. -->
+
     </div>
     <!-- <div
       :style="{

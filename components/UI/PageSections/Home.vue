@@ -8,25 +8,22 @@
     <div
       class="text-white items-center justify-center z-10 flex flex-col md:pace-y-4 space-y-7"
     >
-      <p class="text-sm md:text-4xl">Since 2011</p>
+      <p class="text-sm md:text-4xl">Since 2022</p>
       <div class="space-y-4 md:space-y-7">
         <div class="bg-white">
           <Divider direction="horizontal" width="2px" />
         </div>
         <p class="font-bold text-base text-center pt-serif-bold md:text-5xl">
-          BARRISTERS • SOLICITORS & CONSULTANTS
+          BARRISTERS • SOLICITORS • CORPORATE CONSULTANTS
         </p>
         <div class="bg-white">
           <Divider direction="horizontal" width="2px" />
         </div>
-        <p class="text-center">
-          H.O.D LEGAL is a full service law firm that was established to offer a broad
-          range of legal service to its clients
-        </p>
+    
         <div class="flex items-center justify-center">
           <a
             href="#attorneyFormSection"
-            class="bg-card border-card py-2 px-4 rounded-lg border !text-white focus:outline-none focus:ring"
+            class="bg-card border-card py-2 px-4 rounded-lg border !text-white focus:outline-none focus:ring text-center"
             >GET A FREE CONSULTATION TODAY</a
           >
         </div>
