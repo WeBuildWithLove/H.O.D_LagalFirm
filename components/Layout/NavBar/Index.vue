@@ -47,7 +47,7 @@
           </a>
           <div class="flex space-x-1">
             <img src="@/assets/svg/Time.svg" alt="Time-Icon" height="16px" width="16px" />
-            <p>MONDAY - FRIDAY - 7:30AM - 6:30PM</p>
+            <p>MONDAY - FRIDAY - 8:00AM - 4:00PM</p>
           </div>
           <a href="mailto:contact@hodlegal.org " class="flex space-x-1">
             <img
@@ -59,7 +59,7 @@
             <p>contact@hodlegal.org</p>
           </a>
         </div>
-        <div>BARRISTERS | SOLICITORS | CORPATE CONSULTANTS</div>
+        <div>BARRISTERS | SOLICITORS | CORPORATE CONSULTANTS</div>
       </div>
       <div class="my-3 bg-card lg:flex hidden">
         <UIDivider direction="horizontal" width="2px" />
@@ -179,7 +179,7 @@
                 }"
                 class="text-[16px] text-white lg:text-[#222222] font-medium"
               >
-                OUR IDEOLOGYS
+                CORE IDEOLOGYS
               </p>
             </a>
             <a

@@ -106,29 +106,31 @@ import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.png";
 const services = ref([
   {
     icons: HAROLD_UKU,
-    title: "Managing Partner ",
+    title: "Founding Partner ",
     name: "HAROLD UKU",
     bgWhite: true,
     memo: [
       {
-        text: `<b class="!font-extrabold">Harold Uku</b> is the Founder and Managing Partner of the Firm. He Heads the Firm’s Corporate/Commercial and Transactions departments. He obtained his Bachelor-of-Laws Degree in 2013 from the River state University, Port Harcourt, Proceeded to the Nigerian Law School, Lagos, immediately thereafter and was called to the Nigeria bar in 2014.`,
+        text: `<b class="!font-extrabold">Harold Uku</b> is the Founding Partner of the Firm. He heads the Firm’s Corporate/Commercial and Transactions Department. He obtained his Bachelor-of-Laws Degree in 2013 from the Rivers State University, Port Harcourt, proceeded to the Nigerian Law School, Lagos, immediately thereafter and was called to the Nigerian Bar in 2014.`,
       },
       {
         text:
-          "HAROLD began his legal career as a state Counsel with the Kwara State Ministry of Justice where he gained first-hand experience with criminal trials and proceedings and also offered pro bono legal representation to a number of indigent prison inmates.",
+          "HAROLD began his legal career as a State Counsel with the Kwara State Ministry of Justice where he gained first-hand experience with criminal trials and proceedings and also offered pro bono legal representation to a number of indigent prison inmates.",
       },
       {
-        text: `He thereafter joined the law firm of S.A. Alali & Co. (Livingspring Chambers), Port Harcourt and subsequently went on to join Tsedaqah Attorneys (Port Harcourt and Lagos) as an Associate abd worked for over three years, rising to the position of senior Associate. In a bid to further broaden his commercial practice Experience, he thereafter took up employment with a non-banking financial institution as the manger, Legal and Regulatory compliance before settling up <b class="!font-extrabold">H.O.D LEGAL.</b>`,
+        text: `He thereafter joined the law firm of S. A. Alali & Co. (LivingSpring Chambers), Port Harcourt and subsequently went on to join Tsedaqah Attorneys (Port Harcourt and Lagos) as an Associate and worked for over three years, rising to the position of Senior Associate. In a bid to further broaden his commercial practice experience, he thereafter took up employment with a non-banking financial institution as the Manager, Legal and Regulatory Compliance before setting up <b class="!font-extrabold">H.O.D LEGAL.</b>`,
       },
       {
         text:
-          "With about a decade experience in active private and in-house corporate legal practice, he is skilled in commercial disputes resolution such as litigation, arbitration and mediation and advises clients on a wide variety of corporate and transactional legal issues. His practice interests cut across construction law, projects and infrastructure, Entertainment and Intellectual property Law, Taxation and Emerging Tech, HAROLD’S attention to details and his devotion to helping clients resolves complex legal issues make him a go-to attorney. In his spare time, he enjoys playing chess with family and friends. He is a tech enthusiast, a lover of good music, Hip-Hop aficionado and Google Local Guild.  ",
+          "With about a decade experience in active private and in-house corporate legal practice, he is skilled in commercial disputes resolution such as litigation, arbitration and mediation and advises clients on a wide variety of corporate and transactional legal issues. His practice interests cut across construction law, projects and infrastructure, Entertainment and Intellectual property Law, Taxation and Emerging Tech, HAROLD’S attention to details and his devotion to helping clients resolves complex legal issues make him a go-to attorney. In his spare time, he enjoys playing chess with family and friends. He is a tech enthusiast, a lover of good music, Hip-Hop aficionado and Google Local Guild.",
       },
     ],
+
+ 
     memberships: [
       { item: `Member, Nigerian Bar Association (NBA)` },
       {
-        item: `Associate Member, Institute of Chartered <br/> Mediator and Conciliators (ICMC)`,
+        item: `Associate Member, Institute of Chartered <br/> Mediators and Conciliators (ICMC)`,
       },
       {
         item: `Member, Nigeria Bar Association,<br/> Section on Business Law (NBA-SBL)`,
@@ -137,20 +139,22 @@ const services = ref([
         item: `Associate Member, Chartered Institute of <br/> Arbitrators (UK) Nigeria Branch (CIArb)`,
       },
       {
-        item: `Student Member, Chartered Institute of <br/>  Taxation of Nigeria (CITN)`,
+        item: `Student Member, Chartered Institute of <br/> Taxation of Nigeria (CITN)`,
       },
       {
-        item: `Fintech Association of Nigeria (Fin TechNGR)`,
+        item: `Fintech Association of Nigeria (FinTechNGR)`,
       },
     ],
     education: [
       {
-        item: `BL_ Nigerian law School`,
+        item: `BL - Nigerian Law School, Lagos`,
       },
       {
-        item: `LL.B- Delta State University`,
+        item: `LL.B - Rivers State University, Port Harcourt`,
       },
     ],
+
+
   },
   {
     icons: UZEZI_AMAWHE,
@@ -159,26 +163,20 @@ const services = ref([
     bgWhite: false,
     memo: [
       {
-        text: `<b class="!font-extrabold">UZEZI AMAWHE</b> Is a partner of the firm. He leads the Real Estate/Property Law and Business law practice Group of the Firm. He obtained his LL.B(Hons) from the Delta state University, and proceeded to the Nigerian Law school, (Lagos Campus) and was called to the Nigerian Bar in 2017. `,
+        text: `<b class="!font-extrabold">UZEZI AMAWHE</b> is a Partner of the Firm. He leads the Real Estate/Property law and Business law Practice Group of the Firm.  He obtained his LL.B (Hons) from the Delta State University, and proceeded to the Nigerian Law School, (Lagos Campus) and was called to the Nigerian Bar in 2017 `,
       },
       {
-        text: `Uzezi ha over six years’ experience in active legal practice, having previously been the principal partner of <b class="!font-extrabold">ZELLIOUS LEGAL.</b> <br><br>He is a skilled Corporate law practitioner in a vest sphere of law practice which includes negotiation, property management laws, family law, tax, banking and finance law, fintech law, Data Protection and data Privacy.<br><br> Outside his legal practice he enjoys singing, learning, working out, Volunteering for humanitarian work, listening to music and travelling.`,
+        text: `Uzezi has over six years’ experience in active legal practice, having previously been the principal partner of <b class="!font-extrabold">ZELLIOUS LEGAL.</b> <br><br>He is a skilled Corporate law practitioner in a vast sphere of law practice which includes negotiation, property management laws, family law, tax, banking and finance law, Fintech law, Data Protection and Data Privacy, Tech law, Sport and Entertainment Law.<br><br> Outside his legal practice he enjoys singing, learning, working out, Volunteering for humanitarian work, listening to music and travelling.`,
       },
-      // {
-      //   text:
-      //     "He is a skilled Corporate law practitioner in a vest sphere of law practice which includes negotiation, property management laws, family law, tax, banking and finance law, fintech law, Data Protection and data Privacy.",
-      // },
-      // {
-      //   text:
-      //     " Outside his legal practice he enjoys singing, learning, working out, Volunteering for humanitarian work, listening to music and travelling. ",
-      // },
+      
+      
     ],
     memberships: [
       {
         item: `Nigeria Bar Association (NBA)`,
       },
       {
-        item: ` Member, NBA section on business Law’s <br> Travel, Tourism and Hospitality committee. `,
+        item: ` Member, NBA section on business Law’s <br> Travel, Tourism and Hospitality committee.`,
       },
       {
         item: `Member, NBA section on Business Law’s,<br> Intellectual Property law committiee.`,
@@ -186,30 +184,30 @@ const services = ref([
     ],
     education: [
       {
-        item: `BL_ Nigerian law School`,
+        item: `BL - Nigerian law School`,
       },
       {
-        item: `LL.B- Delta State University`,
+        item: `LL.B - Delta State University`,
       },
+
+   
+
     ],
   },
   {
     icons: GAMALIEL_WORLY,
     title: " Partner ",
-    name: "GAMALIEL WORLY",
+    name: "GAMALIEL WORLU",
     bgWhite: true,
 
     memo: [
       {
-        text: `<b class="!font-extrabold">GAMALIEL WORLU </b>is a Partner of the Firm. He heads the Dispute Resolution Practice Group. After obtaining his LL.B  (Hons) from the Rivers state University, he proceeded to the Nigerian Law school and was called to the Nigerian Bar in 2015. `,
+        text: `<b class="!font-extrabold">GAMALIEL WORLU </b>is a Partner of the Firm. He heads the Dispute Resolution practice Group. After obtaining his LL.B (Hons) from the Rivers State University, he proceeded to the Nigerian Law School and was called to the Nigerian Bar in 2015.`,
       },
       {
-        text: `Before joining the firm, he was the founder and Principal Solicitor of ELIKOR LP. with over eight years in active private legal practice, GAMALIEL is an adept and astute litigator and is directly in charge of and responsible for coordinating the Firm’s dispute resolution practice which includes debt recovery, insolvency, receivership, family law, tax, litigation, banking law including loan syndication, debentures and debt instruments. <br> <br> Whenever he is not resolving knotty legal issues for clients, GAMALIEL enjoys reading, talking walks, working out, volunteering for humanitarian works, listening to music and travelling.`,
+        text: `Before joining the firm, he was the founder and Principal Solicitor of ELIKOR LP. With over eight years in active private legal practice, GAMALIEL is an adept and astute litigator and is directly in charge of and responsible for coordinating the Firm’s dispute resolution practice which includes debt recovery, insolvency, receivership, family law, tax litigation, banking law including loan syndication, debentures and debt instruments. <br> <br> Whenever he is not resolving knotty legal issues for Clients, GAMALIEL enjoys reading, taking walks, working out, volunteering for humanitarian works, listening to music and travelling.`,
       },
-      // {
-      //   text:
-      //     "Whenever he is not resolving knotty legal issues for clients, GAMALIEL enjoys reading, talking walks, working out, volunteering for humanitarian works, listening to music and travelling. ",
-      // },
+   
     ],
     memberships: [
       {
@@ -218,10 +216,12 @@ const services = ref([
       { item: ` Ad-hoc Member, NBA Lagos Branch 2019 <br> Election Committee. ` },
     ],
     education: [
-      { item: ` BL_ Nigerian law School ` },
-      { item: ` LL.B- Rivers state University, Port Harcourt ` },
+      { item: ` BL - Nigerian law School` },
+      { item: ` LL.B - Rivers state University, Port Harcourt` },
     ],
+    
   },
+
   {
     icons: SARAH_HAROLD_UKU,
     title: "Of Counsel ",
@@ -229,19 +229,19 @@ const services = ref([
     bgWhite: false,
     memo: [
       {
-        text: `<b class="!font-extrabold">SARAH HAROLD UKU</b> is an of Counsel and a capital Market, Company secretarial & Corporate Governance Consultant with Firm. She currently heads the legal and Compliance Department of Gresham Asser Management Limited, a securities and Exchange commission (SEC) regulated company and player in the capital Market space. She is a people-centric and detail-oriented lawyer, dedicated to improving polices and procedures in all business areas and equally ensuring that business transaction/operations are conducted within the acceptable limits of the law and applicable industry regulations and standards. `,
+        text: `<b class="!font-extrabold">SARAH HAROLD UKU</b> is an Of Counsel and a capital Market, Company secretarial & Corporate Governance Consultant with Firm. She currently heads the legal and Compliance Department of Gresham Asser Management Limited, a Securities and Exchange Commission (SEC) regulated company and player in the capital Market space. She is a people-centric and detail-oriented lawyer, dedicated to improving polices and procedures in all business areas and equally ensuring that business transaction/operations are conducted within the acceptable limits of the law and applicable industry regulations and standards. `,
       },
       {
         text:
-          " With a firm background in courtroom practice and advocacy, alternative dispute resolution and corporate governance, Sarah has also gained cognate experience in the field of corporate/commercial practice. She has  provided legal advice to individuals and corporate organizations on a wide range of regulatory compliance issues while interfacing with regulatory agencies on behalf of clients. In the course of her career, Sarah has represented both local and foreign clients in disputes relating, but not limited, to contracts, employment, debt recovery claims at both  trial and appellate courts. Sarah also has experience in company secretarial work and legal due diligence and has qualified as a chartered secretary from the institute of chartered secretaries and administrators of Nigeria (ICSAN).",
+          " With a firm background in courtroom practice and advocacy, alternative dispute resolution and Corporate Governance, Sarah has also gained cognate experience in the field of corporate/commercial practice. She has  provided legal advice to individuals and corporate organizations on a wide range of regulatory compliance issues while interfacing with regulatory agencies on behalf of clients. In the course of her career, Sarah has represented both local and foreign clients in disputes relating, but not limited, to contracts, employment, debt recovery claims at both  trial and appellate courts. Sarah also has experience in company secretarial work and legal due diligence and has qualified as a chartered secretary from the institute of chartered secretaries and administrators of Nigeria (ICSAN).",
       },
       {
         text:
-          "She is a graduate of the river state university, Port Harcourt where she obtained her Bachelor of law(LL.B)  degree and  an alumnus of the Nigerian Law School,  Lagos campus where she obtained her B.L and was thereafter called to the Nigerian Bar. ",
+          "She is a graduate of the Rivers State university, Port Harcourt where she obtained her Bachelor of Law(LL.B) degree and an alumnus of the Nigerian Law School, Lagos campus where she obtained her B.L and was thereafter called to the Nigerian Bar. ",
       },
       {
         text:
-          "She is a member of the Nigeria Bar Association; Nigeria Bar Association section on Business Law (NBA-SBL); Nigerian Bar Association section on legal Practice (NBA-SLP), Institute of chartered secretaries and Administrators of Nigeria (ICSAN), Student member of the Chartered institute of Personnel Management (CIPM) and women in successful career (WISCAR). ",
+          "She is a member of the Nigeria Bar Association; Nigeria Bar Association section on Business Law (NBA-SBL); Nigerian Bar Association Section on Legal Practice (NBA-SLP), Institute of Chartered Secretaries and Administrators of Nigeria (ICSAN), Student member of the Chartered institute of Personnel Management (CIPM) and Women in successful Career (WISCAR). ",
       },
     ],
     memberships: [],
@@ -250,29 +250,29 @@ const services = ref([
   {
     icons: IKOPEMUGH_NENGIM,
     title: "Of Counsel ",
-    name: "IKOPEMUGH NENGIM",
+    name: "IKPOEMUGH NENGIM",
     bgWhite: true,
     memo: [
       {
         text:
-          "Francis Nwabunwanne is an Of Counsel of the Firm. He is a Real Estate Expert. He obtained his LL.B (HONS) from the prestigious Nnamdi Azikiwe University and proceeded to the Nigeria Law School (Lagos Campus) and was called to the Nigerian Bar in 2017. ",
-      },
-      {
-        text:
-          "Francis has had over six years experience in active legal practice ranging from corporate, Real Estate, Investment and Dispute Resolution. He is a skilled Property Manager and a Real Estate Practitioner and  has experience in a vast sphere of law practice which includes, taxation, banking and finance la, Alternative Disputes Resolution, Fintech law, and Entertainment Law. ",
+          "NENGIM IKPOEMUGH Royal is an Of Counsel with H.O.D LEGAL. He is an astute transactional lawyer with over 10 years cumulative experience in  legal services. He specializes in corporate/commercial transactions, dispute resolutions compliance, risk management, claims management, data protection law, employment law, inheritance & succession law, amongst other diverse areas of law.",
       },
     ],
     memberships: [
       {
-        item: `Nigeria Bar Association (NBA)`,
+        item: `Nigeria Bar Association`,
+      },
+      {
+        item: `Compliance Institute of Nigeria`,
       },
     ],
     education: [
-      { item: ` BL- Nigerian Law School  ` },
-      { item: ` LL.B-Nnamdi Azikiwe University  ` },
-      { item: ` LL.M-(in view) ` },
+      { item: ` BL - Nigerian Law School(Abuja)  ` },
+      { item: ` LL.M - Rivers State University` },
+      { item: ` LL.M - Rivers State University` },
     ],
   },
+
   {
     icons: FRANCIS_NWABUNWANNE,
     title: "Of Counsel ",
@@ -281,19 +281,23 @@ const services = ref([
     memo: [
       {
         text:
-          " NENGIM IKPOEMUGH  Royal is an Of Counsel with H.O.D LEGAL. He is an astute transactional lawyer with over 10 years cumulative experience in  legal services. He specializes in corporate/commercial transactions, claims management, data protection lae, employment law, inheritance & succession law, amongst other diverse areas of law.",
+          "Francis Nwabunwanne is an Of Counsel of the Firm. He is a Real Estate Expert. He obtained his LL.B (HONS) from the prestigious Nnamdi Azikiwe University and proceeded to the Nigeria Law School (Lagos Campus) and was called to the Nigerian Bar in 2017."
+      },
+      {
+        text:
+          "Francis has had over six years experience in active legal practice ranging from corporate, Real Estate, Investment and Dispute Resolution. He is a skilled Property Manager and a Real Estate Practitioner and  has experience in a vast sphere of law practice which includes, taxation, banking and finance law, Alternative Disputes Resolution, Fintech law, and Entertainment law. ",
       },
     ],
     memberships: [
       {
         item: `Nigeria Bar Association (NBA)`,
       },
-      { item: ` Compliance Institute of Nigeria ` },
+   
     ],
     education: [
-      { item: ` LL.B-River state University  ` },
-      { item: ` BL- Nigerian Law School (Abuja) ` },
-      { item: ` LL.M- River State University ` },
+    { item: ` BL - Nigerian Law School` },
+      { item: ` LL.B - Nnamdi Azikiwe University  ` },
+      { item: ` LL.M - (in view) ` },
     ],
   },
   {
@@ -305,11 +309,11 @@ const services = ref([
     memo: [
       {
         text:
-          "DAVID  is Of Counsel and Energy, Mergers and Acquisitions Consultant with the Firm. He is Licensed to Practice law in both Ontario, Canada and Nigeria and has extensive experience in corporate & commercial practice and deals structuring, energy, public procurement and mergers & acquisitions. ",
+          "David is an Of Counsel and an Energy, Mergers and Acquisitions Consultant with the Firm. He is a triply qualified legal counsel licensed to practice law in Nigeria and the provinces of Ontario & Alberta, Canada and has more than a decade of extensive experience in corporate and commercial practice and deal structuring, energy, public procurement and mergers and acquisition.",
       },
       {
         text:
-          "He commenced hid practice in a leading full-service commercial law firm where he advised a number of domestic and international clients on commercial transactions, regulatory services and commercial disputes resolution-including Nigeria’s central bank, asset management corporation and the federal revenue service.",
+          "He commenced his practice in a leading full-service commercial law firm where he advised a number of domestic and international clients on commercial transactions, regulatory services and commercial disputes resolution-including Nigeria’s central bank, asset management corporation and the federal revenue service.",
       },
       {
         text:

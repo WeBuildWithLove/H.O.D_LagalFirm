@@ -19,11 +19,11 @@
         <img src="@/assets/svg/RightPointer.svg" alt="pointer" />
       </div> -->
       <div class="lg:text-[28px] text-[14px] lg:leading-[50.4px] text-center font-medium">
-        H.O.D LEGAL specialize primarily in commercial disputes resolution and corporate
+        H.O.D LEGAL specializes primarily in commercial disputes resolution and corporate
         law practice. Whether we are representing clients in the courtroom, boardroom,
         negotiations, giving opinions on thorny legal issues, helping our clients obtain
-        necessary regulatory permits? licenses or interfacing with government MDAs on
-        their behalf, we are always guided by genuine concern for our client’s interests.
+        necessary regulatory permits/licenses or interfacing with government MDAs on
+        their behalf, we are always guided by genuine concern for our clients interests.To this end, our service delivery is detail-oriented, always taking into account the ever-changing laws and existing business realities in the industries where our clients operate.
       </div>
     </div>
     <div class="grid lg:grid-cols-3 grid-cols-1 gap-10">
@@ -97,18 +97,21 @@ const services = ref([
             Mediation)`,
   },
   {
-    name: `Real Estate And Property law ( Acquisition; Transfer; Construction; Due
+    name: `Real Estate And Property Law (Acquisition; Transfer; Construction; Due
           Diligence; Finance)`,
   },
-  { name: "Company Secreterial and Corporate Governance." },
+  { name: "Company Secreterial and Corporate Governance" },
   { name: "Taxation Law" },
-  { name: "Sports & Entertainment Law." },
-  { name: "Capital Market and securities." },
-  { name: "Intellectual Property law ( Patents; Designs; Trademarks’ Copyrights)" },
+  { name: "Sports & Entertainment Law" },
+  { name: "Capital Market and Securities" },
+  { name: "Intellectual Property law (Patents; Designs; Trademarks; Copyrights)" },
   { name: "Energy & Natural Resources (Oil & Gas; Electricity)" },
-  { name: "Banking, Finance & Insurance." },
-  { name: "Employment And Labour Law." },
-  { name: "Business Recovery and Insolvency." },
-  { name: "Data Protection and Privacy." },
+  { name: "Banking, Finance & Insurance" },
+  { name: "Employment and Labour Law" },
+  { name: "Business Recovery and Insolvency" },
+  { name: "Data Protection and Privacy" },
+  { name: "Transportation and Logistics (Maritime; Aviation; Road & Rail)" },
+  { name: "Regulatory Compliance and Government Relations" },
 ]);
 </script>
+

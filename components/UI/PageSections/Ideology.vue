@@ -12,9 +12,7 @@
       </div>
 
       <div class="lg:text-[28px] text-[14px] lg:leading-[50.4px] text-center font-medium">
-        H.O.D. Legal isn't just about navigating the complexities of commercial disputes
-        and corporate law. We are driven by a core ideology that serves as our compass in
-        every courtroom, boardroom, and negotiation.
+        At H.O.D. Legal, we believe that the practice of law extends beyond navigating the complexities of commercial disputes and corporate law. Our core ideology serves as our compass in every courtroom, boardroom, and negotiation. We are committed to delivering exceptional legal services, guided by principles of integrity, excellence, and client-centric solutions. Our mission is to provide not only legal expertise but also strategic counsel that empowers our clients to achieve their goals.
       </div>
     </div>
     <div class="grid lg:grid-cols-3 grid-cols-1 container gap-8 lg:gap-[70px]">
@@ -48,12 +46,12 @@ const services = ref([
   {
     icons: HumbleiconsBulb,
     title: "Our Vision ",
-    name: `To be a Nigerian Firm of Choice for the provision of world-class legal  and business advisory services.`,
+    name: `To be a Nigerian firm of choice for the provision of world-class legal  and business advisory services.`,
   },
   {
     icons: ArrowScope,
     title: "Our Mission ",
-    name: `To Clearly Understand the demands of our clients and approach every of their legal need with a good balance of human empathy and business efficiency.`,
+    name: `To clearly understand the demands of our clients and approach every of their legal need with a good balance of human empathy and business efficiency.`,
   },
   {
     icons: ValuesIcon,

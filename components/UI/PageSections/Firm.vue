@@ -20,10 +20,10 @@
       <div
         class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"
       >
-        The Personnel of H.O.D LEGAL are drawn from a pool of drawn from a pool of
-        seasonal human capital to meet the demanding responsibilities that accompany our
+        The personnel of H.O.D LEGAL are drawn from a pool of
+        seasoned human capital to meet the demanding responsibilities that accompany our
         varied services. Our workforce comprises adept professionals who bring their
-        expertise to bear in different facts of legal practice.
+        expertise to bear in different facets of legal practice.
       </div>
     </div>
     <!-- <div class="grid lg:grid-cols-3 grid-cols-1 container gap-8 lg:gap-[70px]">
@@ -49,7 +49,7 @@
     <div
       class="overflow-hidden hide-scrollbar flex flex-row w-full gap-10 mt-4 overflow-x-auto"
     >
-      <NuxtMarquee :speed="100">
+      <NuxtMarquee :speed="100" pauseOnClick pauseOnHover>
         <div
           v-for="i in services"
           :key="i"
@@ -95,7 +95,7 @@
       <UIButton
         @click="$router.push('/attorneys')"
         class="text-white text-[22px] !px-[72px]"
-        >Meet Attorney</UIButton
+        >Meet The Team</UIButton
       >
     </div>
   </div>
@@ -116,7 +116,7 @@ import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.png";
 const services = ref([
   {
     icons: HAROLD_UKU,
-    title: "Managing Partner ",
+    title: "Founding Partner ",
     name: "HAROLD UKU",
   },
   {
@@ -127,7 +127,7 @@ const services = ref([
   {
     icons: GAMALIEL_WORLY,
     title: " Partner ",
-    name: "GAMALIEL WORLY",
+    name: "GAMALIEL WORLU",
   },
   {
     icons: SARAH_HAROLD_UKU,
@@ -142,7 +142,7 @@ const services = ref([
   {
     icons: IKOPEMUGH_NENGIM,
     title: "Of Counsel ",
-    name: "IKOPEMUGH NENGIM",
+    name: "IKPOEMUGH NENGIM",
   },
   {
     icons: DAVID_OKOROGBA,

@@ -24,7 +24,7 @@
     <div
       class="flex flex-col lg:flex-row justify-between px-4 md:px-12 lg:px-40 space-y-8 lg:space-y-0 lg:space-x-8"
     >
-      <div class="space-y-8">
+      <!-- <div class="space-y-8">
         <div>
           <hr class="border-white" />
           <p class="font-pt-serif text-xl lg:text-2xl font-bold py-2">Quick Link</p>
@@ -47,6 +47,7 @@
           </div>
         </div>
       </div>
+       -->
       <div class="space-y-8">
         <div>
           <hr class="border-white" />
