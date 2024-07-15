@@ -46,7 +46,8 @@
             <a href="#operation">Our Operating standard</a>
           </div>
         </div>
-      </div> -->
+      </div>
+       -->
       <div class="space-y-8">
         <div>
           <hr class="border-white" />
