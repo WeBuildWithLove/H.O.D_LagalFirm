@@ -1,3 +1,8 @@
+<!-- 
++  This component is responsible for displaying the operating standards of the firm.
++  It displays an image of a businessman, a title, an icon representing standards,
++  a description of the standards, and a button to toggle the visibility of more details.
++-->
 <template>
   <div id="operation" class="">
     <div class="flex w-full object-cover h-[156px] lg:h-[551px] rounded-full">
@@ -96,11 +101,11 @@ const toggleShowMore = () => {
   background-blend-mode: overlay;
   background-color: rgba(15, 14, 14, 0.504);
   /* background: linear-gradient(
-      from 270deg at 50% 50%,
-      rgba(15, 14, 14, 0.526) 184.15632963180542deg,
-      rgba(13, 11, 11, 0.33) 270.5531358718872deg,
-      rgba(13, 11, 11, 0.626) 353.79907608032227deg
-    ),
-    lightgray 50%;*/
+       from 270deg at 50% 50%,
+       rgba(15, 14, 14, 0.526) 184.15632963180542deg,
+       rgba(13, 11, 11, 0.33) 270.5531358718872deg,
+       rgba(13, 11, 11, 0.626) 353.79907608032227deg
+     ),
+     lightgray 50%;*/
 }
 </style>

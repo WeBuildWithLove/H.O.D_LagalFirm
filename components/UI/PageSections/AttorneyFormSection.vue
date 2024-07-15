@@ -1,3 +1,11 @@
+<!-- 
++  This is a form section for attorneys that allows users to submit their
++  contact information and a message. The form is styled with Ant Design
++  components and has a background image. The form takes in information
++  for the user's name, email, phone number, subject, and message. The
++  form also has a submit button. The form is styled with CSS and has a
++  background image.
++-->
 <template>
   <div id="attorneyFormSection" class="">
     <div
@@ -61,12 +69,6 @@
             <UIButton class="text-[#1F2732] !bg-white text-[22px] !px-[45px]">
               Get An Appoinment
             </UIButton>
-
-            <!-- <button
-              class="p-[15px_48px_15px_48px] bg-[#011C2A] lg:w-auto w-full font-medium text-white text-[16px] leading-[16px] rounded-[5px]"
-            >
-              Get An Appoinment
-            </button> -->
           </div>
         </div>
       </div>
@@ -82,11 +84,11 @@ import image from "@/assets/img/Photo2.png";
   background-blend-mode: overlay;
   background-color: rgba(15, 14, 14, 0.504);
   /* background: linear-gradient(
-      from 270deg at 50% 50%,
-      rgba(15, 14, 14, 0.526) 184.15632963180542deg,
-      rgba(13, 11, 11, 0.33) 270.5531358718872deg,
-      rgba(13, 11, 11, 0.626) 353.79907608032227deg
-    ),
-    lightgray 50%;*/
+       from 270deg at 50% 50%,
+       rgba(15, 14, 14, 0.526) 184.15632963180542deg,
+       rgba(13, 11, 11, 0.33) 270.5531358718872deg,
+       rgba(13, 11, 11, 0.626) 353.79907608032227deg
+     ),
+     lightgray 50%;*/
 }
 </style>

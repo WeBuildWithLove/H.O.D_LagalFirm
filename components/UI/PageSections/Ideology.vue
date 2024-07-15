@@ -1,4 +1,5 @@
 <template>
+  <!-- Ideology Section -->
   <div id="ideology" class="bg-white text-brand space-y-20 lg:py-20 py-10 lg:px-20 px-4">
     <div class="flex flex-col items-center justify-center gap-8">
       <div class="flex gap-4 items-center">
@@ -21,6 +22,8 @@
         goals.
       </div>
     </div>
+    +
+    <!-- Grid of Services -->
     <div class="grid lg:grid-cols-3 grid-cols-1 container gap-8 lg:gap-[70px]">
       <div
         v-for="item in services"
@@ -69,3 +72,5 @@ const services = ref([
   },
 ]);
 </script>
+
+<<<<<<< d0466422-0697-42d3-9b0b-b972dd57d687 >>>>>>>

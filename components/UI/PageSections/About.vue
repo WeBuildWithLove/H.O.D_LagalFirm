@@ -1,3 +1,9 @@
+<<<<<<<<<<<<<< ✨ Codeium Command 🌟 >>>>>>>>>>>>>>>> +
+<!--
++  This is the about section of the page which provides information about the company H.O.D Legal.
++  It includes a section with a title and text about the company. It also includes two images
++  above and below the text section.
++-->
 <template>
   <div id="about" class="lg:py-20 py-10 lg:px-20 px-4 container lg:!w-[80%] w-full">
     <div
@@ -5,18 +11,13 @@
     >
       <div class="flex gap-4 justify-center items-center">
         <UIIconLeftPointer class="lg:w-[100px] w-[30%]" />
-        <!-- <img
-          src="@/assets/svg/LeftPointer.svg"
-          alt="red pointer"
-          width="100px"
-        /> -->
+        <!-- Title of the section -->
         <p
           class="font-bold text-lg text-center lg:leading-[93.17px] leading-[23.29px] lg:text-[72px]"
         >
           About us
         </p>
         <UIIconRightPointer class="lg:w-[100px] w-[30%]" />
-
         <!-- <img src="@/assets/svg/RightPointer.svg" alt="red pointer" /> -->
       </div>
       <div class="space-y-4 md:space-y-7 text-center text-[#3A3A38] leading-9">

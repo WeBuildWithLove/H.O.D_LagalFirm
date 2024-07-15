@@ -1,5 +1,7 @@
 <template>
+  <!-- Our Firm section -->
   <div id="firm" class="bg-[#1F2732] text-white space-y-20 lg:py-20 py-10 lg:px-20 px-4">
+    <!-- Section title and sub-title -->
     <div class="flex flex-col items-center justify-center gap-4">
       <span
         class="lg:text-[30px] pt-serif-bold text-[14px] lg:leading-[38.82px] text-center !font-normal"

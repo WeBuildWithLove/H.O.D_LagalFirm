@@ -1,9 +1,13 @@
 <template>
   <section
-    class="bg-brand relative flex flex-col overflow-hidden md:flex-row min-h-[550px] lg:py-20 py-10 lg:px-20 px-4 justify-center"
+    class="bg-brand relative flex flex-col overflow-hidden md:flex-row lg:min-h-[550px] min-h-[440px] lg:py-20 py-10 lg:px-20 px-4 justify-center"
   >
-    <div class="absolute hidden md:block -bottom-2 left-0">
-      <img src="@/assets/svg/JusticeStatus.svg" alt="Status of Liberty" class=" " />
+    <div class="absolute -bottom-2 left-0">
+      <img
+        src="@/assets/svg/JusticeStatus.svg"
+        alt="Status of Liberty"
+        class="opacity-40"
+      />
     </div>
     <div
       class="text-white items-center justify-center z-10 flex flex-col md:pace-y-4 space-y-7"
@@ -13,13 +17,15 @@
         <div class="bg-white">
           <Divider direction="horizontal" width="2px" />
         </div>
-        <p class="font-bold text-base text-center pt-serif-bold md:text-5xl">
+        <p
+          class="font-bold text-base text-center lg:leading-[77.64px] leading-[23.29px] pt-serif-bold md:text-5xl"
+        >
           BARRISTERS • SOLICITORS • CORPORATE CONSULTANTS
         </p>
         <div class="bg-white">
           <Divider direction="horizontal" width="2px" />
         </div>
-    
+
         <div class="flex items-center justify-center">
           <a
             href="#attorneyFormSection"
