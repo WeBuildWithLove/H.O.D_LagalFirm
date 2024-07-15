@@ -12,14 +12,20 @@
       </div>
 
       <div class="lg:text-[28px] text-[14px] lg:leading-[50.4px] text-center font-medium">
-        At H.O.D. Legal, we believe that the practice of law extends beyond navigating the complexities of commercial disputes and corporate law. Our core ideology serves as our compass in every courtroom, boardroom, and negotiation. We are committed to delivering exceptional legal services, guided by principles of integrity, excellence, and client-centric solutions. Our mission is to provide not only legal expertise but also strategic counsel that empowers our clients to achieve their goals.
+        At H.O.D. Legal, we believe that the practice of law extends beyond navigating the
+        complexities of commercial disputes and corporate law. Our core ideology serves as
+        our compass in every courtroom, boardroom, and negotiation. We are committed to
+        delivering exceptional legal services, guided by principles of integrity,
+        excellence, and client-centric solutions. Our mission is to provide not only legal
+        expertise but also strategic counsel that empowers our clients to achieve their
+        goals.
       </div>
     </div>
     <div class="grid lg:grid-cols-3 grid-cols-1 container gap-8 lg:gap-[70px]">
       <div
         v-for="item in services"
         :key="item.name"
-        class="flex flex-col bg-[#A70314] lg:p-10 p-6 lg:h-[390px] rounded-[5px] gap-2"
+        class="flex flex-col bg-[#A70314] lg:p-6 p-6 lg:h-[390px] rounded-[5px] gap-2"
       >
         <div class="flex gap-[10px] lg:min-h-[230px] flex-col">
           <p
@@ -32,7 +38,9 @@
           </p>
         </div>
         <hr />
-        <div class="py-2"><component :is="item.icons" /></div>
+        <div class="py-2 l">
+          <component :is="item.icons" class="h-auto w-auto lg:!h-[80px] lg:!w-[80px]" />
+        </div>
       </div>
     </div>
   </div>

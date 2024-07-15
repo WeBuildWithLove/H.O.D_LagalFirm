@@ -39,7 +39,7 @@
       <UIDivider direction="vertical" width="2px" />
     </div>
     <div class="w-full lg:py-3">
-      <div class="hidden lg:flex justify-between px-2">
+      <div class="hidden lg:flex flex-wrap justify-between px-2">
         <div class="flex gap-3.5 px-4">
           <a href="tel: +234 803 292 8072" class="flex space-x-1">
             <img src="@/assets/svg/Call.svg" alt="Call-Icon" height="16px" width="16px" />
@@ -70,7 +70,7 @@
         }`"
       >
         <div
-          class="flex flex-col lg:flex-row justify-between items-left w-full lg:px-2 text-white lg:text-[#3A3A38]"
+          class="flex flex-col lg:flex-row lg:flex-wrap justify-between items-left w-full lg:px-2 text-white lg:text-[#3A3A38]"
         >
           <div class="flex flex-col lg:flex-row lg:gap-4 px-4">
             <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
