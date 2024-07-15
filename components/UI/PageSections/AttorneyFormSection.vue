@@ -58,7 +58,7 @@
           </div>
 
           <div class="flex justify-center">
-            <UIButton class="text-[#1F2732] bg-white text-[22px] !px-[45px]">
+            <UIButton class="text-[#1F2732] !bg-white text-[22px] !px-[45px]">
               Get An Appoinment
             </UIButton>
 

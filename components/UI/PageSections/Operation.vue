@@ -18,92 +18,77 @@
       <div><UIIconStandardsIcon /></div>
 
       <div
-        class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"
+        :class="showMore ? 'text-justify' : ' text-center'"
+        class="lg:text-[28px] text-[14px] flex flex-col gap-4 lg:leading-[46.8px] w-[80%] font-medium"
       >
-      We will provide our services to you and your business with reasonable care in accordance with the high professional standards expected of us and in a timely manner. The nature and content of any service carried out will necessarily reflect the specific scope and limitations of our engagement, the amount and accuracy of information provided to us and the timeline within which the service/advice is required.
+        <p>
+          We will provide our services to you and your business with reasonable care in
+          accordance with the high professional standards expected of us and in a timely
+          manner. The nature and content of any service carried out will necessarily
+          reflect the specific scope and limitations of our engagement, the amount and
+          accuracy of information provided to us and the timeline within which the
+          service/advice is required.
+        </p>
+        <p v-if="showMore || showAll">
+          If general advice is provided, the applicability of this will depend on the
+          particular circumstances in which it is to be used by you (of which we might not
+          be aware) and should be weighed accordingly. In relation to any particular
+          transaction, specific advice should always be sought and all material
+          information provided to us. In order to enable us fulfil our responsibilities to
+          you and your company, you agree on request, to provide us with complete,
+          accurate and timely information to carry out any obligations ascribed to or
+          undertaken or within you and your business’ control.
+        </p>
+        <p v-if="showMore || showAll">
+          If general advice is provided, the applicability of this will depend on the
+          particular circumstances in which it is to be used by you (of which we might not
+          be aware) and should be weighed accordingly. In relation to any particular
+          transaction, specific advice should always be sought and all material
+          information provided to us. In order to enable us fulfil our responsibilities to
+          you and your company, you agree on request, to provide us with complete,
+          accurate and timely information to carry out any obligations ascribed to or
+          undertaken or within you and your business’ control.
+        </p>
+        <p v-if="showMore || showAll">
+          Where we receive confidential information, we would take such steps as we, in
+          good faith think, fit to preserve confidential information from unauthorized
+          disclosure or other use. To ensure we give satisfactory services to clients, we
+          insist that our staff meet certain standard with regards to clients’ care. Our
+          standards include:
+        </p>
+        <ul v-if="showMore || showAll" class="list-disc ml-6">
+          <li>
+            Extend to all clients a high standard of courtesy and respect at all times.
+          </li>
+          <li>
+            Clients receive copies of all relevant and pertinent correspondences as
+            requested.
+          </li>
+          <li>
+            Correspondences received from any party are generally to be dealt with as soon
+            as possible and not later than 3 working days from the date of its receipt.
+          </li>
+          <li>Report to our Clients regularly as to progress of their matters.</li>
+        </ul>
       </div>
-
-      <!-- MISSING TEXT -->
-
-      <!-- If general advice is provided, the applicability of this will depend on the particular circumstances in which it is to be used by you (of which we might not be aware) and should be weighed accordingly. In relation to any particular transaction, specific advice should always be sought and all material information provided to us. In order to enable us fulfil our responsibilities to you and your company, you agree on request, to provide us with complete, accurate and timely information to carry out any obligations ascribed to or undertaken or within you and your business’ control.
-
-Where we receive confidential information, we would take such steps as we, in good faith think, fit to preserve confidential information from unauthorized disclosure or other use.
-To ensure we give satisfactory services to clients, we insist that our staff meet certain standard with regards to clients’ care. Our standards include:
-i.	Extend to all clients a high standard of courtesy and respect at all times.
-ii.	Clients receive copies of all relevant and pertinent correspondences as requested.
-iii.	Correspondences received from any party are generally to be dealt with as soon as 	possible and not later than 3 working days from the date of its receipt.
-iv.	Report to our Clients regularly as to progress of their matters. -->
-
+      <div>
+        <button
+          @click="toggleShowMore"
+          class="bg-card border-card py-2 rounded-lg !px-[72px] focus:ringrounded-lg border !text-white focus:outline-none focus:ring text-center"
+        >
+          {{ showMore ? "View Less" : "View More" }}
+        </button>
+      </div>
     </div>
-    <!-- <div
-      :style="{
-        backgroundImage: `url(${image})`,
-      }"
-      class="flex w-full object-cover justify-center items-start h-auto py-20 lg:py-40"
-    >
-      <div class="bg-[#1F2732] container min-h-[649px] w-full p-4">
-        <div class="flex flex-col justify-between py-10 lg:px-40 gap-4">
-          <div class="flex lg:flex-row flex-col gap-4 w-full">
-            <UIInputAuthInput
-              :error="false"
-              type="text"
-              label="Full Name *"
-              placeholder="Full Name *"
-              required
-            >
-            </UIInputAuthInput>
-            <UIInputAuthInput
-              label="Email Address *"
-              placeholder="Email Address *"
-              :error="false"
-              type="email"
-              required
-            >
-            </UIInputAuthInput>
-          </div>
-          <div class="flex lg:flex-row flex-col gap-4 w-full">
-            <UIInputAuthInput
-              label="Phone Number *"
-              placeholder="Phone Number *"
-              :error="false"
-              type="tel"
-              required
-            >
-            </UIInputAuthInput>
-            <UIInputAuthInput
-              label="Subject *"
-              placeholder="Subject *"
-              :error="false"
-              type="text"
-              required
-            >
-            </UIInputAuthInput>
-          </div>
-          <div
-            class="w-full font-light font-Satoshi400 text-[18px] outline-none bg-transparent text-[#D7D7D7] border-b-[#3A4553] !py-2 border-b-[1px] opacity-[0.8029] text-sm"
-          >
-            <a-textarea
-              class="!w-full text-[18px] text-[#D7D7D7] font-medium placeholder:text-[#D7D7D7]"
-              :bordered="false"
-              required
-              :auto-size="{ minRows: 5, maxRows: 5 }"
-              placeholder="Your Message *"
-            >
-            </a-textarea>
-          </div>
-
-          <div class="flex justify-center">
-            <UIButton class="text-[#1F2732] bg-white text-[22px] !px-[45px]">
-              Get An Appoinment
-            </UIButton>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 </template>
 <script setup>
-// import image from "@/assets/img/Photo2.png";
+import { ref } from "vue";
+
+const showMore = ref(false);
+const toggleShowMore = () => {
+  showMore.value = !showMore.value;
+};
 </script>
 <style scoped>
 .background {

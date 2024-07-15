@@ -3,7 +3,7 @@
     :class="buttonClass"
     :style="buttonStyle"
     @click="$emit('click')"
-    class="py-2 px-4 rounded-lg border border-[#E7E7E7]focus:outline-none focus:ring"
+    class="py-2 px-4 rounded-lg border border-[#E7E7E7] focus:outline-none focus:ring"
   >
     <slot></slot>
   </button>

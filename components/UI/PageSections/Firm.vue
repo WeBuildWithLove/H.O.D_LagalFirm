@@ -8,44 +8,22 @@
       </span>
 
       <div class="flex gap-4 items-center">
-        <!-- <UIIconLeftPointer class="lg:w-[100px] w-[30%]" /> -->
         <p
           class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"
         >
           Meet our Attorneys
         </p>
-        <!-- <UIIconRightPointer class="lg:w-[100px] w-[30%]" /> -->
       </div>
 
       <div
         class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"
       >
-        The personnel of H.O.D LEGAL are drawn from a pool of
-        seasoned human capital to meet the demanding responsibilities that accompany our
-        varied services. Our workforce comprises adept professionals who bring their
-        expertise to bear in different facets of legal practice.
+        The personnel of H.O.D LEGAL are drawn from a pool of seasoned human capital to
+        meet the demanding responsibilities that accompany our varied services. Our
+        workforce comprises adept professionals who bring their expertise to bear in
+        different facets of legal practice.
       </div>
     </div>
-    <!-- <div class="grid lg:grid-cols-3 grid-cols-1 container gap-8 lg:gap-[70px]">
-      <div
-        v-for="item in services"
-        :key="item.name"
-        class="flex flex-col bg-[#A70314] lg:p-10 p-6 lg:h-[390px] rounded-[5px] gap-2"
-      >
-        <div class="flex gap-[10px] lg:min-h-[230px] flex-col">
-          <p
-            class="text-[14px] text-[#FFFFFF] pt-serif-bold lg:text-[35px] leading-[40.11px]"
-          >
-            {{ item.title }}
-          </p>
-          <p class="text-[14px] lg:text-[20px] leading-[28px] text-white">
-            {{ item.name }}
-          </p>
-        </div>
-        <hr />
-        <div class="py-2"><component :is="item.icons" /></div>
-      </div>
-    </div> -->
     <div
       class="overflow-hidden hide-scrollbar flex flex-row w-full gap-10 mt-4 overflow-x-auto"
     >
@@ -94,7 +72,7 @@
     <div class="flex justify-center w-full items-center">
       <UIButton
         @click="$router.push('/attorneys')"
-        class="text-white text-[22px] !px-[72px]"
+        class="text-white text-[22px] !bg-transparent !px-[72px]"
         >Meet The Team</UIButton
       >
     </div>

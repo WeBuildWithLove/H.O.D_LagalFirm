@@ -1,6 +1,6 @@
 <template>
   <div id="services" class="bg-brand text-white space-y-20 lg:py-20 py-10 lg:px-20 px-4">
-    <div class="flex flex-col items-center justify-center gap-8">
+    <div class="flex flex-col items-center container justify-center gap-8">
       <div class="flex gap-4 items-center">
         <UIIconLeftPointer class="lg:w-[100px] w-[30%]" />
         <p
@@ -22,8 +22,11 @@
         H.O.D LEGAL specializes primarily in commercial disputes resolution and corporate
         law practice. Whether we are representing clients in the courtroom, boardroom,
         negotiations, giving opinions on thorny legal issues, helping our clients obtain
-        necessary regulatory permits/licenses or interfacing with government MDAs on
-        their behalf, we are always guided by genuine concern for our clients interests.To this end, our service delivery is detail-oriented, always taking into account the ever-changing laws and existing business realities in the industries where our clients operate.
+        necessary regulatory permits/licenses or interfacing with government MDAs on their
+        behalf, we are always guided by genuine concern for our clients interests.To this
+        end, our service delivery is detail-oriented, always taking into account the
+        ever-changing laws and existing business realities in the industries where our
+        clients operate.
       </div>
     </div>
     <div class="grid lg:grid-cols-3 grid-cols-1 gap-10">
@@ -114,4 +117,3 @@ const services = ref([
   { name: "Regulatory Compliance and Government Relations" },
 ]);
 </script>
-
