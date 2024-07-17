@@ -5,7 +5,7 @@
       <div class="flex gap-4 items-center">
         <UIIconLeftPointer class="lg:w-[100px] w-[30%]" />
         <p
-          class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"
+          class="font-bold text-lg md:text-3xl lg:text-6xl text-center lg:leading-[93.17px] pt-serif-bold"
         >
           CORE IDEOLOGY
         </p>
@@ -28,7 +28,7 @@
       <div
         v-for="item in services"
         :key="item.name"
-        class="flex flex-col bg-[#A70314] lg:p-6 p-6 lg:h-[390px] rounded-[5px] gap-2"
+        class="flex flex-col bg-[#A70314] lg:p-6 p-6 xl:h-[390px] rounded-[5px] gap-2"
       >
         <div class="flex gap-[10px] lg:min-h-[230px] flex-col">
           <p
