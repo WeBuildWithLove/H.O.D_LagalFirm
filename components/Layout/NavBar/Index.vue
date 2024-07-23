@@ -1,6 +1,6 @@
 <template>
   <header
-    class="w-full sticky top-0 z-30 flex flex-col lg:flex-row shadow-md bg-brand lg:bg-white text-light"
+    class="w-full sticky top-0 z-30 flex flex-col lg:flex-row shadow-md bg-brand lg:bg-white text-light "
   >
     <div class="flex justify-between items-center w-full lg:p-0 p-2 lg:w-auto">
       <NuxtLink to="/" class="">
@@ -20,7 +20,7 @@
         />
       </NuxtLink>
 
-      <button v-if="route.name !== 'attorneys'" class="lg:hidden p-2" @click="toggleMenu">
+      <button v-if="route.name !== 'attorneys'" class="lg:hidden p-2 " @click="toggleMenu">
         <img
           v-if="!isMenuOpen"
           src="@/assets/svg/menu.svg"
@@ -65,8 +65,8 @@
         <UIDivider direction="horizontal" width="2px" />
       </div>
       <div
-        :class="`flex-col lg:flex-row items-center w-full lg:w-auto lg:flex ${
-          isMenuOpen ? 'flex sticky z-20' : 'hidden'
+        :class="`flex-col lg:flex-row items-center w-full lg:w-auto lg:flex transition-all duration-500 ease-in-out transform ${
+          isMenuOpen ? 'flex sticky z-20 ' : 'hidden'
         }`"
       >
         <div

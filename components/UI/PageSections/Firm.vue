@@ -11,7 +11,7 @@
 
       <div class="flex gap-4 items-center">
         <p
-          class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"
+          class="font-bold text-lg lg:text-[60px] md:text-3xl text-center lg:leading-[93.17px] pt-serif-bold"
         >
           Meet our Attorneys
         </p>
@@ -33,7 +33,7 @@
         <div
           v-for="i in services"
           :key="i"
-          class="rounded-[0px] flex flex-col lg:gap-[27px] ml-3 relative overflow-hidden min-h-[450px] min-w-[90px] md:min-w-[30%] xl:min-w-[376.66px]"
+          class="rounded-[0px] flex flex-col lg:gap-[27px] ml-3 relative overflow-hidden"
         >
           <div class="h-full">
             <div
