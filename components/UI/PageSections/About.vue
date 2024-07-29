@@ -13,7 +13,7 @@
         <UIIconLeftPointer class="lg:w-[100px] w-[30%]" />
         <!-- Title of the section -->
         <p
-          class="font-bold text-lg text-center lg:leading-[93.17px] leading-[23.29px] lg:text-[72px]"
+          class="font-bold text-lg text-center lg:leading-[93.17px] leading-[23.29px] lg:text-[72px] md:text-3xl"
         >
           About us
         </p>

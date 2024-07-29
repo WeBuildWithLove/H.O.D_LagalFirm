@@ -15,7 +15,7 @@
     <div class="flex flex-col items-center justify-center py-20 gap-4">
       <div class="flex gap-4 items-center">
         <p
-          class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"
+          class="font-bold text-lg lg:text-[60px] md:text-3xl text-center lg:leading-[93.17px] pt-serif-bold"
         >
           Our Operating Standards
         </p>

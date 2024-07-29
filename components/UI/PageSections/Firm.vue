@@ -11,7 +11,7 @@
 
       <div class="flex gap-4 items-center">
         <p
-          class="font-bold text-lg md:text-[60px] text-center lg:leading-[93.17px] pt-serif-bold"
+          class="font-bold text-lg lg:text-[60px] md:text-3xl text-center lg:leading-[93.17px] pt-serif-bold"
         >
           Meet our Attorneys
         </p>
@@ -33,7 +33,7 @@
         <div
           v-for="i in services"
           :key="i"
-          class="rounded-[0px] flex flex-col lg:gap-[27px] ml-3 relative overflow-hidden min-h-[450px] min-w-[90px] md:min-w-[30%] xl:min-w-[376.66px]"
+          class="rounded-[0px] flex flex-col lg:gap-[27px] ml-3 relative overflow-hidden"
         >
           <div class="h-full">
             <div
@@ -85,13 +85,13 @@ import { ref } from "vue";
 import ArrowScope from "@/components/UI/Icon/ArrowScope.vue";
 import HumbleiconsBulb from "@/components/UI/Icon/HumbleiconsBulb.vue";
 import ValuesIcon from "@/components/UI/Icon/ValuesIcon.vue";
-import GAMALIEL_WORLY from "@/assets/img/GAMALIEL_WORLY.png";
-import HAROLD_UKU from "@/assets/img/HAROLD_UKU.png";
-import SARAH_HAROLD_UKU from "@/assets/img/SARAH_HAROLD_UKU.png";
-import UZEZI_AMAWHE from "@/assets/img/UZEZI_AMAWHE.png";
-import IKOPEMUGH_NENGIM from "@/assets/img/IKOPEMUGH_NENGIM.png";
-import FRANCIS_NWABUNWANNE from "@/assets/img/FRANCIS_NWABUNWANNE.png";
-import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.png";
+import GAMALIEL_WORLY from "@/assets/img/GAMALIEL_WORLY.jpeg";
+import HAROLD_UKU from "@/assets/img/HAROLD_UKU.jpeg";
+import SARAH_HAROLD_UKU from "@/assets/img/SARAH_HAROLD_UKU.jpeg";
+import UZEZI_AMAWHE from "@/assets/img/UZEZI_AMAWHE.jpeg";
+import IKOPEMUGH_NENGIM from "@/assets/img/IKOPEMUGH_NENGIM.jpeg";
+import FRANCIS_NWABUNWANNE from "@/assets/img/FRANCIS_NWABUNWANNE.jpeg";
+import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.jpeg";
 
 const services = ref([
   {

@@ -95,13 +95,13 @@ import ArrowScope from "@/components/UI/Icon/ArrowScope.vue";
 import HumbleiconsBulb from "@/components/UI/Icon/HumbleiconsBulb.vue";
 import ValuesIcon from "@/components/UI/Icon/ValuesIcon.vue";
 import BG from "@/assets/img/bg.png";
-import GAMALIEL_WORLY from "@/assets/img/GAMALIEL_WORLY.png";
-import HAROLD_UKU from "@/assets/img/HAROLD_UKU_II.png";
-import SARAH_HAROLD_UKU from "@/assets/img/SARAH_HAROLD_UKU.png";
-import UZEZI_AMAWHE from "@/assets/img/UZEZI_AMAWHE.png";
-import IKOPEMUGH_NENGIM from "@/assets/img/IKOPEMUGH_NENGIM.png";
-import FRANCIS_NWABUNWANNE from "@/assets/img/FRANCIS_NWABUNWANNE.png";
-import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.png";
+import GAMALIEL_WORLY from "@/assets/img/GAMALIEL_WORLY.jpeg";
+import HAROLD_UKU from "@/assets/img/HAROLD_UKU.jpeg";
+import SARAH_HAROLD_UKU from "@/assets/img/SARAH_HAROLD_UKU.jpeg";
+import UZEZI_AMAWHE from "@/assets/img/UZEZI_AMAWHE.jpeg";
+import IKOPEMUGH_NENGIM from "@/assets/img/IKOPEMUGH_NENGIM.jpeg";
+import FRANCIS_NWABUNWANNE from "@/assets/img/FRANCIS_NWABUNWANNE.jpeg";
+import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.jpeg";
 
 const services = ref([
   {
