@@ -24,7 +24,7 @@
 
       <div
         :class="showMore ? 'text-justify' : ' text-center'"
-        class="lg:text-[28px] text-[14px] flex flex-col gap-4 lg:leading-[46.8px] w-[80%] font-medium"
+        class="lg:text-[28px] text-[14px] flex flex-col gap-4 lg:leading-[46.8px] leading-[24.92px] w-[80%] font-medium"
       >
         <p>
           We will provide our services to you and your business with reasonable care in

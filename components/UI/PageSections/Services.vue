@@ -16,51 +16,75 @@
         <UIIconRightPointer class="lg:w-[100px] w-[30%]" />
       </div>
 
-      <div class="lg:text-[28px] text-[14px] lg:leading-[38px] text-center font-medium flex flex-col  gap-2">
-        <p>   H.O.D LEGAL specializes primarily in commercial disputes resolution and corporate
-        law practice. Whether we are representing clients in the courtroom, boardroom,
-        negotiations, giving opinions on thorny legal issues, helping our clients obtain
-        necessary regulatory permits/licenses or interfacing with government MDAs on their
-        behalf, we are always guided by genuine concern for our clients interests.</p>
-    <p>To this
-        end, our service delivery is detail-oriented, always taking into account the
-        ever-changing laws and existing business realities in the industries where our
-        clients operate.
-      </p> 
+      <div
+        class="lg:text-[28px] text-[14px] lg:leading-[50.4px] leading-[24.92px] text-center font-medium flex flex-col justify-center gap-2 "
+      >
+        <p>
+          H.O.D LEGAL specializes primarily in commercial disputes resolution and
+          corporate law practice. Whether we are representing clients in the courtroom,
+          boardroom, negotiations, giving opinions on thorny legal issues, helping our
+          clients obtain necessary regulatory permits/licenses or interfacing with
+          government MDAs on their behalf, we are always guided by genuine concern for our
+          clients interests.
+       
+          To this end, our service delivery is detail-oriented, always taking into account
+          the ever-changing laws and existing business realities in the industries where
+          our clients operate.
+        </p>
       </div>
     </div>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
       <div v-for="item in services" :key="item.name" class="flex gap-2">
-        <div><UIIconServiceIcon /></div>
+        <div class="lg:mt-2"><component :is="item.icon"></component></div>
         <p class="text-[14px] lg:text-[25px]">
           {{ item.name }}
         </p>
       </div>
+      <!-- <UIIconServiceIcon /> -->
     </div>
   </div>
 </template>
 <script setup>
 import { ref } from "vue";
+import BusinessIcon from "../Icon/BusinessIcon.vue";
+import ClarityEmployee from "../Icon/ClarityEmployee.vue";
+import CompanyIcon from "../Icon/CompanyIcon.vue";
+import Group from "../Icon/Group.vue";
+import HouseUser from "../Icon/HouseUser.vue";
+import MarketeqTax from "../Icon/MarketeqTax.vue";
+import OutlineDataFile from "../Icon/OutlineDataFile.vue";
+import OutlineSport from "../Icon/OutlineSport.vue";
+import PeopleArrows from "../Icon/PeopleArrows.vue";
+import ThunderOutline from "../Icon/ThunderOutline.vue";
+import TrademarkCircle from "../Icon/TrademarkCircle.vue";
+import ContrastBank from "../Icon/ContrastBank.vue";
+import RegulatoryIcon from "../Icon/RegulatoryIcon.vue";
+import TransportIcon from "../Icon/TransportIcon.vue";
 const services = ref([
   {
+    icon: PeopleArrows,
     name: `Disputes Resolution ( Civil and Criminal Litigation; Arbitration;
              Mediation)`,
   },
   {
+    icon: HouseUser,
     name: `Real Estate And Property Law (Acquisition; Transfer; Construction; Due
            Diligence; Finance)`,
   },
-  { name: "Company Secreterial and Corporate Governance" },
-  { name: "Taxation Law" },
-  { name: "Sports & Entertainment Law" },
-  { name: "Capital Market and Securities" },
-  { name: "Intellectual Property law (Patents; Designs; Trademarks; Copyrights)" },
-  { name: "Energy & Natural Resources (Oil & Gas; Electricity)" },
-  { name: "Banking, Finance & Insurance" },
-  { name: "Employment and Labour Law" },
-  { name: "Business Recovery and Insolvency" },
-  { name: "Data Protection and Privacy" },
-  { name: "Transportation and Logistics (Maritime; Aviation; Road & Rail)" },
-  { name: "Regulatory Compliance and Government Relations" },
+  { icon: CompanyIcon, name: "Company Secreterial and Corporate Governance" },
+  { icon: TrademarkCircle, name: "Taxation Law" },
+  { icon: OutlineSport, name: "Sports & Entertainment Law" },
+  { icon: MarketeqTax, name: "Capital Market and Securities" },
+  {
+    icon: Group,
+    name: "Intellectual Property law (Patents; Designs; Trademarks; Copyrights)",
+  },
+  { icon: ThunderOutline, name: "Energy & Natural Resources (Oil & Gas; Electricity)" },
+  { icon: ContrastBank, name: "Banking, Finance & Insurance" },
+  { icon: ClarityEmployee, name: "Employment and Labour Law" },
+  { icon: BusinessIcon, name: "Business Recovery and Insolvency" },
+  { icon: OutlineDataFile, name: "Data Protection and Privacy" },
+  { icon: TransportIcon, name: "Transportation and Logistics (Maritime; Aviation; Road & Rail)" },
+  { icon: RegulatoryIcon, name: "Regulatory Compliance and Government Relations" },
 ]);
 </script>

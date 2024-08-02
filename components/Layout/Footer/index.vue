@@ -56,12 +56,22 @@
         </div>
         <div class="text-[#D7D7D7]">
           <p>Disputes Resolution</p>
-          <p>Real Estate And property Law</p>
-          <p>Corporate abd Estate law</p>
-          <p>Banking, Finance & Insurance Law</p>
-          <p>Taxation Law</p>
-          <p>Capital Market And Securities</p>
+          <p>Real Estate & property</p>
+          <p>Corporate & Estate</p>
+          <p>Banking, Finance & Insurance</p>
+          <p>Taxation</p>
+          <p>Capital Market & Securities</p>
+          <p>Transportation & Logistics</p>
+          <p>Regulatory Compliance & Government Relations</p>
+          <p>Intellectual Property</p>
+<p>Energy & Natural Resources</p>
+<p>Sports & Entertainment</p>
+<p>Employment & Labour</p>
+<p>Business Recovert & Insolvency</p>
+<p>Data Protection & Privacy</p>
+
         </div>
+    
       </div>
       <div class="space-y-8">
         <div>

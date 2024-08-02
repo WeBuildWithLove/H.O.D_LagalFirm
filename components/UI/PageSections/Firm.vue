@@ -18,7 +18,7 @@
       </div>
 
       <div
-        class="lg:text-[28px] text-[14px] lg:leading-[46.8px] w-[80%] text-center font-medium"
+        class="lg:text-[28px] text-[14px] lg:leading-[46.8px] leading-[24.92px] w-[80%] text-center font-medium"
       >
         The personnel of H.O.D LEGAL are drawn from a pool of seasoned human capital to
         meet the demanding responsibilities that accompany our varied services. Our

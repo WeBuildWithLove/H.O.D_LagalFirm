@@ -12,7 +12,7 @@
         <UIIconRightPointer class="lg:w-[100px] w-[30%]" />
       </div>
 
-      <div class="lg:text-[28px] text-[14px] lg:leading-[50.4px] text-center font-medium">
+      <div class="lg:text-[28px] text-[14px] lg:leading-[50.4px] leading-[24.92px] text-center font-medium">
         At H.O.D. Legal, we believe that the practice of law extends beyond navigating the
         complexities of commercial disputes and corporate law. Our core ideology serves as
         our compass in every courtroom, boardroom, and negotiation. We are committed to
@@ -24,13 +24,13 @@
     </div>
     
     <!-- Grid of Services -->
-    <div class="grid lg:grid-cols-3 grid-cols-1 container gap-8 lg:gap-[70px]">
+    <div class="grid lg:grid-cols-3 grid-cols-1  gap-8 lg:gap-[70px] ">
       <div
         v-for="item in services"
         :key="item.name"
-        class="flex flex-col bg-[#A70314] lg:p-6 p-6 xl:h-[390px] rounded-[5px] gap-2 w-full"
+        class="flex flex-col bg-[#A70314] lg:p-3 p-6 xl:h-[390px] rounded-[5px] gap-2 w-full"
       >
-        <div class="flex gap-[10px] lg:min-h-[230px] flex-col">
+        <div class="flex gap-[10px] lg:h-[300px] flex-col ">
           <p
             class="text-[14px] text-[#FFFFFF] pt-serif-bold lg:text-[35px] leading-[40.11px] "
           >
