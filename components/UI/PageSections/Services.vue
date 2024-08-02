@@ -16,7 +16,7 @@
         <UIIconRightPointer class="lg:w-[100px] w-[30%]" />
       </div>
 
-      <div class="lg:text-[28px] text-[14px] lg:leading-[38px] text-center font-medium flex flex-col justify-center gap-2">
+      <div class="lg:text-[28px] text-[14px] lg:leading-[38px] text-center font-medium flex flex-col  gap-2">
         <p>   H.O.D LEGAL specializes primarily in commercial disputes resolution and corporate
         law practice. Whether we are representing clients in the courtroom, boardroom,
         negotiations, giving opinions on thorny legal issues, helping our clients obtain
