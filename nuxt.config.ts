@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   pages: true,
-  css: ['~/assets/main.css'],
+  css: ['~/assets/main.css', 'animate.css/animate.min.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
