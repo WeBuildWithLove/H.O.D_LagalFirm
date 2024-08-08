@@ -68,7 +68,7 @@
       <div
         :class="`flex-col lg:flex-row items-center   animate__animated w-full lg:w-auto lg:flex transition-all duration-500 ease-in-out transform ${
           isMenuOpen
-            ? 'animate__slideInDown animate__animated sticky z-20 h-screen '
+            ? 'animate__slideInDown animate__animated sticky z-20 lg:h-auto h-screen '
             : 'hidden'
         }`"
       >
