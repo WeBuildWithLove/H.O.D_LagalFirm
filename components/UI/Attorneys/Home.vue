@@ -6,7 +6,7 @@
       <img src="@/assets/svg/JusticeStatus.svg" alt="Status of Liberty" class=" " />
     </div>
     <div
-      class="text-white items-center justify-center lg:w-[60%] z-10 flex flex-col md:pace-y-4 space-y-7"
+      class="text-white items-center justify-center lg:w-[70%] z-10 flex flex-col md:pace-y-4 space-y-7"
     >
       <p class="text-sm md:text-4xl">Since 2020</p>
       <div class="space-y-4 md:space-y-7">
