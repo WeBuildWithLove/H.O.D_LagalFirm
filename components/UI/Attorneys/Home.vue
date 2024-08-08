@@ -8,7 +8,7 @@
     <div
       class="text-white items-center justify-center lg:w-[60%] z-10 flex flex-col md:pace-y-4 space-y-7"
     >
-      <p class="text-sm md:text-4xl">Since 2011</p>
+      <p class="text-sm md:text-4xl">Since 2020</p>
       <div class="space-y-4 md:space-y-7">
         <div class="bg-white">
           <Divider direction="horizontal" width="2px" />
