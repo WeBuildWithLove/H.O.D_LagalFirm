@@ -5,7 +5,7 @@
     <div class="flex justify-between items-center w-full lg:p-0 p-2 lg:w-auto">
       <NuxtLink to="/" class="">
         <img
-          src="@/assets/img/Logo.svg"
+          src="@/assets/img/roundLogo.jpeg"
           alt="Logo"
           height="101.76px"
           width="95px"
