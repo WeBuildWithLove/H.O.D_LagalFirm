@@ -96,7 +96,7 @@ import DAVID_OKOROGBA from "@/assets/img/DAVID_OKOROGBA.jpeg";
 const services = ref([
   {
     icons: HAROLD_UKU,
-    title: "Founding Partner ",
+    title: " Partner ",
     name: "HAROLD UKU",
   },
   {
