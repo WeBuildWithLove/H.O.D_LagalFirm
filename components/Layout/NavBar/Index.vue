@@ -64,18 +64,22 @@
       <div class="my-3 bg-card lg:flex hidden">
         <UIDivider direction="horizontal" width="2px" />
       </div>
-      <!-- animate__fadeInDown -->
+      <!-- animate__fadeInDown     :class="{
+      '-translate-x-[100%]': !showNavBar,
+      'translate-x-0': showNavBar,
+    }"
+-->
       <div
-        :class="`flex-col lg:flex-row items-center   animate__animated w-full lg:w-auto lg:flex transition-all duration-500 ease-in-out transform ${
+        :class="`flex-col lg:flex-row items-center  animate__animated w-full lg:w-auto lg:flex transition-all duration-500 ease-in-out transform ${
           isMenuOpen
-            ? 'animate__slideInDown animate__animated sticky z-20 lg:h-auto h-screen '
-            : 'hidden'
+            ? 'animate__fadeInLeft -translate-x-[100%] animate__animated sticky z-20 lg:h-auto h-screen '
+            : 'hidden '
         }`"
       >
         <div
           class="flex flex-col lg:flex-row lg:flex-wrap justify-between items-left w-full lg:px-2 text-white lg:text-[#3A3A38]"
         >
-          <div class="flex flex-col lg:flex-row lg:gap-4 px-4">
+          <div class="flex flex-col lg:flex-row lg:gap-4 gap-7 px-4">
             <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
               <img src="@/assets/svg/NavbarPointer.svg" height="29px" width="29px" />
               <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
