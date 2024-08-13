@@ -77,13 +77,13 @@
         </div>
         <div class="space-y-5 text-[#D7D7D7]">
           <div>
-            <p>Phone:(+234) 803 292 8072</p>
+            <p>(+234) 803 292 8072</p>
             <p>(+234) 810 286 0630</p>
             <p>(+234) 803 071 7860</p>
           </div>
           <div>
-            <p>Email:@Hodlegal.org</p>
-            <p>Website:WWW.Hodlegal.Org</p>
+            <p>contact@hodlegal.org</p>
+            <!-- <p>Website:WWW.Hodlegal.Org</p> -->
           </div>
         </div>
       </div>
