@@ -17,7 +17,7 @@
       </div>
 
       <div
-        class="lg:text-[28px] text-[14px] lg:leading-[50.4px] leading-[24.92px] text-center font-medium flex flex-col justify-center gap-2 "
+        class="lg:text-[25px] text-[14px] lg:leading-[40.4px] leading-[24.92px] text-center font-medium flex flex-col justify-center gap-2"
       >
         <p>
           H.O.D LEGAL specializes primarily in commercial disputes resolution and
@@ -25,18 +25,16 @@
           boardroom, negotiations, giving opinions on thorny legal issues, helping our
           clients obtain necessary regulatory permits/licenses or interfacing with
           government MDAs on their behalf, we are always guided by genuine concern for our
-          clients interests.
-       
-          To this end, our service delivery is detail-oriented, always taking into account
-          the ever-changing laws and existing business realities in the industries where
-          our clients operate.
+          clients interests. To this end, our service delivery is detail-oriented, always
+          taking into account the ever-changing laws and existing business realities in
+          the industries where our clients operate.
         </p>
       </div>
     </div>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
       <div v-for="item in services" :key="item.name" class="flex gap-2">
         <div class="lg:mt-2"><component :is="item.icon"></component></div>
-        <p class="text-[14px] lg:text-[25px]">
+        <p class="text-[14px] lg:text-[20px]">
           {{ item.name }}
         </p>
       </div>
@@ -84,7 +82,10 @@ const services = ref([
   { icon: ClarityEmployee, name: "Employment and Labour Law" },
   { icon: BusinessIcon, name: "Business Recovery and Insolvency" },
   { icon: OutlineDataFile, name: "Data Protection and Privacy" },
-  { icon: TransportIcon, name: "Transportation and Logistics (Maritime; Aviation; Road & Rail)" },
+  {
+    icon: TransportIcon,
+    name: "Transportation and Logistics (Maritime; Aviation; Road & Rail)",
+  },
   { icon: RegulatoryIcon, name: "Regulatory Compliance and Government Relations" },
 ]);
 </script>

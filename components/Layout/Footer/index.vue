@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-brand text-white lg:py-12 space-y-6 lg:space-y-32">
-    <div class="flex flex-col items-center justify-center gap-4 lg:flex-row">
+    <div class="flex flex-col items-center justify-center gap-6 lg:flex-row">
       <div>
         <img
           src="@/assets/svg/Footer/Pointer.svg"
@@ -13,7 +13,7 @@
       </div>
       <div>
         <img
-          src="@/assets/svg/Footer/Pointer.svg"
+          src="@/assets/svg/Footer/pointerRight.svg"
           alt="pointer"
           class="hidden lg:block"
         />

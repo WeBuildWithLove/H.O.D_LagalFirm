@@ -34,7 +34,7 @@
             v-for="list in item.memo?.slice(0, 2)"
             :key="list"
             v-html="list.text"
-            class="text-[20px] font-normal leading-[27px]"
+            class="text-[20px] font-normal text-justify leading-[27px]"
           ></p>
         </div>
       </div>
@@ -42,7 +42,7 @@
         v-for="list in item.memo?.slice(2, 4)"
         :key="list"
         v-html="list.text"
-        class="text-[20px] font-normal container !mb-5 leading-[27px]"
+        class="text-[20px] font-normal container text-justify !mb-5 leading-[27px]"
       ></p>
       <div class="flex lg:flex-row container flex-col justify-between">
         <div v-if="item.memberships.length !== 0" class="">

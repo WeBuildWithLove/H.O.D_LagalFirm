@@ -186,7 +186,7 @@
                 }"
                 class="text-[16px] text-white lg:text-[#222222] font-medium"
               >
-                CORE IDEOLOGYS
+                CORE IDEOLOGY
               </p>
             </a>
             <a
