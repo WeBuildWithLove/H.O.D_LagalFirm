@@ -1,21 +1,19 @@
 <template>
   <footer class="bg-brand text-white lg:py-12 space-y-6 lg:space-y-32">
-    <div
-      class="flex flex-col items-center justify-center space-y-4 lg:space-y-0 lg:flex-row"
-    >
+    <div class="flex flex-col items-center justify-center gap-4 lg:flex-row">
       <div>
         <img
-          src="../../../assets/svg/Footer/Pointer.svg"
+          src="@/assets/svg/Footer/Pointer.svg"
           alt="pointer"
           class="hidden lg:block"
         />
       </div>
-      <div class="w-[194px] md:w-[421px] h-[59px] md:h-32">
-        <img src="../../../assets/svg/Footer/Logo.svg" alt="logo" />
+      <div class="w-[194px] md:w-[221px] h-[59px] md:h-28">
+        <img src="@/assets/img/whiteLogo.png" alt="logo" />
       </div>
       <div>
         <img
-          src="../../../assets/svg/Footer/Pointer.svg"
+          src="@/assets/svg/Footer/Pointer.svg"
           alt="pointer"
           class="hidden lg:block"
         />
@@ -64,14 +62,12 @@
           <p>Transportation & Logistics</p>
           <p>Regulatory Compliance & Government Relations</p>
           <p>Intellectual Property</p>
-<p>Energy & Natural Resources</p>
-<p>Sports & Entertainment</p>
-<p>Employment & Labour</p>
-<p>Business Recovert & Insolvency</p>
-<p>Data Protection & Privacy</p>
-
+          <p>Energy & Natural Resources</p>
+          <p>Sports & Entertainment</p>
+          <p>Employment & Labour</p>
+          <p>Business Recovert & Insolvency</p>
+          <p>Data Protection & Privacy</p>
         </div>
-    
       </div>
       <div class="space-y-8">
         <div>
@@ -102,9 +98,7 @@
             Lagos: Plot 1, Block 99, olori Muyibat Oyefusi street, off omorinre Johnson
             street, Lekki Phase 1, lagos state, Nigeria.
           </p>
-          <p>
-            PORT HARCOURT: 11b, Birabi street G.RA., PORT HARCOURT. Rivers state, Nigeria.
-          </p>
+          <p>Port Harcourt: 11B, Birabi Street G.R.A.,Port Harcourt, Nigeria.</p>
         </div>
       </div>
     </div>

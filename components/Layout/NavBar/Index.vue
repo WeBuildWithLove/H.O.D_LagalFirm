@@ -12,7 +12,7 @@
           class="hidden lg:flex"
         />
         <img
-          src="@/assets/img/MobileLogo.svg"
+          src="@/assets/img/whiteLogo.png"
           alt="Logo"
           height="38px"
           width="123px"
