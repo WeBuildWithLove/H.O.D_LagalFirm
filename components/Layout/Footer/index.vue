@@ -114,7 +114,7 @@
       >
         <div class="text-xs flex items-center gap-2 lg:text-xl">
           Copyright © <span class="text-[#fff]">H.O.D Legal </span> | Built by:
-          <a href="https://wecr8t.xyz/" target="_blank" class="lg:w-[13%] w-[40%]">
+          <a href="https://wecr8t.xyz/" target="_blank" class="lg:w-[10%] w-[40%]">
             <UIIconWecr8tLogo class="w-[100%]" />
           </a>
         </div>
