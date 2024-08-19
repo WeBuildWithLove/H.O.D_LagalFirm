@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-brand text-white lg:py-12 space-y-6 lg:space-y-32">
+  <footer class="bg-card text-white lg:py-12 space-y-6 lg:space-y-32">
     <div class="flex flex-col items-center justify-center gap-6 lg:flex-row">
       <div>
         <img
@@ -94,22 +94,27 @@
           <hr class="border-white" />
         </div>
         <div class="space-y-6 text-[#D7D7D7]">
-          <p>
-            Lagos: Plot 1, Block 99, olori Muyibat Oyefusi street, off omorinre Johnson
-            street, Lekki Phase 1, lagos state, Nigeria.
+          <p class="capitalize">
+            <b>Lagos:</b> <br />
+            Plot 1, Block 99, olori Muyibat Oyefusi street, off omorinre Johnson street,
+            Lekki Phase 1, lagos state, Nigeria.
           </p>
-          <p>Port Harcourt: 11B, Birabi Street G.R.A.,Port Harcourt, Nigeria.</p>
+          <p class="capitalize">
+            <b>Port Harcourt:</b>
+            <br />
+            11B, Birabi Street G.R.A.,Port Harcourt, Nigeria.
+          </p>
         </div>
       </div>
     </div>
     <div class="px-4 md:px-12 lg:px-24">
-      <hr class="border-[#3A4553]" />
+      <hr class="border-[#fff]" />
       <div
         class="font-lato flex flex-col md:flex-row justify-between py-4 space-y-4 lg:space-y-0"
       >
         <div class="text-xs lg:text-xl">
-          Copyright © <span class="text-[#A70314]">H.O.D Legal </span> | Built by: Build
-          With Love.
+          Copyright © <span class="text-[#fff]">H.O.D Legal </span> | Built by: Build With
+          Love.
         </div>
         <!-- <div
           class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 hidden md:flex"
@@ -137,7 +142,7 @@
           </div> -->
         <!-- </div> -->
       </div>
-      <hr class="border-[#3A4553]" />
+      <hr class="border-[#fff]" />
       <!-- <div
         class="flex justify-center space-x-4 lg:space-x-8 block md:hidden py-4"
       >

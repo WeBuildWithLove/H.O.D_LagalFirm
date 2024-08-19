@@ -7,7 +7,7 @@
 </template>
 <script setup lang="ts">
 useHead({
-  title: "HOD_LagalFirm - Attorney",
+  title: "H.O.D LEGAL | Harbour of Dynamic Legal Service Providers",
   meta: [{ name: "description", content: `` }],
   bodyAttrs: {
     class: "test",
@@ -15,8 +15,8 @@ useHead({
   script: [{ innerHTML: "" }],
 });
 useSeoMeta({
-  title: "HOD_LagalFirm",
-  ogTitle: "HOD_LagalFirm",
+  title: "H.O.D LEGAL | Harbour of Dynamic Legal Service Providers",
+  ogTitle: "H.O.D LEGAL | Harbour of Dynamic Legal Service Providers",
   description: ``,
   ogDescription: ``,
 });
