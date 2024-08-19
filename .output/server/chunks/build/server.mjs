@@ -641,7 +641,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./attorneys-RXf80M5l.mjs').then((m) => m.default || m)
+    component: () => import('./attorneys-BNVgnbr8.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -649,7 +649,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-BOnMvvN1.mjs').then((m) => m.default || m)
+    component: () => import('./index-CaRlQOBQ.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {

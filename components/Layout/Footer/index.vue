@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-card text-white lg:py-12 space-y-6 lg:space-y-32">
+  <footer class="bg-card/100 text-white lg:pt-12 space-y-6 lg:space-y-32">
     <div class="flex flex-col items-center justify-center gap-6 lg:flex-row">
       <div>
         <img
@@ -107,15 +107,18 @@
         </div>
       </div>
     </div>
-    <div class="px-4 md:px-12 lg:px-24">
-      <hr class="border-[#fff]" />
+    <div class="px-4 md:px-12 bg-brand py-10 lg:px-24">
+      <!-- <hr class="border-[#fff]" /> -->
       <div
         class="font-lato flex flex-col md:flex-row justify-between py-4 space-y-4 lg:space-y-0"
       >
-        <div class="text-xs lg:text-xl">
-          Copyright © <span class="text-[#fff]">H.O.D Legal </span> | Built by: Build With
-          Love.
+        <div class="text-xs flex items-center gap-2 lg:text-xl">
+          Copyright © <span class="text-[#fff]">H.O.D Legal </span> | Built by:
+          <a href="https://wecr8t.xyz/" target="_blank" class="lg:w-[13%] w-[40%]">
+            <UIIconWecr8tLogo class="w-[100%]" />
+          </a>
         </div>
+
         <!-- <div
           class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 hidden md:flex"
         >
@@ -142,7 +145,7 @@
           </div> -->
         <!-- </div> -->
       </div>
-      <hr class="border-[#fff]" />
+      <!-- <hr class="border-[#fff]" /> -->
       <!-- <div
         class="flex justify-center space-x-4 lg:space-x-8 block md:hidden py-4"
       >

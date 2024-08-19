@@ -3,56 +3,67 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "index.BQNEdW9i.css",
+    "file": "index.CZFtXGZn.css",
     "src": "_!~{008}~.js"
   },
-  "_CVquGAo5.js": {
+  "_CXuESx5a.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CVquGAo5.js",
-    "name": "index",
+    "file": "CXuESx5a.js",
+    "name": "nuxt-link",
     "imports": [
-      "_Cdm0Ovg-.js",
-      "node_modules/nuxt/dist/app/entry.js",
-      "_CbOJMl7Y.js"
-    ],
-    "css": [
-      "index.BQNEdW9i.css"
-    ],
-    "assets": [
-      "Logo.CTr6msrk.svg",
-      "MobileLogo.BzTKrmSN.svg",
-      "JusticeStatus.M8Ovtrko.svg",
-      "AboutProfile.C7UIML1i.svg",
-      "GAMALIEL_WORLY.B5JdF4rU.png",
-      "SARAH_HAROLD_UKU.2MjDXyZ0.png",
-      "UZEZI_AMAWHE.BnSEdfTt.png",
-      "IKOPEMUGH_NENGIM.CG_brGc7.png",
-      "FRANCIS_NWABUNWANNE._mtFBO5v.png",
-      "DAVID_OKOROGBA.DAku8Ext.png",
-      "Photo2.xdkD7xhW.png",
-      "Logo.Bznkur3a.svg"
+      "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "index.BQNEdW9i.css": {
-    "file": "index.BQNEdW9i.css",
+  "_Dib1BE1X.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "Dib1BE1X.js",
+    "name": "index",
+    "imports": [
+      "_ZANuSVUX.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_CXuESx5a.js"
+    ],
+    "css": [
+      "index.CZFtXGZn.css"
+    ],
+    "assets": [
+      "roundLogo.CmZvON0_.jpeg",
+      "whiteLogo.QHmFGgiR.png",
+      "JusticeStatus.M8Ovtrko.svg",
+      "AboutProfile.C7UIML1i.svg",
+      "GAMALIEL_WORLY.D57o7Cpg.jpeg",
+      "HAROLD_UKU.jz2IM-M1.jpeg",
+      "SARAH_HAROLD_UKU.BfcygmeB.jpeg",
+      "UZEZI_AMAWHE.B0SvnQic.jpeg",
+      "IKOPEMUGH_NENGIM.CEDtBBZ-.jpeg",
+      "FRANCIS_NWABUNWANNE.Bx5HteLK.jpeg",
+      "DAVID_OKOROGBA.nj1kjJ1g.jpeg",
+      "Photo2.xdkD7xhW.png"
+    ]
+  },
+  "index.CZFtXGZn.css": {
+    "file": "index.CZFtXGZn.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
   },
-  "Logo.CTr6msrk.svg": {
-    "file": "Logo.CTr6msrk.svg",
+  "roundLogo.CmZvON0_.jpeg": {
+    "file": "roundLogo.CmZvON0_.jpeg",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/svg+xml"
+    "mimeType": "image/jpeg"
   },
-  "MobileLogo.BzTKrmSN.svg": {
-    "file": "MobileLogo.BzTKrmSN.svg",
+  "whiteLogo.QHmFGgiR.png": {
+    "file": "whiteLogo.QHmFGgiR.png",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/svg+xml"
+    "mimeType": "image/png"
   },
   "JusticeStatus.M8Ovtrko.svg": {
     "file": "JusticeStatus.M8Ovtrko.svg",
@@ -66,41 +77,47 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/svg+xml"
   },
-  "GAMALIEL_WORLY.B5JdF4rU.png": {
-    "file": "GAMALIEL_WORLY.B5JdF4rU.png",
+  "GAMALIEL_WORLY.D57o7Cpg.jpeg": {
+    "file": "GAMALIEL_WORLY.D57o7Cpg.jpeg",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png"
+    "mimeType": "image/jpeg"
   },
-  "SARAH_HAROLD_UKU.2MjDXyZ0.png": {
-    "file": "SARAH_HAROLD_UKU.2MjDXyZ0.png",
+  "HAROLD_UKU.jz2IM-M1.jpeg": {
+    "file": "HAROLD_UKU.jz2IM-M1.jpeg",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png"
+    "mimeType": "image/jpeg"
   },
-  "UZEZI_AMAWHE.BnSEdfTt.png": {
-    "file": "UZEZI_AMAWHE.BnSEdfTt.png",
+  "SARAH_HAROLD_UKU.BfcygmeB.jpeg": {
+    "file": "SARAH_HAROLD_UKU.BfcygmeB.jpeg",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png"
+    "mimeType": "image/jpeg"
   },
-  "IKOPEMUGH_NENGIM.CG_brGc7.png": {
-    "file": "IKOPEMUGH_NENGIM.CG_brGc7.png",
+  "UZEZI_AMAWHE.B0SvnQic.jpeg": {
+    "file": "UZEZI_AMAWHE.B0SvnQic.jpeg",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png"
+    "mimeType": "image/jpeg"
   },
-  "FRANCIS_NWABUNWANNE._mtFBO5v.png": {
-    "file": "FRANCIS_NWABUNWANNE._mtFBO5v.png",
+  "IKOPEMUGH_NENGIM.CEDtBBZ-.jpeg": {
+    "file": "IKOPEMUGH_NENGIM.CEDtBBZ-.jpeg",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png"
+    "mimeType": "image/jpeg"
   },
-  "DAVID_OKOROGBA.DAku8Ext.png": {
-    "file": "DAVID_OKOROGBA.DAku8Ext.png",
+  "FRANCIS_NWABUNWANNE.Bx5HteLK.jpeg": {
+    "file": "FRANCIS_NWABUNWANNE.Bx5HteLK.jpeg",
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png"
+    "mimeType": "image/jpeg"
+  },
+  "DAVID_OKOROGBA.nj1kjJ1g.jpeg": {
+    "file": "DAVID_OKOROGBA.nj1kjJ1g.jpeg",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg"
   },
   "Photo2.xdkD7xhW.png": {
     "file": "Photo2.xdkD7xhW.png",
@@ -108,54 +125,37 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "Logo.Bznkur3a.svg": {
-    "file": "Logo.Bznkur3a.svg",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/svg+xml"
-  },
-  "_CbOJMl7Y.js": {
+  "_ZANuSVUX.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CbOJMl7Y.js",
-    "name": "nuxt-link",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ]
-  },
-  "_Cdm0Ovg-.js": {
-    "resourceType": "script",
-    "module": true,
-    "prefetch": true,
-    "preload": true,
-    "file": "Cdm0Ovg-.js",
+    "file": "ZANuSVUX.js",
     "name": "vue.f36acd1f",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "assets/img/DAVID_OKOROGBA.png": {
+  "assets/img/DAVID_OKOROGBA.jpeg": {
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "DAVID_OKOROGBA.DAku8Ext.png",
-    "src": "assets/img/DAVID_OKOROGBA.png"
+    "mimeType": "image/jpeg",
+    "file": "DAVID_OKOROGBA.nj1kjJ1g.jpeg",
+    "src": "assets/img/DAVID_OKOROGBA.jpeg"
   },
-  "assets/img/FRANCIS_NWABUNWANNE.png": {
+  "assets/img/FRANCIS_NWABUNWANNE.jpeg": {
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "FRANCIS_NWABUNWANNE._mtFBO5v.png",
-    "src": "assets/img/FRANCIS_NWABUNWANNE.png"
+    "mimeType": "image/jpeg",
+    "file": "FRANCIS_NWABUNWANNE.Bx5HteLK.jpeg",
+    "src": "assets/img/FRANCIS_NWABUNWANNE.jpeg"
   },
-  "assets/img/GAMALIEL_WORLY.png": {
+  "assets/img/GAMALIEL_WORLY.jpeg": {
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "GAMALIEL_WORLY.B5JdF4rU.png",
-    "src": "assets/img/GAMALIEL_WORLY.png"
+    "mimeType": "image/jpeg",
+    "file": "GAMALIEL_WORLY.D57o7Cpg.jpeg",
+    "src": "assets/img/GAMALIEL_WORLY.jpeg"
   },
   "assets/img/Gavel.png": {
     "resourceType": "image",
@@ -164,40 +164,19 @@ const client_manifest = {
     "file": "Gavel.BTs1tHMo.png",
     "src": "assets/img/Gavel.png"
   },
-  "assets/img/HAROLD_UKU.png": {
+  "assets/img/HAROLD_UKU.jpeg": {
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "HAROLD_UKU.BCbHJ7LB.png",
-    "src": "assets/img/HAROLD_UKU.png"
+    "mimeType": "image/jpeg",
+    "file": "HAROLD_UKU.jz2IM-M1.jpeg",
+    "src": "assets/img/HAROLD_UKU.jpeg"
   },
-  "assets/img/HAROLD_UKU_II.png": {
+  "assets/img/IKOPEMUGH_NENGIM.jpeg": {
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "HAROLD_UKU_II.CBf7l6EK.png",
-    "src": "assets/img/HAROLD_UKU_II.png"
-  },
-  "assets/img/IKOPEMUGH_NENGIM.png": {
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png",
-    "file": "IKOPEMUGH_NENGIM.CG_brGc7.png",
-    "src": "assets/img/IKOPEMUGH_NENGIM.png"
-  },
-  "assets/img/Logo.svg": {
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/svg+xml",
-    "file": "Logo.CTr6msrk.svg",
-    "src": "assets/img/Logo.svg"
-  },
-  "assets/img/MobileLogo.svg": {
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/svg+xml",
-    "file": "MobileLogo.BzTKrmSN.svg",
-    "src": "assets/img/MobileLogo.svg"
+    "mimeType": "image/jpeg",
+    "file": "IKOPEMUGH_NENGIM.CEDtBBZ-.jpeg",
+    "src": "assets/img/IKOPEMUGH_NENGIM.jpeg"
   },
   "assets/img/Partnership.png": {
     "resourceType": "image",
@@ -213,12 +192,12 @@ const client_manifest = {
     "file": "Photo2.xdkD7xhW.png",
     "src": "assets/img/Photo2.png"
   },
-  "assets/img/SARAH_HAROLD_UKU.png": {
+  "assets/img/SARAH_HAROLD_UKU.jpeg": {
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "SARAH_HAROLD_UKU.2MjDXyZ0.png",
-    "src": "assets/img/SARAH_HAROLD_UKU.png"
+    "mimeType": "image/jpeg",
+    "file": "SARAH_HAROLD_UKU.BfcygmeB.jpeg",
+    "src": "assets/img/SARAH_HAROLD_UKU.jpeg"
   },
   "assets/img/ScaleOfJustice.png": {
     "resourceType": "image",
@@ -234,12 +213,12 @@ const client_manifest = {
     "file": "StatueOfJustice.CWbudAA4.png",
     "src": "assets/img/StatueOfJustice.png"
   },
-  "assets/img/UZEZI_AMAWHE.png": {
+  "assets/img/UZEZI_AMAWHE.jpeg": {
     "resourceType": "image",
     "prefetch": true,
-    "mimeType": "image/png",
-    "file": "UZEZI_AMAWHE.BnSEdfTt.png",
-    "src": "assets/img/UZEZI_AMAWHE.png"
+    "mimeType": "image/jpeg",
+    "file": "UZEZI_AMAWHE.B0SvnQic.jpeg",
+    "src": "assets/img/UZEZI_AMAWHE.jpeg"
   },
   "assets/img/bg.png": {
     "resourceType": "image",
@@ -255,19 +234,26 @@ const client_manifest = {
     "file": "businessman-male-lawyer-judge-consult-having-team-meeting-with-client.ByjJVjjB.png",
     "src": "assets/img/businessman-male-lawyer-judge-consult-having-team-meeting-with-client.png"
   },
+  "assets/img/roundLogo.jpeg": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/jpeg",
+    "file": "roundLogo.CmZvON0_.jpeg",
+    "src": "assets/img/roundLogo.jpeg"
+  },
+  "assets/img/whiteLogo.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "whiteLogo.QHmFGgiR.png",
+    "src": "assets/img/whiteLogo.png"
+  },
   "assets/svg/AboutProfile.svg": {
     "resourceType": "image",
     "prefetch": true,
     "mimeType": "image/svg+xml",
     "file": "AboutProfile.C7UIML1i.svg",
     "src": "assets/svg/AboutProfile.svg"
-  },
-  "assets/svg/Footer/Logo.svg": {
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/svg+xml",
-    "file": "Logo.Bznkur3a.svg",
-    "src": "assets/svg/Footer/Logo.svg"
   },
   "assets/svg/JusticeStatus.svg": {
     "resourceType": "image",
@@ -281,13 +267,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CGerUncR.js",
+    "file": "BYI1ssoY.js",
     "name": "error-404",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CbOJMl7Y.js",
-      "_Cdm0Ovg-.js",
+      "_CXuESx5a.js",
+      "_ZANuSVUX.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -303,12 +289,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C2yjc5fV.js",
+    "file": "DFSpBnZk.js",
     "name": "error-500",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Cdm0Ovg-.js",
+      "_ZANuSVUX.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -324,7 +310,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "ugFxSnXG.js",
+    "file": "d6HD4Vcu.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -339,26 +325,25 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CBbwzR13.js",
+    "file": "oN4zxpH8.js",
     "name": "attorneys",
     "src": "pages/attorneys.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CVquGAo5.js",
+      "_Dib1BE1X.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cdm0Ovg-.js",
-      "_CbOJMl7Y.js"
+      "_ZANuSVUX.js",
+      "_CXuESx5a.js"
     ],
     "css": [
-      "attorneys.DnCDr3pt.css"
+      "attorneys.-aNoDol-.css"
     ],
     "assets": [
-      "bg.BNm4A2gr.png",
-      "HAROLD_UKU_II.CBf7l6EK.png"
+      "bg.BNm4A2gr.png"
     ]
   },
-  "attorneys.DnCDr3pt.css": {
-    "file": "attorneys.DnCDr3pt.css",
+  "attorneys.-aNoDol-.css": {
+    "file": "attorneys.-aNoDol-.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -369,41 +354,34 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "HAROLD_UKU_II.CBf7l6EK.png": {
-    "file": "HAROLD_UKU_II.CBf7l6EK.png",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png"
-  },
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BWv7lUHW.js",
+    "file": "CbSsIg6I.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CVquGAo5.js",
+      "_Dib1BE1X.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_Cdm0Ovg-.js",
-      "_CbOJMl7Y.js"
+      "_ZANuSVUX.js",
+      "_CXuESx5a.js"
     ],
     "css": [
-      "index.CBMqZv-_.css"
+      "index.C9smNLOp.css"
     ],
     "assets": [
       "StatueOfJustice.CWbudAA4.png",
       "ScaleOfJustice.DEHwv3f0.png",
       "Partnership.C6aNyrRu.png",
       "Gavel.BTs1tHMo.png",
-      "HAROLD_UKU.BCbHJ7LB.png",
       "businessman-male-lawyer-judge-consult-having-team-meeting-with-client.ByjJVjjB.png"
     ]
   },
-  "index.CBMqZv-_.css": {
-    "file": "index.CBMqZv-_.css",
+  "index.C9smNLOp.css": {
+    "file": "index.C9smNLOp.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -428,12 +406,6 @@ const client_manifest = {
   },
   "Gavel.BTs1tHMo.png": {
     "file": "Gavel.BTs1tHMo.png",
-    "resourceType": "image",
-    "prefetch": true,
-    "mimeType": "image/png"
-  },
-  "HAROLD_UKU.BCbHJ7LB.png": {
-    "file": "HAROLD_UKU.BCbHJ7LB.png",
     "resourceType": "image",
     "prefetch": true,
     "mimeType": "image/png"
