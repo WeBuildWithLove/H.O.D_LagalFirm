@@ -15,13 +15,18 @@
       class="flex w-full object-cover justify-center items-start h-auto py-20 lg:py-40"
     >
       <div class="bg-[#1F2732] container min-h-[349px] w-full p-4">
-        <div class="flex flex-col justify-between py-10 lg:px-40 gap-4">
+        <form
+          class="flex flex-col justify-between py-10 lg:px-40 gap-4"
+          @submit.prevent="submitForm"
+        >
           <div class="flex lg:flex-row flex-col gap-4 w-full">
             <UIInputAuthInput
               :error="false"
               type="text"
               label="Full Name *"
               placeholder="Full Name *"
+              v-model="formData.name"
+              id="name"
               required
             >
             </UIInputAuthInput>
@@ -30,6 +35,8 @@
               placeholder="Email Address *"
               :error="false"
               type="email"
+              id="email"
+              v-model="formData.email"
               required
             >
             </UIInputAuthInput>
@@ -40,6 +47,8 @@
               placeholder="Phone Number *"
               :error="false"
               type="tel"
+              v-model="formData.number"
+              id="number"
               required
             >
             </UIInputAuthInput>
@@ -48,6 +57,8 @@
               placeholder="Subject *"
               :error="false"
               type="text"
+              v-model="formData.subject"
+              id="subject"
               required
             >
             </UIInputAuthInput>
@@ -61,23 +72,185 @@
               required
               :auto-size="{ minRows: 5, maxRows: 5 }"
               placeholder="Your Message *"
+              v-model:value="formData.message"
+              id="message"
             >
             </a-textarea>
           </div>
 
           <div class="flex justify-center">
-            <UIButton class="text-[#1F2732] !bg-white text-[22px] !px-[45px]">
-              Get An Appoinment
+            <UIButton
+              class="text-[#1F2732] !bg-white text-[22px] !px-[45px]"
+              :disabled="loading"
+              type="submit"
+            >
+              <looping-rhombuses-spinner
+                v-if="loading"
+                :animation-duration="2500"
+                :rhombus-size="15"
+                color="#ffffff"
+              />
+              <span v-if="!loading"> Get An Appointment</span>
             </UIButton>
           </div>
-        </div>
+        </form>
       </div>
     </div>
+    <!-- <div>
+      <div class="text-center py-[200px]">
+        <p
+          class="text-[61.429px] leading-[23px] text-brand my-2 font-EBGaramond500"
+        >
+          Thank You
+        </p>
+        <p
+          class="text-[18px] leading-[23px] text-[#254035] my-6 font-Satoshi400"
+        >
+          Your message has been sent successfully, I will response soon.
+        </p>
+      </div>
+    </div> -->
   </div>
 </template>
+
 <script setup>
+import { LoopingRhombusesSpinner } from "epic-spinners";
 import image from "@/assets/img/Photo2.png";
+import { reactive, ref, watch } from "vue";
+import emailjs from "emailjs-com";
+
+const emit = defineEmits(["closeModal", "formSubmitted"]);
+const props = defineProps(["formData"]);
+const loading = ref(false);
+
+const formData = reactive({
+  message: "",
+  subject: "",
+  name: "",
+  email: "",
+  number: "",
+});
+
+const validateForm = () => {
+  return (
+    formData.name.trim() !== "" &&
+    formData.email.trim() !== "" &&
+    formData.number.trim() !== "" &&
+    formData.subject.trim() !== "" &&
+    formData.message.trim() !== ""
+  );
+};
+
+const submitForm = async (e) => {
+  loading.value = true;
+  if (!validateForm()) {
+    loading.value = false;
+    return;
+  }
+
+  let payload = {
+    name: formData.name,
+    email: formData.email,
+    subject: formData.subject,
+    message: formData.message,
+    number: formData.number,
+  };
+
+  try {
+    await emailjs.send(
+      "service_mj9twxa",
+      "template_3zfxfj6",
+      payload,
+      "udTUt8SyCLDlHBMC5"
+    );
+
+    console.log(payload);
+    loading.value = false;
+    // Reset form fields after successful submission
+    Object.keys(formData).forEach((key) => {
+      formData[key] = "";
+    });
+    changeScreen(0, 1);
+
+    // Emit the form data after successful submission
+    emit("formSubmitted", payload);
+  } catch (error) {
+    console.log("EmailJS Error: ", error);
+    alert("Thank you for sending your message");
+    loading.value = false;
+  }
+};
+
+watch(props.formData, (newData) => {
+  if (newData) {
+    Object.assign(formData, newData);
+  }
+});
+
+// const submitForm = () => {
+//   const serviceID = "service_mj9twxa";
+//   const templateID = "template_3zfxfj6";
+//   const userID = "udTUt8SyCLDlHBMC5";
+
+//   // Use EmailJS to send form data
+//   emailjs
+//     .send(serviceID, templateID, formData.value, userID)
+//     .then((response) => {
+//       console.log("SUCCESS!", response.status, response.text);
+//       alert("Your message has been sent!");
+//     })
+//     .catch((error) => {
+//       console.error("FAILED...", error);
+//       alert("Failed to send your message.");
+//     });
+// };
+// const loading = ref(false);
+// const changeScreen = (from, to, type = null) => {
+//   steps.value[from] = false;
+//   steps.value[to] = true;
+// };
+
+// const handleSubmit = async (e) => {
+//   loading.value = true;
+//   if (!validateForm()) {
+//     loading.value = false;
+//     return;
+//   }
+
+//   let payload = {
+//     from_name: formState.name,
+//     email: formState.email,
+//     subject: formState.subject,
+//     message: formState.message,
+//     number: formState.number,
+//   };
+//   try {
+//     emailjs.send(
+//       "service_mj9twxa",
+//       "template_3zfxfj6",
+//       {
+//         subject: formState.subject,
+//         name: formState.name,
+//         email: formState.email,
+//         message: formState.message,
+//         numbet: formState.number,
+//       },
+//       "udTUt8SyCLDlHBMC5"
+//     );
+//     console.log(payload);
+//     loading.value = false;
+
+//     // Reset form fields after successful submission
+//     Object.keys(formState).forEach((key) => {
+//       formState[key] = "";
+//     });
+//     changeScreen(0, 1);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
 </script>
+
 <style scoped>
 .background {
   background-size: cover;

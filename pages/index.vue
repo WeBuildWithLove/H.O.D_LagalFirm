@@ -6,7 +6,8 @@
   <UIPageSectionsIdeology />
   <UIPageSectionsFirm />
   <UIPageSectionsOperation />
-  <UIPageSectionsAttorneyFormSection />
+  <UIPageSectionsAttorneyFormSection :formData="submittedData" />
+  
   <LayoutFooter />
 </template>
 <script setup lang="ts">
@@ -24,4 +25,9 @@ useSeoMeta({
   description: ``,
   ogDescription: ``,
 });
+
+const submittedData = ref(null);
+const handleFormSubmitted = (payload: any) => {
+  submittedData.value = payload;
+};
 </script>

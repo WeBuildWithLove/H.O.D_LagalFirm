@@ -2,7 +2,8 @@
   <LayoutNavBar />
   <UIAttorneysHome />
   <UIAttorneysDetails />
-  <UIPageSectionsAttorneyFormSection />
+  <UIPageSectionsAttorneyFormSection :formData="submittedData"  />
+   <!-- <ModalComponent @formSubmitted="handleFormSubmitted" /> -->
   <LayoutFooter />
 </template>
 <script setup lang="ts">
@@ -20,4 +21,10 @@ useSeoMeta({
   description: ``,
   ogDescription: ``,
 });
+
+const submittedData = ref(null);
+
+const handleFormSubmitted = (payload: any) => {
+  submittedData.value = payload;
+};
 </script>
