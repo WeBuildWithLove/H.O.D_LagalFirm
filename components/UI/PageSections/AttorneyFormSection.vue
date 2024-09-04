@@ -186,69 +186,6 @@ watch(props.formData, (newData) => {
     Object.assign(formData, newData);
   }
 });
-
-// const submitForm = () => {
-//   const serviceID = "service_mj9twxa";
-//   const templateID = "template_3zfxfj6";
-//   const userID = "udTUt8SyCLDlHBMC5";
-
-//   // Use EmailJS to send form data
-//   emailjs
-//     .send(serviceID, templateID, formData.value, userID)
-//     .then((response) => {
-//       console.log("SUCCESS!", response.status, response.text);
-//       alert("Your message has been sent!");
-//     })
-//     .catch((error) => {
-//       console.error("FAILED...", error);
-//       alert("Failed to send your message.");
-//     });
-// };
-// const loading = ref(false);
-// const changeScreen = (from, to, type = null) => {
-//   steps.value[from] = false;
-//   steps.value[to] = true;
-// };
-
-// const handleSubmit = async (e) => {
-//   loading.value = true;
-//   if (!validateForm()) {
-//     loading.value = false;
-//     return;
-//   }
-
-//   let payload = {
-//     from_name: formState.name,
-//     email: formState.email,
-//     subject: formState.subject,
-//     message: formState.message,
-//     number: formState.number,
-//   };
-//   try {
-//     emailjs.send(
-//       "service_mj9twxa",
-//       "template_3zfxfj6",
-//       {
-//         subject: formState.subject,
-//         name: formState.name,
-//         email: formState.email,
-//         message: formState.message,
-//         numbet: formState.number,
-//       },
-//       "udTUt8SyCLDlHBMC5"
-//     );
-//     console.log(payload);
-//     loading.value = false;
-
-//     // Reset form fields after successful submission
-//     Object.keys(formState).forEach((key) => {
-//       formState[key] = "";
-//     });
-//     changeScreen(0, 1);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
 </script>
 
 <style scoped>
