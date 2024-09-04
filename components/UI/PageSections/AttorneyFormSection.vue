@@ -159,7 +159,7 @@ const submitForm = async (e) => {
 
   try {
     await emailjs.send(
-      "service_8a95b3l",
+      "service_vlq5lc1",
       "template_pc4p1hw",
       payload,
       "_2ou0UdP2XI1uozR4"
