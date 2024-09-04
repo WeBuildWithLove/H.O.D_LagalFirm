@@ -150,6 +150,7 @@ const submitForm = async (e) => {
 
   let payload = {
     name: formData.name,
+    from_name: formData.name,
     email: formData.email,
     subject: formData.subject,
     message: formData.message,
@@ -158,10 +159,10 @@ const submitForm = async (e) => {
 
   try {
     await emailjs.send(
-      "service_mj9twxa",
-      "template_3zfxfj6",
+      "service_8a95b3l",
+      "template_pc4p1hw",
       payload,
-      "udTUt8SyCLDlHBMC5"
+      "_2ou0UdP2XI1uozR4"
     );
 
     console.log(payload);
