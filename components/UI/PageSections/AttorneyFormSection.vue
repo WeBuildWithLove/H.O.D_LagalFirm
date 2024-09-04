@@ -14,6 +14,18 @@
       }"
       class="flex w-full object-cover justify-center items-start h-auto py-20 lg:py-40"
     >
+      <form action="https://formspree.io/f/mrbzdkvw" method="POST">
+        <label>
+          Your email:
+          <input type="email" name="email" />
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
       <div class="bg-[#1F2732] container min-h-[349px] w-full p-4">
         <form
           class="flex flex-col justify-between py-10 lg:px-40 gap-4"
