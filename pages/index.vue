@@ -6,7 +6,7 @@
   <UIPageSectionsIdeology />
   <UIPageSectionsFirm />
   <UIPageSectionsOperation />
-  <!-- <UIPageSectionsAttorneyFormSection :formData="submittedData" /> -->
+  <UIPageSectionsAttorneyFormSection :formData="submittedData" />
 
   <LayoutFooter />
 </template>
