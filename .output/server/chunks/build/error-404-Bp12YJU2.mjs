@@ -1,4 +1,4 @@
-import { _ as __nuxt_component_0 } from './nuxt-link-DYkmRf5E.mjs';
+import { _ as __nuxt_component_0 } from './nuxt-link-D35ckuRb.mjs';
 import { u as useHead } from './index-DIUDACRG.mjs';
 import { mergeProps, withCtx, createTextVNode, toDisplayString, useSSRContext } from 'vue';
 import { ssrRenderAttrs, ssrInterpolate, ssrRenderComponent } from 'vue/server-renderer';
@@ -85,4 +85,4 @@ _sfc_main.setup = (props, ctx) => {
 const error404 = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-ccd3db62"]]);
 
 export { error404 as default };
-//# sourceMappingURL=error-404-gwOJK2IW.mjs.map
+//# sourceMappingURL=error-404-Bp12YJU2.mjs.map

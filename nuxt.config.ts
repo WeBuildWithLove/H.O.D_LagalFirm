@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     }
   },
   build: {
+    transpile: ['vue-toastification']
   },
   modules: ['@ant-design-vue/nuxt', '@pinia/nuxt', 'nuxt-marquee'],
   pinia: {

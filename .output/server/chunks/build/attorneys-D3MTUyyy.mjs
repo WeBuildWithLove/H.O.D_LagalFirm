@@ -1,5 +1,5 @@
 import { b as buildAssetsURL } from '../routes/renderer.mjs';
-import { _ as __nuxt_component_0$2, a as __nuxt_component_7, b as __nuxt_component_8, c as _imports_0$1, D as Divider, d as _imports_1, H as HAROLD_UKU, U as UZEZI_AMAWHE, G as GAMALIEL_WORLY, S as SARAH_HAROLD_UKU, I as IKOPEMUGH_NENGIM, F as FRANCIS_NWABUNWANNE, e as DAVID_OKOROGBA } from './index-DHAhwUkC.mjs';
+import { _ as __nuxt_component_0$2, a as __nuxt_component_7, b as __nuxt_component_8, c as _imports_0$1, D as Divider, d as _imports_1, H as HAROLD_UKU, U as UZEZI_AMAWHE, G as GAMALIEL_WORLY, S as SARAH_HAROLD_UKU, I as IKOPEMUGH_NENGIM, F as FRANCIS_NWABUNWANNE, e as DAVID_OKOROGBA } from './index-CkZJC958.mjs';
 import { defineComponent, ref, unref, useSSRContext, mergeProps } from 'vue';
 import { ssrRenderComponent, ssrRenderAttrs, ssrRenderAttr, ssrRenderList, ssrRenderClass, ssrRenderStyle, ssrInterpolate } from 'vue/server-renderer';
 import { _ as _export_sfc } from './server.mjs';
@@ -16,7 +16,7 @@ import 'devalue';
 import '@unhead/ssr';
 import 'unhead';
 import '@unhead/shared';
-import './nuxt-link-DYkmRf5E.mjs';
+import './nuxt-link-D35ckuRb.mjs';
 import 'epic-spinners';
 import '@babel/runtime/helpers/esm/objectSpread2';
 import '@babel/runtime/helpers/esm/extends';
@@ -356,4 +356,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=attorneys-G5jwLtms.mjs.map
+//# sourceMappingURL=attorneys-D3MTUyyy.mjs.map

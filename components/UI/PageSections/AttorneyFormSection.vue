@@ -119,8 +119,8 @@ import image from "@/assets/img/Photo2.png";
 import { reactive, ref, watch } from "vue";
 import emailjs from "emailjs-com";
 import { useToast } from "vue-toastification";
-import "vue-toastification/dist/index.css";
-const toast = useToast();
+// import "vue-toastification/dist/index.css";
+// const toast = useToast();
 
 const emit = defineEmits(["closeModal", "formSubmitted"]);
 const props = defineProps(["formData"]);
