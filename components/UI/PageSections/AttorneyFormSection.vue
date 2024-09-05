@@ -161,12 +161,12 @@ const submitForm = async (e) => {
   };
 
   try {
-    await emailjs.send(
-      "service_sny8vos",
-      "template_pc4p1hw",
-      payload,
-      "_2ou0UdP2XI1uozR4"
-    );
+    // await emailjs.send(
+    //   "service_sny8vos",
+    //   "template_pc4p1hw",
+    //   payload,
+    //   "_2ou0UdP2XI1uozR4"
+    // );
 
     console.log(payload);
     loading.value = false;
@@ -174,7 +174,6 @@ const submitForm = async (e) => {
     Object.keys(formData).forEach((key) => {
       formData[key] = "";
     });
-    changeScreen(0, 1);
     toast.success("Thank you for contacting H.O.D Legal. We will respond shortly.", {
       timeout: 4000,
     });
