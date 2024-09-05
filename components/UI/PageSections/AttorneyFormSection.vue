@@ -14,18 +14,6 @@
       }"
       class="flex w-full object-cover justify-center items-start h-auto py-20 lg:py-40"
     >
-      <form action="https://formspree.io/f/mrbzdkvw" method="POST">
-        <label>
-          Your email:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Your message:
-          <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
-      </form>
       <div class="bg-[#1F2732] container min-h-[349px] w-full p-4">
         <form
           class="flex flex-col justify-between py-10 lg:px-40 gap-4"
@@ -100,7 +88,7 @@
                 v-if="loading"
                 :animation-duration="2500"
                 :rhombus-size="15"
-                color="#ffffff"
+                color="#A70314"
               />
               <span v-if="!loading"> Get An Appointment</span>
             </UIButton>
@@ -130,6 +118,9 @@ import { LoopingRhombusesSpinner } from "epic-spinners";
 import image from "@/assets/img/Photo2.png";
 import { reactive, ref, watch } from "vue";
 import emailjs from "emailjs-com";
+import { useToast } from "vue-toastification";
+import "vue-toastification/dist/index.css";
+const toast = useToast();
 
 const emit = defineEmits(["closeModal", "formSubmitted"]);
 const props = defineProps(["formData"]);
@@ -171,7 +162,7 @@ const submitForm = async (e) => {
 
   try {
     await emailjs.send(
-      "service_vlq5lc1",
+      "service_sny8vos",
       "template_pc4p1hw",
       payload,
       "_2ou0UdP2XI1uozR4"
@@ -184,13 +175,13 @@ const submitForm = async (e) => {
       formData[key] = "";
     });
     changeScreen(0, 1);
-
-    // Emit the form data after successful submission
+    toast.success("Thank you for contacting H.O.D Legal. We will respond shortly.", {
+      timeout: 4000,
+    });
     emit("formSubmitted", payload);
   } catch (error) {
-    console.log("EmailJS Error: ", error);
-    alert("Thank you for sending your message");
     loading.value = false;
+    console.log(error);
   }
 };
 

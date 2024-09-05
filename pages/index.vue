@@ -7,7 +7,7 @@
   <UIPageSectionsFirm />
   <UIPageSectionsOperation />
   <UIPageSectionsAttorneyFormSection :formData="submittedData" />
-  
+
   <LayoutFooter />
 </template>
 <script setup lang="ts">

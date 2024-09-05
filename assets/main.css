@@ -252,3 +252,19 @@ input[type="checkbox"] {
 .vue-apexcharts {
   max-height: 30%;
 }
+
+.Vue-Toastification__toast--error svg {
+    @apply !text-red-500;
+}
+
+.Vue-Toastification__toast--error {
+    @apply !bg-white !text-black;
+}
+
+.Vue-Toastification__toast--success {
+    @apply !bg-white !text-black;
+}
+
+.Vue-Toastification__toast--success svg {
+    @apply !text-green-500;
+}

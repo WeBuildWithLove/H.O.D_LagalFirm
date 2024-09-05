@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   pages: true,
-  css: ['~/assets/main.css', 'animate.css/animate.min.css'],
+  css: ['~/assets/main.css', 'animate.css/animate.min.css',"vue-toastification/dist/index.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     }
   },
   build: {
-    transpile: ['vue-toastification']
   },
   modules: ['@ant-design-vue/nuxt', '@pinia/nuxt', 'nuxt-marquee'],
   pinia: {
