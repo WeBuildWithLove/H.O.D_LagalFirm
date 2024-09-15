@@ -2,7 +2,7 @@
   <LayoutNavBar />
   <UIAttorneysHome />
   <UIAttorneysDetails />
-  <UIPageSectionsAttorneyFormSection :formData="submittedData"  />
+  
    <!-- <ModalComponent @formSubmitted="handleFormSubmitted" /> -->
   <LayoutFooter />
 </template>

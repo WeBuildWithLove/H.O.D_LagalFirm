@@ -49,7 +49,9 @@
       <div class="space-y-8">
         <div>
           <hr class="border-white" />
-          <p class="font-pt-serif text-xl lg:text-2xl font-bold py-2">Practice Area</p>
+          <p class="font-pt-serif text-xl lg:text-2xl font-bold py-2">
+            Practice Area
+          </p>
           <hr class="border-white" />
         </div>
         <div class="text-[#D7D7D7]">
@@ -72,7 +74,9 @@
       <div class="space-y-8">
         <div>
           <hr class="border-white" />
-          <p class="font-pt-serif text-xl lg:text-2xl font-bold py-2">Contact us</p>
+          <p class="font-pt-serif text-xl lg:text-2xl font-bold py-2">
+            Contact us
+          </p>
           <hr class="border-white" />
         </div>
         <div class="space-y-5 text-[#D7D7D7]">
@@ -90,14 +94,16 @@
       <div class="w-full lg:w-[327px] space-y-8">
         <div>
           <hr class="border-white" />
-          <p class="font-pt-serif text-xl lg:text-2xl font-bold py-2">Find Us</p>
+          <p class="font-pt-serif text-xl lg:text-2xl font-bold py-2">
+            Find Us
+          </p>
           <hr class="border-white" />
         </div>
         <div class="space-y-6 text-[#D7D7D7]">
           <p class="capitalize">
             <b>Lagos:</b> <br />
-            Plot 1, Block 99, olori Muyibat Oyefusi street, off omorinre Johnson street,
-            Lekki Phase 1, lagos state, Nigeria.
+            Plot 1, Block 99, olori Muyibat Oyefusi street, off omorinre Johnson
+            street, Lekki Phase 1, lagos state, Nigeria.
           </p>
           <p class="capitalize">
             <b>Port Harcourt:</b>
@@ -114,8 +120,17 @@
       >
         <div class="text-xs flex items-center gap-2 lg:text-xl">
           Copyright © <span class="text-[#fff]">H.O.D Legal </span> | Built by:
-          <a href="https://wecr8t.xyz/" target="_blank" class="lg:w-[10%] w-[40%]">
-            <UIIconWecr8tLogo class="w-[100%]" />
+          <a
+            href="https://wecr8t.xyz/"
+            target="_blank"
+            class="lg:w-[10%] w-[40%]"
+          >
+            <!-- <UIIconWecr8tLogo class="w-[100%]" /> -->
+            <img
+              src="@/assets/svg/Footer/logo-white-dark.png"
+              alt="pointer"
+              class="hidden lg:block"
+            />
           </a>
         </div>
 

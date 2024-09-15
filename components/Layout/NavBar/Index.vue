@@ -20,16 +20,29 @@
         />
       </NuxtLink>
 
-      <button v-if="route.name !== 'attorneys'" class="lg:hidden p-2" @click="toggleMenu">
+      <button
+        v-if="route.name !== 'attorneys'"
+        class="lg:hidden p-2"
+        @click="toggleMenu"
+      >
         <img
           v-if="!isMenuOpen"
           src="@/assets/svg/menu.svg"
           alt="Open Menu"
           class="h-8 w-8"
         />
-        <img v-else src="@/assets/svg/menu.svg" alt="Close Menu" class="h-8 w-8" />
+        <img
+          v-else
+          src="@/assets/svg/menu.svg"
+          alt="Close Menu"
+          class="h-8 w-8"
+        />
       </button>
-      <NuxtLink v-else to="/" class="lg:hidden flex space-x-4 items-center my-2 lg:my-0">
+      <NuxtLink
+        v-else
+        to="/"
+        class="lg:hidden flex space-x-4 items-center my-2 lg:my-0"
+      >
         <img src="@/assets/svg/NavbarPointer.svg" height="29px" width="29px" />
         <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
       </NuxtLink>
@@ -42,11 +55,21 @@
       <div class="hidden lg:flex flex-wrap justify-between px-2">
         <div class="flex gap-3.5 px-4">
           <a href="tel: +234 803 292 8072" class="flex space-x-1">
-            <img src="@/assets/svg/Call.svg" alt="Call-Icon" height="16px" width="16px" />
+            <img
+              src="@/assets/svg/Call.svg"
+              alt="Call-Icon"
+              height="16px"
+              width="16px"
+            />
             <p>+234 803 292 8072</p>
           </a>
           <div class="flex space-x-1">
-            <img src="@/assets/svg/Time.svg" alt="Time-Icon" height="16px" width="16px" />
+            <img
+              src="@/assets/svg/Time.svg"
+              alt="Time-Icon"
+              height="16px"
+              width="16px"
+            />
             <p>MONDAY - FRIDAY - 8:00AM - 4:00PM</p>
           </div>
           <a href="mailto:contact@hodlegal.org " class="flex space-x-1">
@@ -81,8 +104,14 @@
         >
           <div class="flex flex-col lg:flex-row lg:gap-4 gap-7 px-4">
             <NuxtLink to="/" class="flex space-x-4 items-center my-2 lg:my-0">
-              <img src="@/assets/svg/NavbarPointer.svg" height="29px" width="29px" />
-              <p class="text-[16px] text-white lg:text-[#222222] font-medium">HOME</p>
+              <img
+                src="@/assets/svg/NavbarPointer.svg"
+                height="29px"
+                width="29px"
+              />
+              <p class="text-[16px] text-white lg:text-[#222222] font-medium">
+                HOME
+              </p>
             </NuxtLink>
             <a
               v-if="route.name === 'index'"
@@ -230,13 +259,6 @@
               href="#attorneyFormSection"
               class="flex space-x-4 items-center my-2 lg:my-0"
             >
-              <UIIconBulletPoint
-                :class="{
-                  ' !text-[#A70314] ': currentHash === '#attorneyFormSection',
-                }"
-                class="text-white lg:text-[#001025]"
-              />
-
               <!-- <img
                 src="@/assets/svg/BulletPoint.svg"
                 height="16px"
@@ -250,21 +272,15 @@
                 width="16px"
                 class="flex md:hidden"
               /> -->
-              <p
-                :class="{
-                  ' !text-[#A70314] ': currentHash === '#attorneyFormSection',
-                }"
-                class="text-[16px] text-white lg:text-[#222222] font-medium"
-              >
-                CONTACT
-              </p>
             </a>
           </div>
           <a
-            href="#attorneyFormSection"
-            class="text-light lg:flex hidden hover:bg-brand hover:text-white py-2 px-4 rounded-lg border border-[#E7E7E7]focus:outline-none focus:ring"
-            >FREE CONSULTATION</a
+            href="https://wa.me/2348032928072?text=Hello%20I%20would%20like%20to%20schedule%20a%20consultation"
+            target="_blank"
+            class="text-light lg:flex hidden hover:bg-brand hover:text-white py-2 px-4 rounded-lg border border-[#E7E7E7] focus:outline-none focus:ring"
           >
+            FREE CONSULTATION
+          </a>
         </div>
       </div>
     </div>

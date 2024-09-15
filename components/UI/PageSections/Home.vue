@@ -27,11 +27,18 @@
         </div>
 
         <div class="flex items-center justify-center">
-          <a
+          <!-- <a
             href="#attorneyFormSection"
             class="bg-card border-card py-2 px-4 rounded-lg border !text-white focus:outline-none focus:ring text-center"
             >GET A FREE CONSULTATION TODAY</a
+          > -->
+          <a
+            href="https://wa.me/2348032928072?text=Hello%20I%20would%20like%20to%20schedule%20a%20consultation"
+            target="_blank"
+            class="bg-card border-card py-2 px-4 rounded-lg border !text-white focus:outline-none focus:ring text-center"
           >
+            GET A FREE CONSULTATION TODAY
+          </a>
         </div>
       </div>
     </div>
