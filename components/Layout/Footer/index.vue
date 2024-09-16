@@ -126,11 +126,35 @@
             class="lg:w-[10%] w-[40%]"
           >
             <!-- <UIIconWecr8tLogo class="w-[100%]" /> -->
-            <img
+            <!-- <img
               src="@/assets/svg/Footer/logo-white-dark.png"
               alt="pointer"
               class="hidden lg:block"
-            />
+            /> -->
+            <!-- <span class="items-center justify-center flex flex-col">
+              <img
+                src="@/assets/svg/Footer/logo-white.png"
+                alt="pointer"
+                class="hidden lg:block"
+              />
+              <p class="text-sm text-center">Your Vision, Our Craft</p>
+            </span> -->
+            <span class="items-center justify-center flex flex-col">
+              <img
+                src="@/assets/svg/Footer/logo-white.png"
+                alt="pointer"
+                class="block lg:hidden"
+              />
+              <img
+                src="@/assets/svg/Footer/logo-white.png"
+                alt="pointer"
+                class="hidden lg:block"
+              />
+              <p class="text-sm text-center lg:text-md">
+                Your Vision, Our Craft
+              </p>
+              <!-- Adjust font size for larger screens -->
+            </span>
           </a>
         </div>
 
