@@ -120,42 +120,27 @@
       >
         <div class="text-xs flex items-center gap-2 lg:text-xl">
           Copyright © <span class="text-[#fff]">H.O.D Legal </span> | Built by:
-          <a
-            href="https://wecr8t.xyz/"
-            target="_blank"
-            class="lg:w-[10%] w-[40%]"
-          >
-            <!-- <UIIconWecr8tLogo class="w-[100%]" /> -->
-            <!-- <img
-              src="@/assets/svg/Footer/logo-white-dark.png"
-              alt="pointer"
-              class="hidden lg:block"
-            /> -->
-            <!-- <span class="items-center justify-center flex flex-col">
-              <img
-                src="@/assets/svg/Footer/logo-white.png"
-                alt="pointer"
-                class="hidden lg:block"
-              />
-              <p class="text-sm text-center">Your Vision, Our Craft</p>
-            </span> -->
-            <span class="items-center justify-center flex flex-col">
-              <img
-                src="@/assets/svg/Footer/logo-white.png"
-                alt="pointer"
-                class="block lg:hidden"
-              />
-              <img
-                src="@/assets/svg/Footer/logo-white.png"
-                alt="pointer"
-                class="hidden lg:block"
-              />
-              <p class="text-sm text-center lg:text-md">
-                Your Vision, Our Craft
-              </p>
-              <!-- Adjust font size for larger screens -->
-            </span>
-          </a>
+          <div class="space-y-1">
+            <a
+              href="http://letscr8t.xyz"
+              target="_blank"
+              class="lg:w-[10%] w-[40%]"
+            >
+              <span class="items-center justify-center">
+                <img
+                  src="@/assets/svg/Footer/Lets-create-Logo.svg"
+                  alt="pointer"
+                  class="block lg:hidden"
+                />
+                <img
+                  src="@/assets/svg/Footer/Lets-create-Logo.svg"
+                  alt="pointer"
+                  class="hidden lg:block"
+                />
+              </span>
+            </a>
+            <p class="text-sm text-center lg:text-md">Your Vision, Our Craft</p>
+          </div>
         </div>
 
         <!-- <div
